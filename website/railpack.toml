@@ -1,2 +1,2 @@
 [build]
-nixpkgs = "nodejs_22"
+nixpkgs = "nodejs_22_12"
