@@ -1,0 +1,269 @@
+{
+  "caseId": "PMID_29330883_Subject9",
+  "createdAt": "2026-03-27",
+  "method": "live direct disease-surface reopen using the real v1-working DB plus the saved 2026-03-26 symmetric case-series additions",
+  "sourceStack": {
+    "truth": [
+      "OMIM:616975",
+      "PMID:29330883",
+      "GeneReviews: RERE-Related Disorders"
+    ],
+    "rival": [
+      "OMIM:618009",
+      "PMID:29740699"
+    ]
+  },
+  "baselineContinuityNote": {
+    "savedAuditTruthRank": 237,
+    "savedSymmetricBaselineTruthRank": 238,
+    "baselineUsedForBeforeAfter": "saved symmetric case-series baseline"
+  },
+  "packet": {
+    "present": [
+      "Anteverted nares",
+      "Wide mouth",
+      "Synophrys",
+      "Hypertelorism",
+      "Autistic behavior",
+      "Compulsive behaviors",
+      "Hypotonia",
+      "Global developmental delay",
+      "Intellectual disability"
+    ],
+    "excluded": [
+      "Cleft lip",
+      "Smooth philtrum",
+      "Low anterior hairline",
+      "Narrow forehead",
+      "Prominent forehead",
+      "Bulbous nose",
+      "Macrocephaly",
+      "Plagiocephaly",
+      "Midface retrusion",
+      "Triangular face",
+      "Broad alveolar ridges",
+      "High palate",
+      "Blepharophimosis",
+      "Frontal bossing",
+      "Broad eyebrow",
+      "Deeply set eye",
+      "Depressed nasal bridge",
+      "Prominent stem of antihelix",
+      "Hypoplastic helices",
+      "Preauricular pit",
+      "Cupped ear",
+      "Overfolded helix",
+      "Anterior creases of earlobe",
+      "Epicanthus",
+      "Micrognathia",
+      "Upslanted palpebral fissure",
+      "Downslanted palpebral fissures",
+      "Hypotelorism",
+      "Simple ear",
+      "Choanal atresia",
+      "Vesicoureteral reflux",
+      "Ptosis",
+      "Coloboma",
+      "Sensorineural hearing impairment",
+      "Scoliosis"
+    ]
+  },
+  "savedSymmetricPresenceAdditions": {
+    "RERE": [
+      "Synophrys",
+      "Wide mouth",
+      "Intellectual disability"
+    ],
+    "MED13": [
+      "Intellectual disability",
+      "Expressive language delay",
+      "Strabismus",
+      "Nystagmus"
+    ]
+  },
+  "rankOutcome": {
+    "baseline": {
+      "RERE": {
+        "rank": 238,
+        "score": 0.156189
+      },
+      "MED13": {
+        "rank": 1,
+        "score": 0.19877
+      }
+    },
+    "presenceShadow": {
+      "RERE": {
+        "rank": 82,
+        "score": 0.172357
+      },
+      "MED13": {
+        "rank": 1,
+        "score": 0.198717
+      }
+    }
+  },
+  "liveDirectExactBefore": {
+    "RERE": {
+      "present": [
+        "Anteverted nares",
+        "Hypertelorism",
+        "Autistic behavior",
+        "Hypotonia",
+        "Global developmental delay"
+      ],
+      "excluded": [
+        "Cleft lip",
+        "Smooth philtrum",
+        "Bulbous nose",
+        "Macrocephaly",
+        "Triangular face",
+        "Broad alveolar ridges",
+        "High palate",
+        "Blepharophimosis",
+        "Frontal bossing",
+        "Broad eyebrow",
+        "Deeply set eye",
+        "Prominent stem of antihelix",
+        "Preauricular pit",
+        "Anterior creases of earlobe",
+        "Epicanthus",
+        "Micrognathia",
+        "Upslanted palpebral fissure",
+        "Downslanted palpebral fissures",
+        "Hypotelorism",
+        "Simple ear",
+        "Choanal atresia",
+        "Vesicoureteral reflux",
+        "Coloboma",
+        "Sensorineural hearing impairment",
+        "Scoliosis"
+      ]
+    },
+    "MED13": {
+      "present": [
+        "Wide mouth",
+        "Synophrys",
+        "Hypertelorism",
+        "Autistic behavior",
+        "Hypotonia",
+        "Global developmental delay"
+      ],
+      "excluded": [
+        "Smooth philtrum"
+      ]
+    }
+  },
+  "exactOwnership": {
+    "before": {
+      "present": {
+        "rereOnly": [
+          "Anteverted nares"
+        ],
+        "med13Only": [
+          "Wide mouth",
+          "Synophrys"
+        ],
+        "shared": [
+          "Hypertelorism",
+          "Autistic behavior",
+          "Hypotonia",
+          "Global developmental delay"
+        ]
+      },
+      "excluded": {
+        "rereOnly": [
+          "Cleft lip",
+          "Bulbous nose",
+          "Macrocephaly",
+          "Triangular face",
+          "Broad alveolar ridges",
+          "High palate",
+          "Blepharophimosis",
+          "Frontal bossing",
+          "Broad eyebrow",
+          "Deeply set eye",
+          "Prominent stem of antihelix",
+          "Preauricular pit",
+          "Anterior creases of earlobe",
+          "Epicanthus",
+          "Micrognathia",
+          "Upslanted palpebral fissure",
+          "Downslanted palpebral fissures",
+          "Hypotelorism",
+          "Simple ear",
+          "Choanal atresia",
+          "Vesicoureteral reflux",
+          "Coloboma",
+          "Sensorineural hearing impairment",
+          "Scoliosis"
+        ],
+        "med13Only": [],
+        "shared": [
+          "Smooth philtrum"
+        ]
+      }
+    },
+    "afterPresenceShadow": {
+      "present": {
+        "rereOnly": [
+          "Anteverted nares"
+        ],
+        "med13Only": [],
+        "shared": [
+          "Wide mouth",
+          "Synophrys",
+          "Hypertelorism",
+          "Autistic behavior",
+          "Hypotonia",
+          "Global developmental delay",
+          "Intellectual disability"
+        ]
+      },
+      "excluded": {
+        "rereOnly": [
+          "Cleft lip",
+          "Bulbous nose",
+          "Macrocephaly",
+          "Triangular face",
+          "Broad alveolar ridges",
+          "High palate",
+          "Blepharophimosis",
+          "Frontal bossing",
+          "Broad eyebrow",
+          "Deeply set eye",
+          "Prominent stem of antihelix",
+          "Preauricular pit",
+          "Anterior creases of earlobe",
+          "Epicanthus",
+          "Micrognathia",
+          "Upslanted palpebral fissure",
+          "Downslanted palpebral fissures",
+          "Hypotelorism",
+          "Simple ear",
+          "Choanal atresia",
+          "Vesicoureteral reflux",
+          "Coloboma",
+          "Sensorineural hearing impairment",
+          "Scoliosis"
+        ],
+        "med13Only": [],
+        "shared": [
+          "Smooth philtrum"
+        ]
+      }
+    }
+  },
+  "semanticNote": {
+    "patientTerm": "Compulsive behaviors",
+    "rereFallback": "Self-injurious behavior",
+    "med13Fallback": "Attention deficit hyperactivity disorder",
+    "exactOnNeitherSide": true
+  },
+  "interpretation": [
+    "The saved symmetric presence additions recover the main truth-side exact facial discriminators.",
+    "After that recovery, MED13 no longer owns the major present exacts that originally separated it from RERE.",
+    "MED13 still stays rank 1, so this case is no longer well explained by missing obvious truth-side exacts alone.",
+    "Frequency and contradiction handling remain the most likely reason the case stays unresolved."
+  ]
+}

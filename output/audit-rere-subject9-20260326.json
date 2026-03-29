@@ -1,0 +1,664 @@
+{
+  "createdAt": "2026-03-26T17:18:38.636Z",
+  "caseId": "PMID_29330883_Subject9",
+  "truthGene": "RERE",
+  "totalDiseases": 12132,
+  "patientPresentPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0000463",
+      "phenotypeLabel": "Anteverted nares",
+      "annotationCount": 659,
+      "infoContent": 2.912878
+    },
+    {
+      "phenotypeCurie": "HP:0000154",
+      "phenotypeLabel": "Wide mouth",
+      "annotationCount": 331,
+      "infoContent": 3.601483
+    },
+    {
+      "phenotypeCurie": "HP:0000664",
+      "phenotypeLabel": "Synophrys",
+      "annotationCount": 314,
+      "infoContent": 3.654209
+    },
+    {
+      "phenotypeCurie": "HP:0000316",
+      "phenotypeLabel": "Hypertelorism",
+      "annotationCount": 1289,
+      "infoContent": 2.24198
+    },
+    {
+      "phenotypeCurie": "HP:0000729",
+      "phenotypeLabel": "Autistic behavior",
+      "annotationCount": 702,
+      "infoContent": 2.849668
+    },
+    {
+      "phenotypeCurie": "HP:0000722",
+      "phenotypeLabel": "Compulsive behaviors",
+      "annotationCount": 194,
+      "infoContent": 4.135744
+    },
+    {
+      "phenotypeCurie": "HP:0001252",
+      "phenotypeLabel": "Hypotonia",
+      "annotationCount": 2664,
+      "infoContent": 1.516018
+    },
+    {
+      "phenotypeCurie": "HP:0001263",
+      "phenotypeLabel": "Global developmental delay",
+      "annotationCount": 2848,
+      "infoContent": 1.44923
+    },
+    {
+      "phenotypeCurie": "HP:0001249",
+      "phenotypeLabel": "Intellectual disability",
+      "annotationCount": 3158,
+      "infoContent": 1.345908
+    }
+  ],
+  "patientExcludedPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0410030",
+      "phenotypeLabel": "Cleft lip",
+      "annotationCount": 351,
+      "infoContent": 3.542816
+    },
+    {
+      "phenotypeCurie": "HP:0000319",
+      "phenotypeLabel": "Smooth philtrum",
+      "annotationCount": 311,
+      "infoContent": 3.663809
+    },
+    {
+      "phenotypeCurie": "HP:0000294",
+      "phenotypeLabel": "Low anterior hairline",
+      "annotationCount": 188,
+      "infoContent": 4.16716
+    },
+    {
+      "phenotypeCurie": "HP:0000341",
+      "phenotypeLabel": "Narrow forehead",
+      "annotationCount": 285,
+      "infoContent": 3.751113
+    },
+    {
+      "phenotypeCurie": "HP:0011220",
+      "phenotypeLabel": "Prominent forehead",
+      "annotationCount": 433,
+      "infoContent": 3.332864
+    },
+    {
+      "phenotypeCurie": "HP:0000414",
+      "phenotypeLabel": "Bulbous nose",
+      "annotationCount": 306,
+      "infoContent": 3.680017
+    },
+    {
+      "phenotypeCurie": "HP:0000256",
+      "phenotypeLabel": "Macrocephaly",
+      "annotationCount": 747,
+      "infoContent": 2.787537
+    },
+    {
+      "phenotypeCurie": "HP:0001357",
+      "phenotypeLabel": "Plagiocephaly",
+      "annotationCount": 222,
+      "infoContent": 4.000924
+    },
+    {
+      "phenotypeCurie": "HP:0011800",
+      "phenotypeLabel": "Midface retrusion",
+      "annotationCount": 481,
+      "infoContent": 3.227735
+    },
+    {
+      "phenotypeCurie": "HP:0000325",
+      "phenotypeLabel": "Triangular face",
+      "annotationCount": 284,
+      "infoContent": 3.754628
+    },
+    {
+      "phenotypeCurie": "HP:0000187",
+      "phenotypeLabel": "Broad alveolar ridges",
+      "annotationCount": 26,
+      "infoContent": 6.145505
+    },
+    {
+      "phenotypeCurie": "HP:0000218",
+      "phenotypeLabel": "High palate",
+      "annotationCount": 1131,
+      "infoContent": 2.372744
+    },
+    {
+      "phenotypeCurie": "HP:0000581",
+      "phenotypeLabel": "Blepharophimosis",
+      "annotationCount": 240,
+      "infoContent": 3.922963
+    },
+    {
+      "phenotypeCurie": "HP:0002007",
+      "phenotypeLabel": "Frontal bossing",
+      "annotationCount": 682,
+      "infoContent": 2.878572
+    },
+    {
+      "phenotypeCurie": "HP:0011229",
+      "phenotypeLabel": "Broad eyebrow",
+      "annotationCount": 48,
+      "infoContent": 5.532401
+    },
+    {
+      "phenotypeCurie": "HP:0000490",
+      "phenotypeLabel": "Deeply set eye",
+      "annotationCount": 416,
+      "infoContent": 3.372917
+    },
+    {
+      "phenotypeCurie": "HP:0005280",
+      "phenotypeLabel": "Depressed nasal bridge",
+      "annotationCount": 855,
+      "infoContent": 2.6525
+    },
+    {
+      "phenotypeCurie": "HP:0011240",
+      "phenotypeLabel": "Prominent stem of antihelix",
+      "annotationCount": 4,
+      "infoContent": 8.017308
+    },
+    {
+      "phenotypeCurie": "HP:0008589",
+      "phenotypeLabel": "Hypoplastic helices",
+      "annotationCount": 17,
+      "infoContent": 6.570389
+    },
+    {
+      "phenotypeCurie": "HP:0004467",
+      "phenotypeLabel": "Preauricular pit",
+      "annotationCount": 109,
+      "infoContent": 4.712254
+    },
+    {
+      "phenotypeCurie": "HP:0000378",
+      "phenotypeLabel": "Cupped ear",
+      "annotationCount": 122,
+      "infoContent": 4.599581
+    },
+    {
+      "phenotypeCurie": "HP:0000396",
+      "phenotypeLabel": "Overfolded helix",
+      "annotationCount": 123,
+      "infoContent": 4.591418
+    },
+    {
+      "phenotypeCurie": "HP:0009908",
+      "phenotypeLabel": "Anterior creases of earlobe",
+      "annotationCount": 29,
+      "infoContent": 6.036306
+    },
+    {
+      "phenotypeCurie": "HP:0000286",
+      "phenotypeLabel": "Epicanthus",
+      "annotationCount": 883,
+      "infoContent": 2.620277
+    },
+    {
+      "phenotypeCurie": "HP:0000347",
+      "phenotypeLabel": "Micrognathia",
+      "annotationCount": 1235,
+      "infoContent": 2.284776
+    },
+    {
+      "phenotypeCurie": "HP:0000582",
+      "phenotypeLabel": "Upslanted palpebral fissure",
+      "annotationCount": 461,
+      "infoContent": 3.270204
+    },
+    {
+      "phenotypeCurie": "HP:0000494",
+      "phenotypeLabel": "Downslanted palpebral fissures",
+      "annotationCount": 772,
+      "infoContent": 2.754617
+    },
+    {
+      "phenotypeCurie": "HP:0000601",
+      "phenotypeLabel": "Hypotelorism",
+      "annotationCount": 203,
+      "infoContent": 4.090396
+    },
+    {
+      "phenotypeCurie": "HP:0020206",
+      "phenotypeLabel": "Simple ear",
+      "annotationCount": 42,
+      "infoContent": 5.665932
+    },
+    {
+      "phenotypeCurie": "HP:0000453",
+      "phenotypeLabel": "Choanal atresia",
+      "annotationCount": 164,
+      "infoContent": 4.303735
+    },
+    {
+      "phenotypeCurie": "HP:0000076",
+      "phenotypeLabel": "Vesicoureteral reflux",
+      "annotationCount": 248,
+      "infoContent": 3.890173
+    },
+    {
+      "phenotypeCurie": "HP:0000508",
+      "phenotypeLabel": "Ptosis",
+      "annotationCount": 1014,
+      "infoContent": 2.481944
+    },
+    {
+      "phenotypeCurie": "HP:0000589",
+      "phenotypeLabel": "Coloboma",
+      "annotationCount": 356,
+      "infoContent": 3.528671
+    },
+    {
+      "phenotypeCurie": "HP:0000407",
+      "phenotypeLabel": "Sensorineural hearing impairment",
+      "annotationCount": 1224,
+      "infoContent": 2.293722
+    },
+    {
+      "phenotypeCurie": "HP:0002650",
+      "phenotypeLabel": "Scoliosis",
+      "annotationCount": 1655,
+      "infoContent": 1.992046
+    }
+  ],
+  "top1": {
+    "rank": 1,
+    "geneLabel": "MED13",
+    "normalizedScore": 0.19877,
+    "directNormalizedScore": 0.19877,
+    "diseaseSupportScore": 0.19877,
+    "patientAverageScore": 2.2407421828884955,
+    "phenotypeAverageScore": 1.4975735040396747,
+    "directPhenotypeCount": 20,
+    "matchedPhenotypeCount": 9,
+    "supportingDiseaseCurie": "MONDO:0032485",
+    "supportingDiseaseLabel": "intellectual developmental disorder 61",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 20,
+      "exactOverlapCount": 6,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0000664",
+          "phenotypeLabel": "Synophrys",
+          "annotationCount": 314,
+          "infoContent": 3.654209,
+          "frequencyLabel": "",
+          "referenceText": "PMID:29740699"
+        },
+        {
+          "phenotypeCurie": "HP:0000154",
+          "phenotypeLabel": "Wide mouth",
+          "annotationCount": 331,
+          "infoContent": 3.601483,
+          "frequencyLabel": "",
+          "referenceText": "PMID:29740699"
+        },
+        {
+          "phenotypeCurie": "HP:0000729",
+          "phenotypeLabel": "Autistic behavior",
+          "annotationCount": 702,
+          "infoContent": 2.849668,
+          "frequencyLabel": "5/13",
+          "referenceText": "PMID:29740699"
+        },
+        {
+          "phenotypeCurie": "HP:0000316",
+          "phenotypeLabel": "Hypertelorism",
+          "annotationCount": 1289,
+          "infoContent": 2.24198,
+          "frequencyLabel": "",
+          "referenceText": "PMID:29740699"
+        },
+        {
+          "phenotypeCurie": "HP:0001252",
+          "phenotypeLabel": "Hypotonia",
+          "annotationCount": 2664,
+          "infoContent": 1.516018,
+          "frequencyLabel": "3/13",
+          "referenceText": "PMID:29740699"
+        },
+        {
+          "phenotypeCurie": "HP:0001263",
+          "phenotypeLabel": "Global developmental delay",
+          "annotationCount": 2848,
+          "infoContent": 1.44923,
+          "frequencyLabel": "13/13",
+          "referenceText": "PMID:29740699"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0000664",
+        "patientPhenotypeLabel": "Synophrys",
+        "diseasePhenotypeCurie": "HP:0000664",
+        "diseasePhenotypeLabel": "Synophrys",
+        "micaCurie": "HP:0000664",
+        "micaLabel": "Synophrys",
+        "score": 3.6542088829002184,
+        "weightedScore": 3.6542088829002184,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000154",
+        "patientPhenotypeLabel": "Wide mouth",
+        "diseasePhenotypeCurie": "HP:0000154",
+        "diseasePhenotypeLabel": "Wide mouth",
+        "micaCurie": "HP:0000154",
+        "micaLabel": "Wide mouth",
+        "score": 3.6014834934314086,
+        "weightedScore": 3.6014834934314086,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000729",
+        "patientPhenotypeLabel": "Autistic behavior",
+        "diseasePhenotypeCurie": "HP:0000729",
+        "diseasePhenotypeLabel": "Autistic behavior",
+        "micaCurie": "HP:0000729",
+        "micaLabel": "Autistic behavior",
+        "score": 2.8496684647826607,
+        "weightedScore": 2.8496684647826607,
+        "phenotypeWeight": 1,
+        "evidenceCode": "5/13",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000316",
+        "patientPhenotypeLabel": "Hypertelorism",
+        "diseasePhenotypeCurie": "HP:0000316",
+        "diseasePhenotypeLabel": "Hypertelorism",
+        "micaCurie": "HP:0000316",
+        "micaLabel": "Hypertelorism",
+        "score": 2.2419798658692844,
+        "weightedScore": 2.2419798658692844,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000722",
+        "patientPhenotypeLabel": "Compulsive behaviors",
+        "diseasePhenotypeCurie": "HP:0007018",
+        "diseasePhenotypeLabel": "Attention deficit hyperactivity disorder",
+        "micaCurie": "HP:5200241",
+        "micaLabel": "Recurrent maladaptive behavior",
+        "score": 2.241204371452754,
+        "weightedScore": 2.241204371452754,
+        "phenotypeWeight": 1,
+        "evidenceCode": "3/13",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000463",
+        "patientPhenotypeLabel": "Anteverted nares",
+        "diseasePhenotypeCurie": "HP:0000431",
+        "diseasePhenotypeLabel": "Wide nasal bridge",
+        "micaCurie": "HP:0005105",
+        "micaLabel": "Abnormal nasal morphology",
+        "score": 1.6607659133777228,
+        "weightedScore": 1.6607659133777228,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001252",
+        "patientPhenotypeLabel": "Hypotonia",
+        "diseasePhenotypeCurie": "HP:0001252",
+        "diseasePhenotypeLabel": "Hypotonia",
+        "micaCurie": "HP:0001252",
+        "micaLabel": "Hypotonia",
+        "score": 1.5160178371481918,
+        "weightedScore": 1.5160178371481918,
+        "phenotypeWeight": 1,
+        "evidenceCode": "3/13",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001263",
+        "patientPhenotypeLabel": "Global developmental delay",
+        "diseasePhenotypeCurie": "HP:0001263",
+        "diseasePhenotypeLabel": "Global developmental delay",
+        "micaCurie": "HP:0001263",
+        "micaLabel": "Global developmental delay",
+        "score": 1.4492295962766053,
+        "weightedScore": 1.4492295962766053,
+        "phenotypeWeight": 1,
+        "evidenceCode": "13/13",
+        "referenceText": "OMIM:618009",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  },
+  "truth": {
+    "rank": 237,
+    "geneLabel": "RERE",
+    "normalizedScore": 0.156189,
+    "directNormalizedScore": 0.156189,
+    "diseaseSupportScore": 0.145472,
+    "patientAverageScore": 2.2153699510618505,
+    "phenotypeAverageScore": 0.7221064147115037,
+    "directPhenotypeCount": 182,
+    "matchedPhenotypeCount": 9,
+    "supportingDiseaseCurie": "MONDO:0014857",
+    "supportingDiseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 90,
+      "exactOverlapCount": 5,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0000463",
+          "phenotypeLabel": "Anteverted nares",
+          "annotationCount": 659,
+          "infoContent": 2.912878,
+          "frequencyLabel": "1/10",
+          "referenceText": "PMID:27087320"
+        },
+        {
+          "phenotypeCurie": "HP:0000729",
+          "phenotypeLabel": "Autistic behavior",
+          "annotationCount": 702,
+          "infoContent": 2.849668,
+          "frequencyLabel": "10/10",
+          "referenceText": "PMID:27087320"
+        },
+        {
+          "phenotypeCurie": "HP:0000316",
+          "phenotypeLabel": "Hypertelorism",
+          "annotationCount": 1289,
+          "infoContent": 2.24198,
+          "frequencyLabel": "1/10",
+          "referenceText": "PMID:27087320"
+        },
+        {
+          "phenotypeCurie": "HP:0001252",
+          "phenotypeLabel": "Hypotonia",
+          "annotationCount": 2664,
+          "infoContent": 1.516018,
+          "frequencyLabel": "4/10",
+          "referenceText": "PMID:27087320"
+        },
+        {
+          "phenotypeCurie": "HP:0001263",
+          "phenotypeLabel": "Global developmental delay",
+          "annotationCount": 2848,
+          "infoContent": 1.44923,
+          "frequencyLabel": "10/10",
+          "referenceText": "PMID:27087320"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0000463",
+        "patientPhenotypeLabel": "Anteverted nares",
+        "diseasePhenotypeCurie": "HP:0000463",
+        "diseasePhenotypeLabel": "Anteverted nares",
+        "micaCurie": "HP:0000463",
+        "micaLabel": "Anteverted nares",
+        "score": 2.9128783343059643,
+        "weightedScore": 2.9128783343059643,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/10",
+        "referenceText": "OMIM:616975",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000154",
+        "patientPhenotypeLabel": "Wide mouth",
+        "diseasePhenotypeCurie": "HP:0000160",
+        "diseasePhenotypeLabel": "Narrow mouth",
+        "micaCurie": "HP:0011337",
+        "micaLabel": "Abnormality of mouth size",
+        "score": 2.8785722109650096,
+        "weightedScore": 2.8785722109650096,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:1606",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000729",
+        "patientPhenotypeLabel": "Autistic behavior",
+        "diseasePhenotypeCurie": "HP:0000729",
+        "diseasePhenotypeLabel": "Autistic behavior",
+        "micaCurie": "HP:0000729",
+        "micaLabel": "Autistic behavior",
+        "score": 2.8496684647826607,
+        "weightedScore": 2.8496684647826607,
+        "phenotypeWeight": 1,
+        "evidenceCode": "10/10",
+        "referenceText": "OMIM:616975",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000664",
+        "patientPhenotypeLabel": "Synophrys",
+        "diseasePhenotypeCurie": "HP:0011229",
+        "diseasePhenotypeLabel": "Broad eyebrow",
+        "micaCurie": "HP:0000534",
+        "micaLabel": "Abnormal eyebrow morphology",
+        "score": 2.502871204763299,
+        "weightedScore": 2.502871204763299,
+        "phenotypeWeight": 1,
+        "evidenceCode": "2/10",
+        "referenceText": "OMIM:616975",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000316",
+        "patientPhenotypeLabel": "Hypertelorism",
+        "diseasePhenotypeCurie": "HP:0000316",
+        "diseasePhenotypeLabel": "Hypertelorism",
+        "micaCurie": "HP:0000316",
+        "micaLabel": "Hypertelorism",
+        "score": 2.2419798658692844,
+        "weightedScore": 2.2419798658692844,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/10",
+        "referenceText": "OMIM:616975",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000722",
+        "patientPhenotypeLabel": "Compulsive behaviors",
+        "diseasePhenotypeCurie": "HP:0100716",
+        "diseasePhenotypeLabel": "Self-injurious behavior",
+        "micaCurie": "HP:5200241",
+        "micaLabel": "Recurrent maladaptive behavior",
+        "score": 2.241204371452754,
+        "weightedScore": 2.241204371452754,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:1606",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001252",
+        "patientPhenotypeLabel": "Hypotonia",
+        "diseasePhenotypeCurie": "HP:0001252",
+        "diseasePhenotypeLabel": "Hypotonia",
+        "micaCurie": "HP:0001252",
+        "micaLabel": "Hypotonia",
+        "score": 1.5160178371481918,
+        "weightedScore": 1.5160178371481918,
+        "phenotypeWeight": 1,
+        "evidenceCode": "4/10",
+        "referenceText": "OMIM:616975",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001263",
+        "patientPhenotypeLabel": "Global developmental delay",
+        "diseasePhenotypeCurie": "HP:0001263",
+        "diseasePhenotypeLabel": "Global developmental delay",
+        "micaCurie": "HP:0001263",
+        "micaLabel": "Global developmental delay",
+        "score": 1.4492295962766053,
+        "weightedScore": 1.4492295962766053,
+        "phenotypeWeight": 1,
+        "evidenceCode": "10/10",
+        "referenceText": "OMIM:616975",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  }
+}

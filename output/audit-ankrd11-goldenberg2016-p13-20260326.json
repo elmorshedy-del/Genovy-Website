@@ -1,0 +1,154 @@
+{
+  "createdAt": "2026-03-26T12:07:56.990Z",
+  "caseId": "PMID_36446582_Goldenberg2016_P13",
+  "truthGene": "ANKRD11",
+  "totalDiseases": 12132,
+  "patientPresentPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0001155",
+      "phenotypeLabel": "Abnormality of the hand",
+      "annotationCount": 2773,
+      "infoContent": 1.475917
+    },
+    {
+      "phenotypeCurie": "HP:0004322",
+      "phenotypeLabel": "Short stature",
+      "annotationCount": 2146,
+      "infoContent": 1.732241
+    }
+  ],
+  "patientExcludedPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0000252",
+      "phenotypeLabel": "Microcephaly",
+      "annotationCount": 1914,
+      "infoContent": 1.846651
+    }
+  ],
+  "top1": {
+    "rank": 1,
+    "geneLabel": "GDF5",
+    "normalizedScore": 0.156119,
+    "directNormalizedScore": 0.139446,
+    "diseaseSupportScore": 0.156119,
+    "patientAverageScore": 1.604078884405261,
+    "phenotypeAverageScore": 1.0185121788932263,
+    "directPhenotypeCount": 160,
+    "matchedPhenotypeCount": 2,
+    "supportingDiseaseCurie": "MONDO:0007215",
+    "supportingDiseaseLabel": "brachydactyly type A1",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 22,
+      "exactOverlapCount": 1,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0004322",
+          "phenotypeLabel": "Short stature",
+          "annotationCount": 2146,
+          "infoContent": 1.732241,
+          "frequencyLabel": "",
+          "referenceText": "ISBN-13:978-3437214301"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0004322",
+        "patientPhenotypeLabel": "Short stature",
+        "diseasePhenotypeCurie": "HP:0008905",
+        "diseasePhenotypeLabel": "Rhizomelia",
+        "micaCurie": "HP:0004322",
+        "micaLabel": "Short stature",
+        "score": 1.732240945617828,
+        "weightedScore": 1.732240945617828,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "OMIM:228900",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001155",
+        "patientPhenotypeLabel": "Abnormality of the hand",
+        "diseasePhenotypeCurie": "HP:0100490",
+        "diseasePhenotypeLabel": "Camptodactyly of finger",
+        "micaCurie": "HP:0001155",
+        "micaLabel": "Abnormality of the hand",
+        "score": 1.4759168231926938,
+        "weightedScore": 1.4759168231926938,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040281",
+        "referenceText": "ORPHA:3250",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  },
+  "truth": {
+    "rank": 698,
+    "geneLabel": "ANKRD11",
+    "normalizedScore": 0.093251,
+    "directNormalizedScore": 0.093251,
+    "diseaseSupportScore": 0.08964,
+    "patientAverageScore": 1.604078884405261,
+    "phenotypeAverageScore": 0.14971698877769818,
+    "directPhenotypeCount": 102,
+    "matchedPhenotypeCount": 2,
+    "supportingDiseaseCurie": "MONDO:0007846",
+    "supportingDiseaseLabel": "KBG syndrome",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 66,
+      "exactOverlapCount": 1,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0004322",
+          "phenotypeLabel": "Short stature",
+          "annotationCount": 2146,
+          "infoContent": 1.732241,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:2332"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0004322",
+        "patientPhenotypeLabel": "Short stature",
+        "diseasePhenotypeCurie": "HP:0004322",
+        "diseasePhenotypeLabel": "Short stature",
+        "micaCurie": "HP:0004322",
+        "micaLabel": "Short stature",
+        "score": 1.732240945617828,
+        "weightedScore": 1.732240945617828,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:2332",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001155",
+        "patientPhenotypeLabel": "Abnormality of the hand",
+        "diseasePhenotypeCurie": "HP:0040019",
+        "diseasePhenotypeLabel": "Finger clinodactyly",
+        "micaCurie": "HP:0001155",
+        "micaLabel": "Abnormality of the hand",
+        "score": 1.4759168231926938,
+        "weightedScore": 1.4759168231926938,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:2332",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  }
+}

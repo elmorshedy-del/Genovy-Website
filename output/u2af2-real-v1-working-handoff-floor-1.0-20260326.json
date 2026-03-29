@@ -1,0 +1,85 @@
+{
+  "heuristic": {
+    "directEvidenceWeight": 1,
+    "propagatedEvidenceMinWeight": 0.25,
+    "propagatedEvidenceMaxWeight": 0.85,
+    "propagatedMatchedDensityWeight": 0.45,
+    "propagatedCompactnessWeight": 0.35,
+    "propagatedSimilarityWeight": 0.2
+  },
+  "phenopacket_dir": "/Users/ahmedelmorshedy/Genovy-phenotype-enrichment-20260316-0914/output/u2af2-case-slice-phenopackets-20260326",
+  "exomiser_results_dir": "/Users/ahmedelmorshedy/Genovy-phenotype-enrichment-20260316-0914/output/u2af2-case-slice-exomiser-20260326",
+  "genovy_summary": {
+    "case_count": 2,
+    "found_count": 1,
+    "found_pct": 50,
+    "top1_count": 1,
+    "top1_pct": 50,
+    "top3_count": 1,
+    "top3_pct": 50,
+    "top5_count": 1,
+    "top5_pct": 50,
+    "top10_count": 1,
+    "top10_pct": 50,
+    "median_rank": 1,
+    "mrr": 0.5
+  },
+  "exomiser_summary": {
+    "case_count": 2,
+    "found_count": 2,
+    "found_pct": 100,
+    "top1_count": 1,
+    "top1_pct": 50,
+    "top3_count": 1,
+    "top3_pct": 50,
+    "top5_count": 1,
+    "top5_pct": 50,
+    "top10_count": 1,
+    "top10_pct": 50,
+    "median_rank": 687.5,
+    "mrr": 0.500364
+  },
+  "head_to_head": {
+    "genovy_better_count": 0,
+    "exomiser_better_count": 0,
+    "tie_count": 1,
+    "genovy_found_exomiser_missed_count": 0,
+    "exomiser_found_genovy_missed_count": 1
+  },
+  "delta_vs_direct_edge_fix": {
+    "improved": 1,
+    "worsened": 0,
+    "unchanged": 1,
+    "recovered_from_miss": 1,
+    "regressed_to_miss": 0
+  },
+  "notable_cases": [],
+  "per_case": [
+    {
+      "case_id": "PMID_36747105_proband",
+      "file_name": "PMID_36747105_proband.json",
+      "truth_gene_keys": [
+        "ensembl:ENSG00000063244",
+        "hgnc:23156",
+        "ncbigene:11338",
+        "symbol:U2AF2"
+      ],
+      "baseline_genovy_rank": null,
+      "genovy_rank": 1,
+      "exomiser_rank": 1
+    },
+    {
+      "case_id": "PMID_37962958_43",
+      "file_name": "PMID_37962958_43.json",
+      "truth_gene_keys": [
+        "ensembl:ENSG00000063244",
+        "hgnc:23156",
+        "ncbigene:11338",
+        "symbol:U2AF2"
+      ],
+      "baseline_genovy_rank": null,
+      "genovy_rank": null,
+      "exomiser_rank": 1374
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "createdAt": "2026-03-26T17:21:58.151Z",
+  "caseId": "PMID_32376980_11",
+  "truthGene": "TRAF7",
+  "totalDiseases": 12132,
+  "patientPresentPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0001643",
+      "phenotypeLabel": "Patent ductus arteriosus",
+      "annotationCount": 538,
+      "infoContent": 3.115743
+    },
+    {
+      "phenotypeCurie": "HP:0001320",
+      "phenotypeLabel": "Cerebellar vermis hypoplasia",
+      "annotationCount": 403,
+      "infoContent": 3.404665
+    },
+    {
+      "phenotypeCurie": "HP:0000298",
+      "phenotypeLabel": "Mask-like facies",
+      "annotationCount": 71,
+      "infoContent": 5.140922
+    },
+    {
+      "phenotypeCurie": "HP:0000268",
+      "phenotypeLabel": "Dolichocephaly",
+      "annotationCount": 345,
+      "infoContent": 3.560057
+    },
+    {
+      "phenotypeCurie": "HP:0000341",
+      "phenotypeLabel": "Narrow forehead",
+      "annotationCount": 285,
+      "infoContent": 3.751113
+    },
+    {
+      "phenotypeCurie": "HP:0000411",
+      "phenotypeLabel": "Protruding ear",
+      "annotationCount": 313,
+      "infoContent": 3.657399
+    },
+    {
+      "phenotypeCurie": "HP:0045025",
+      "phenotypeLabel": "Narrow palpebral fissure",
+      "annotationCount": 126,
+      "infoContent": 4.56732
+    },
+    {
+      "phenotypeCurie": "HP:0001763",
+      "phenotypeLabel": "Pes planus",
+      "annotationCount": 479,
+      "infoContent": 3.231901
+    },
+    {
+      "phenotypeCurie": "HP:0000470",
+      "phenotypeLabel": "Short neck",
+      "annotationCount": 621,
+      "infoContent": 2.972271
+    },
+    {
+      "phenotypeCurie": "HP:0001508",
+      "phenotypeLabel": "Failure to thrive",
+      "annotationCount": 1317,
+      "infoContent": 2.22049
+    },
+    {
+      "phenotypeCurie": "HP:0002033",
+      "phenotypeLabel": "Poor suck",
+      "annotationCount": 190,
+      "infoContent": 4.156578
+    },
+    {
+      "phenotypeCurie": "HP:0000506",
+      "phenotypeLabel": "Telecanthus",
+      "annotationCount": 311,
+      "infoContent": 3.663809
+    },
+    {
+      "phenotypeCurie": "HP:0000218",
+      "phenotypeLabel": "High palate",
+      "annotationCount": 1131,
+      "infoContent": 2.372744
+    },
+    {
+      "phenotypeCurie": "HP:0000646",
+      "phenotypeLabel": "Amblyopia",
+      "annotationCount": 172,
+      "infoContent": 4.256107
+    },
+    {
+      "phenotypeCurie": "HP:0004322",
+      "phenotypeLabel": "Short stature",
+      "annotationCount": 2146,
+      "infoContent": 1.732241
+    },
+    {
+      "phenotypeCurie": "HP:0000508",
+      "phenotypeLabel": "Ptosis",
+      "annotationCount": 1014,
+      "infoContent": 2.481944
+    },
+    {
+      "phenotypeCurie": "HP:0000486",
+      "phenotypeLabel": "Strabismus",
+      "annotationCount": 1457,
+      "infoContent": 2.119467
+    },
+    {
+      "phenotypeCurie": "HP:0001263",
+      "phenotypeLabel": "Global developmental delay",
+      "annotationCount": 2848,
+      "infoContent": 1.44923
+    },
+    {
+      "phenotypeCurie": "HP:0000405",
+      "phenotypeLabel": "Conductive hearing impairment",
+      "annotationCount": 406,
+      "infoContent": 3.397249
+    },
+    {
+      "phenotypeCurie": "HP:0000064",
+      "phenotypeLabel": "Hypoplastic labia minora",
+      "annotationCount": 28,
+      "infoContent": 6.071397
+    },
+    {
+      "phenotypeCurie": "HP:0011003",
+      "phenotypeLabel": "High myopia",
+      "annotationCount": 180,
+      "infoContent": 4.210645
+    },
+    {
+      "phenotypeCurie": "HP:0001270",
+      "phenotypeLabel": "Motor delay",
+      "annotationCount": 1484,
+      "infoContent": 2.101105
+    },
+    {
+      "phenotypeCurie": "HP:0000316",
+      "phenotypeLabel": "Hypertelorism",
+      "annotationCount": 1289,
+      "infoContent": 2.24198
+    },
+    {
+      "phenotypeCurie": "HP:0000278",
+      "phenotypeLabel": "Retrognathia",
+      "annotationCount": 516,
+      "infoContent": 3.157495
+    },
+    {
+      "phenotypeCurie": "HP:0001252",
+      "phenotypeLabel": "Hypotonia",
+      "annotationCount": 2664,
+      "infoContent": 1.516018
+    },
+    {
+      "phenotypeCurie": "HP:0001845",
+      "phenotypeLabel": "Overlapping toe",
+      "annotationCount": 129,
+      "infoContent": 4.543789
+    }
+  ],
+  "patientExcludedPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0001250",
+      "phenotypeLabel": "Seizure",
+      "annotationCount": 3028,
+      "infoContent": 1.387944
+    }
+  ],
+  "top1": {
+    "rank": 1,
+    "geneLabel": "DOT1L",
+    "normalizedScore": 0.215339,
+    "directNormalizedScore": 0.215339,
+    "diseaseSupportScore": 0.215339,
+    "patientAverageScore": 2.5414358316020484,
+    "phenotypeAverageScore": 1.5084800970655428,
+    "directPhenotypeCount": 103,
+    "matchedPhenotypeCount": 26,
+    "supportingDiseaseCurie": "MONDO:0979246",
+    "supportingDiseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 103,
+      "exactOverlapCount": 13,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0001845",
+          "phenotypeLabel": "Overlapping toe",
+          "annotationCount": 129,
+          "infoContent": 4.543789,
+          "frequencyLabel": "1/9",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0000646",
+          "phenotypeLabel": "Amblyopia",
+          "annotationCount": 172,
+          "infoContent": 4.256107,
+          "frequencyLabel": "1/2",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0011003",
+          "phenotypeLabel": "High myopia",
+          "annotationCount": 180,
+          "infoContent": 4.210645,
+          "frequencyLabel": "1/9",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0002033",
+          "phenotypeLabel": "Poor suck",
+          "annotationCount": 190,
+          "infoContent": 4.156578,
+          "frequencyLabel": "1/1",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0000405",
+          "phenotypeLabel": "Conductive hearing impairment",
+          "annotationCount": 406,
+          "infoContent": 3.397249,
+          "frequencyLabel": "1/4",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0000278",
+          "phenotypeLabel": "Retrognathia",
+          "annotationCount": 516,
+          "infoContent": 3.157495,
+          "frequencyLabel": "1/9",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0000508",
+          "phenotypeLabel": "Ptosis",
+          "annotationCount": 1014,
+          "infoContent": 2.481944,
+          "frequencyLabel": "0/8",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0000218",
+          "phenotypeLabel": "High palate",
+          "annotationCount": 1131,
+          "infoContent": 2.372744,
+          "frequencyLabel": "1/9",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0000316",
+          "phenotypeLabel": "Hypertelorism",
+          "annotationCount": 1289,
+          "infoContent": 2.24198,
+          "frequencyLabel": "4/9",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0000486",
+          "phenotypeLabel": "Strabismus",
+          "annotationCount": 1457,
+          "infoContent": 2.119467,
+          "frequencyLabel": "1/9",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0004322",
+          "phenotypeLabel": "Short stature",
+          "annotationCount": 2146,
+          "infoContent": 1.732241,
+          "frequencyLabel": "4/6",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0001252",
+          "phenotypeLabel": "Hypotonia",
+          "annotationCount": 2664,
+          "infoContent": 1.516018,
+          "frequencyLabel": "5/9",
+          "referenceText": "PMID:37827158"
+        },
+        {
+          "phenotypeCurie": "HP:0001263",
+          "phenotypeLabel": "Global developmental delay",
+          "annotationCount": 2848,
+          "infoContent": 1.44923,
+          "frequencyLabel": "3/3",
+          "referenceText": "PMID:37827158"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0001845",
+        "patientPhenotypeLabel": "Overlapping toe",
+        "diseasePhenotypeCurie": "HP:0001845",
+        "diseasePhenotypeLabel": "Overlapping toe",
+        "micaCurie": "HP:0001845",
+        "micaLabel": "Overlapping toe",
+        "score": 4.5437894644467995,
+        "weightedScore": 4.5437894644467995,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/9",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000646",
+        "patientPhenotypeLabel": "Amblyopia",
+        "diseasePhenotypeCurie": "HP:0000646",
+        "diseasePhenotypeLabel": "Amblyopia",
+        "micaCurie": "HP:0000646",
+        "micaLabel": "Amblyopia",
+        "score": 4.256107391995019,
+        "weightedScore": 4.256107391995019,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0011003",
+        "patientPhenotypeLabel": "High myopia",
+        "diseasePhenotypeCurie": "HP:0011003",
+        "diseasePhenotypeLabel": "High myopia",
+        "micaCurie": "HP:0011003",
+        "micaLabel": "High myopia",
+        "score": 4.210645017918261,
+        "weightedScore": 4.210645017918261,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/9",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0002033",
+        "patientPhenotypeLabel": "Poor suck",
+        "diseasePhenotypeCurie": "HP:0002033",
+        "diseasePhenotypeLabel": "Poor suck",
+        "micaCurie": "HP:0002033",
+        "micaLabel": "Poor suck",
+        "score": 4.156577796647985,
+        "weightedScore": 4.156577796647985,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/1",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000298",
+        "patientPhenotypeLabel": "Mask-like facies",
+        "diseasePhenotypeCurie": "HP:0002058",
+        "diseasePhenotypeLabel": "Myopathic facies",
+        "micaCurie": "HP:0004673",
+        "micaLabel": "Decreased facial expression",
+        "score": 4.042309703099047,
+        "weightedScore": 4.042309703099047,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/9",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000405",
+        "patientPhenotypeLabel": "Conductive hearing impairment",
+        "diseasePhenotypeCurie": "HP:0000405",
+        "diseasePhenotypeLabel": "Conductive hearing impairment",
+        "micaCurie": "HP:0000405",
+        "micaLabel": "Conductive hearing impairment",
+        "score": 3.397248709206739,
+        "weightedScore": 3.397248709206739,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/4",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0045025",
+        "patientPhenotypeLabel": "Narrow palpebral fissure",
+        "diseasePhenotypeCurie": "HP:0012745",
+        "diseasePhenotypeLabel": "Short palpebral fissure",
+        "micaCurie": "HP:0200007",
+        "micaLabel": "Abnormal size of the palpebral fissures",
+        "score": 3.171153852257949,
+        "weightedScore": 3.171153852257949,
+        "phenotypeWeight": 1,
+        "evidenceCode": "2/9",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000278",
+        "patientPhenotypeLabel": "Retrognathia",
+        "diseasePhenotypeCurie": "HP:0000278",
+        "diseasePhenotypeLabel": "Retrognathia",
+        "micaCurie": "HP:0000278",
+        "micaLabel": "Retrognathia",
+        "score": 3.1574951033269087,
+        "weightedScore": 3.1574951033269087,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/9",
+        "referenceText": "OMIM:621265",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  },
+  "truth": {
+    "rank": 145,
+    "geneLabel": "TRAF7",
+    "normalizedScore": 0.182754,
+    "directNormalizedScore": 0.176247,
+    "diseaseSupportScore": 0.182754,
+    "patientAverageScore": 2.1202594167040867,
+    "phenotypeAverageScore": 1.1944591073012514,
+    "directPhenotypeCount": 147,
+    "matchedPhenotypeCount": 26,
+    "supportingDiseaseCurie": "MONDO:0032572",
+    "supportingDiseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 74,
+      "exactOverlapCount": 12,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0001845",
+          "phenotypeLabel": "Overlapping toe",
+          "annotationCount": 129,
+          "infoContent": 4.543789,
+          "frequencyLabel": "10/42",
+          "referenceText": "PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0000506",
+          "phenotypeLabel": "Telecanthus",
+          "annotationCount": 311,
+          "infoContent": 3.663809,
+          "frequencyLabel": "14/42",
+          "referenceText": "PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0001763",
+          "phenotypeLabel": "Pes planus",
+          "annotationCount": 479,
+          "infoContent": 3.231901,
+          "frequencyLabel": "10/42",
+          "referenceText": "PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0001643",
+          "phenotypeLabel": "Patent ductus arteriosus",
+          "annotationCount": 538,
+          "infoContent": 3.115743,
+          "frequencyLabel": "28/49",
+          "referenceText": "PMID:29961569;PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0000470",
+          "phenotypeLabel": "Short neck",
+          "annotationCount": 621,
+          "infoContent": 2.972271,
+          "frequencyLabel": "24/42",
+          "referenceText": "PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0000508",
+          "phenotypeLabel": "Ptosis",
+          "annotationCount": 1014,
+          "infoContent": 2.481944,
+          "frequencyLabel": "23/49",
+          "referenceText": "PMID:29961569;PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0000316",
+          "phenotypeLabel": "Hypertelorism",
+          "annotationCount": 1289,
+          "infoContent": 2.24198,
+          "frequencyLabel": "17/42",
+          "referenceText": "PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0000486",
+          "phenotypeLabel": "Strabismus",
+          "annotationCount": 1457,
+          "infoContent": 2.119467,
+          "frequencyLabel": "10/42",
+          "referenceText": "PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0001270",
+          "phenotypeLabel": "Motor delay",
+          "annotationCount": 1484,
+          "infoContent": 2.101105,
+          "frequencyLabel": "34/47",
+          "referenceText": "PMID:29961569;PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0004322",
+          "phenotypeLabel": "Short stature",
+          "annotationCount": 2146,
+          "infoContent": 1.732241,
+          "frequencyLabel": "12/42",
+          "referenceText": "PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0001252",
+          "phenotypeLabel": "Hypotonia",
+          "annotationCount": 2664,
+          "infoContent": 1.516018,
+          "frequencyLabel": "19/49",
+          "referenceText": "PMID:29961569;PMID:32376980"
+        },
+        {
+          "phenotypeCurie": "HP:0001263",
+          "phenotypeLabel": "Global developmental delay",
+          "annotationCount": 2848,
+          "infoContent": 1.44923,
+          "frequencyLabel": "5/5",
+          "referenceText": "PMID:29961569"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0001845",
+        "patientPhenotypeLabel": "Overlapping toe",
+        "diseasePhenotypeCurie": "HP:0001845",
+        "diseasePhenotypeLabel": "Overlapping toe",
+        "micaCurie": "HP:0001845",
+        "micaLabel": "Overlapping toe",
+        "score": 4.5437894644467995,
+        "weightedScore": 4.5437894644467995,
+        "phenotypeWeight": 1,
+        "evidenceCode": "10/42",
+        "referenceText": "OMIM:618164",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000506",
+        "patientPhenotypeLabel": "Telecanthus",
+        "diseasePhenotypeCurie": "HP:0000506",
+        "diseasePhenotypeLabel": "Telecanthus",
+        "micaCurie": "HP:0000506",
+        "micaLabel": "Telecanthus",
+        "score": 3.6638089566292376,
+        "weightedScore": 3.6638089566292376,
+        "phenotypeWeight": 1,
+        "evidenceCode": "14/42",
+        "referenceText": "OMIM:618164",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001763",
+        "patientPhenotypeLabel": "Pes planus",
+        "diseasePhenotypeCurie": "HP:0001763",
+        "diseasePhenotypeLabel": "Pes planus",
+        "micaCurie": "HP:0001763",
+        "micaLabel": "Pes planus",
+        "score": 3.2319012713975566,
+        "weightedScore": 3.2319012713975566,
+        "phenotypeWeight": 1,
+        "evidenceCode": "10/42",
+        "referenceText": "OMIM:618164",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0045025",
+        "patientPhenotypeLabel": "Narrow palpebral fissure",
+        "diseasePhenotypeCurie": "HP:0000581",
+        "diseasePhenotypeLabel": "Blepharophimosis",
+        "micaCurie": "HP:0200007",
+        "micaLabel": "Abnormal size of the palpebral fissures",
+        "score": 3.171153852257949,
+        "weightedScore": 3.171153852257949,
+        "phenotypeWeight": 1,
+        "evidenceCode": "33/42",
+        "referenceText": "OMIM:618164",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001643",
+        "patientPhenotypeLabel": "Patent ductus arteriosus",
+        "diseasePhenotypeCurie": "HP:0001643",
+        "diseasePhenotypeLabel": "Patent ductus arteriosus",
+        "micaCurie": "HP:0001643",
+        "micaLabel": "Patent ductus arteriosus",
+        "score": 3.1157433086466875,
+        "weightedScore": 3.1157433086466875,
+        "phenotypeWeight": 1,
+        "evidenceCode": "28/49",
+        "referenceText": "OMIM:618164",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000470",
+        "patientPhenotypeLabel": "Short neck",
+        "diseasePhenotypeCurie": "HP:0000470",
+        "diseasePhenotypeLabel": "Short neck",
+        "micaCurie": "HP:0000470",
+        "micaLabel": "Short neck",
+        "score": 2.972270786874993,
+        "weightedScore": 2.972270786874993,
+        "phenotypeWeight": 1,
+        "evidenceCode": "24/42",
+        "referenceText": "OMIM:618164",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000646",
+        "patientPhenotypeLabel": "Amblyopia",
+        "diseasePhenotypeCurie": "HP:0030532",
+        "diseasePhenotypeLabel": "Visual acuity test abnormality",
+        "micaCurie": "HP:0007663",
+        "micaLabel": "Reduced visual acuity",
+        "score": 2.605661455833541,
+        "weightedScore": 2.605661455833541,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:2495",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000508",
+        "patientPhenotypeLabel": "Ptosis",
+        "diseasePhenotypeCurie": "HP:0000508",
+        "diseasePhenotypeLabel": "Ptosis",
+        "micaCurie": "HP:0000508",
+        "micaLabel": "Ptosis",
+        "score": 2.4819436846573435,
+        "weightedScore": 2.4819436846573435,
+        "phenotypeWeight": 1,
+        "evidenceCode": "23/49",
+        "referenceText": "OMIM:618164",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  }
+}

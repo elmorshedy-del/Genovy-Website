@@ -1,0 +1,153 @@
+{
+  "caseId": "PMID_29330883_Subject9",
+  "baseline": {
+    "top1": {
+      "rank": 1,
+      "gene": "MED13",
+      "score": 0.19877,
+      "direct": 0.19877,
+      "support": 0.19877,
+      "supportDisease": "intellectual developmental disorder 61",
+      "matched": 9
+    },
+    "truth": {
+      "rank": 238,
+      "gene": "RERE",
+      "score": 0.156189,
+      "direct": 0.156189,
+      "support": 0.145472,
+      "supportDisease": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+      "matched": 9
+    }
+  },
+  "presence": {
+    "added": [
+      {
+        "disease": "MONDO:0014857",
+        "term": "Synophrys",
+        "frequency": "",
+        "referenceText": "PMID:29330883"
+      },
+      {
+        "disease": "MONDO:0014857",
+        "term": "Wide mouth",
+        "frequency": "",
+        "referenceText": "PMID:29330883"
+      },
+      {
+        "disease": "MONDO:0014857",
+        "term": "Intellectual disability",
+        "frequency": "",
+        "referenceText": "GeneReviews: RERE-Related Disorders"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Intellectual disability",
+        "frequency": "",
+        "referenceText": "PMID:29740699"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Expressive language delay",
+        "frequency": "",
+        "referenceText": "PMID:29740699"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Strabismus",
+        "frequency": "",
+        "referenceText": "PMID:29740699"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Nystagmus",
+        "frequency": "",
+        "referenceText": "PMID:29740699"
+      }
+    ],
+    "skipped": [],
+    "top1": {
+      "rank": 1,
+      "gene": "MED13",
+      "score": 0.198717,
+      "direct": 0.198717,
+      "support": 0.196853,
+      "supportDisease": "intellectual developmental disorder 61",
+      "matched": 9
+    },
+    "truth": {
+      "rank": 82,
+      "gene": "RERE",
+      "score": 0.172357,
+      "direct": 0.156176,
+      "support": 0.172357,
+      "supportDisease": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+      "matched": 9
+    }
+  },
+  "frequency": {
+    "added": [
+      {
+        "disease": "MONDO:0014857",
+        "term": "Synophrys",
+        "frequency": "Occasional (5-29%)",
+        "referenceText": "PMID:29330883"
+      },
+      {
+        "disease": "MONDO:0014857",
+        "term": "Wide mouth",
+        "frequency": "Occasional (5-29%)",
+        "referenceText": "PMID:29330883"
+      },
+      {
+        "disease": "MONDO:0014857",
+        "term": "Intellectual disability",
+        "frequency": "",
+        "referenceText": "GeneReviews: RERE-Related Disorders"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Intellectual disability",
+        "frequency": "Obligate (100%)",
+        "referenceText": "PMID:29740699"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Expressive language delay",
+        "frequency": "",
+        "referenceText": "PMID:29740699"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Strabismus",
+        "frequency": "",
+        "referenceText": "PMID:29740699"
+      },
+      {
+        "disease": "MONDO:0032485",
+        "term": "Nystagmus",
+        "frequency": "",
+        "referenceText": "PMID:29740699"
+      }
+    ],
+    "skipped": [],
+    "top1": {
+      "rank": 1,
+      "gene": "MED13",
+      "score": 0.198717,
+      "direct": 0.198717,
+      "support": 0.196853,
+      "supportDisease": "intellectual developmental disorder 61",
+      "matched": 9
+    },
+    "truth": {
+      "rank": 230,
+      "gene": "RERE",
+      "score": 0.157001,
+      "direct": 0.156176,
+      "support": 0.157001,
+      "supportDisease": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+      "matched": 9
+    }
+  }
+}

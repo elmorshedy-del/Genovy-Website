@@ -1,0 +1,815 @@
+{
+  "createdAt": "2026-03-27T11:19:44.423Z",
+  "caseId": "PMID_37962958_43",
+  "truthGeneKeys": [
+    "ensembl:ENSG00000063244",
+    "hgnc:23156",
+    "ncbigene:11338",
+    "symbol:U2AF2"
+  ],
+  "truthGeneKey": "symbol:U2AF2",
+  "rivalGeneKey": "symbol:LRRC7",
+  "truthDiseaseCurie": "MONDO:0957810",
+  "rivalDiseaseCurie": "MONDO:0980748",
+  "sourceStack": {
+    "truth": [
+      "OMIM:191318",
+      "OMIM:620535",
+      "U2AF2 manual OMIM extract 2026-03-26"
+    ],
+    "rival": [
+      "OMIM:621415",
+      "PMID:39256359"
+    ],
+    "note": "GeneReviews chapter not found for LRRC7; packet-relevant rival additions beyond the live graph surface were not supported."
+  },
+  "patientPresent": [
+    {
+      "curie": "HP:0001561",
+      "label": "Polyhydramnios"
+    },
+    {
+      "curie": "HP:0001511",
+      "label": "Intrauterine growth retardation"
+    },
+    {
+      "curie": "HP:0001263",
+      "label": "Global developmental delay"
+    },
+    {
+      "curie": "HP:0001249",
+      "label": "Intellectual disability"
+    },
+    {
+      "curie": "HP:0010862",
+      "label": "Delayed fine motor development"
+    },
+    {
+      "curie": "HP:0031936",
+      "label": "Delayed ability to walk"
+    },
+    {
+      "curie": "HP:0000750",
+      "label": "Delayed speech and language development"
+    },
+    {
+      "curie": "HP:0000739",
+      "label": "Anxiety"
+    },
+    {
+      "curie": "HP:0008770",
+      "label": "Obsessive-compulsive trait"
+    },
+    {
+      "curie": "HP:0002069",
+      "label": "Bilateral tonic-clonic seizure"
+    },
+    {
+      "curie": "HP:0002505",
+      "label": "Loss of ambulation"
+    },
+    {
+      "curie": "HP:0001332",
+      "label": "Dystonia"
+    },
+    {
+      "curie": "HP:0000540",
+      "label": "Hypermetropia"
+    },
+    {
+      "curie": "HP:0003396",
+      "label": "Syringomyelia"
+    },
+    {
+      "curie": "HP:0002020",
+      "label": "Gastroesophageal reflux"
+    },
+    {
+      "curie": "HP:0002019",
+      "label": "Constipation"
+    },
+    {
+      "curie": "HP:0030084",
+      "label": "Clinodactyly"
+    },
+    {
+      "curie": "HP:0001852",
+      "label": "Sandal gap"
+    },
+    {
+      "curie": "HP:0012745",
+      "label": "Short palpebral fissure"
+    },
+    {
+      "curie": "HP:0000316",
+      "label": "Hypertelorism"
+    },
+    {
+      "curie": "HP:0001488",
+      "label": "Bilateral ptosis"
+    },
+    {
+      "curie": "HP:0007687",
+      "label": "Unilateral ptosis"
+    },
+    {
+      "curie": "HP:0000431",
+      "label": "Wide nasal bridge"
+    },
+    {
+      "curie": "HP:0000278",
+      "label": "Retrognathia"
+    },
+    {
+      "curie": "HP:0000369",
+      "label": "Low-set ears"
+    }
+  ],
+  "patientExcluded": [
+    {
+      "curie": "HP:0011968",
+      "label": "Feeding difficulties"
+    },
+    {
+      "curie": "HP:0000729",
+      "label": "Autistic behavior"
+    },
+    {
+      "curie": "HP:0007018",
+      "label": "Attention deficit hyperactivity disorder"
+    },
+    {
+      "curie": "HP:0000365",
+      "label": "Hearing impairment"
+    },
+    {
+      "curie": "HP:0011927",
+      "label": "Short digit"
+    },
+    {
+      "curie": "HP:0004691",
+      "label": "2-3 toe syndactyly"
+    },
+    {
+      "curie": "HP:0000490",
+      "label": "Deeply set eye"
+    },
+    {
+      "curie": "HP:0000470",
+      "label": "Short neck"
+    },
+    {
+      "curie": "HP:0006610",
+      "label": "Wide intermamillary distance"
+    }
+  ],
+  "truthShadow": {
+    "added": [
+      {
+        "phenotypeCurie": "HP:0001249",
+        "phenotypeLabel": "Intellectual disability",
+        "referenceText": "OMIM:620535; OMIM:191318; U2AF2 manual OMIM extract 2026-03-26"
+      },
+      {
+        "phenotypeCurie": "HP:0000750",
+        "phenotypeLabel": "Delayed speech and language development",
+        "referenceText": "OMIM:620535; OMIM:191318; U2AF2 manual OMIM extract 2026-03-26"
+      },
+      {
+        "phenotypeCurie": "HP:0010862",
+        "phenotypeLabel": "Delayed fine motor development",
+        "referenceText": "OMIM:620535 clinical features; walked at 21 months / delayed fine motor development"
+      },
+      {
+        "phenotypeCurie": "HP:0031936",
+        "phenotypeLabel": "Delayed ability to walk",
+        "referenceText": "OMIM:620535 clinical features; walked at 21 months / delayed ability to walk"
+      },
+      {
+        "phenotypeCurie": "HP:0002069",
+        "phenotypeLabel": "Bilateral tonic-clonic seizure",
+        "referenceText": "OMIM:620535; early-onset seizures / bilateral tonic-clonic seizure"
+      },
+      {
+        "phenotypeCurie": "HP:0002020",
+        "phenotypeLabel": "Gastroesophageal reflux",
+        "referenceText": "OMIM:620535 clinical features; gastroesophageal reflux"
+      },
+      {
+        "phenotypeCurie": "HP:0011968",
+        "phenotypeLabel": "Feeding difficulties",
+        "referenceText": "OMIM:620535 clinical features; poor feeding / feeding difficulties"
+      },
+      {
+        "phenotypeCurie": "HP:0012745",
+        "phenotypeLabel": "Short palpebral fissure",
+        "referenceText": "OMIM:620535 clinical features; short palpebral fissures"
+      },
+      {
+        "phenotypeCurie": "HP:0001488",
+        "phenotypeLabel": "Bilateral ptosis",
+        "referenceText": "OMIM:620535 clinical features; bilateral ptosis"
+      },
+      {
+        "phenotypeCurie": "HP:0007687",
+        "phenotypeLabel": "Unilateral ptosis",
+        "referenceText": "OMIM:620535 clinical features; unilateral ptosis"
+      }
+    ],
+    "skipped": [],
+    "missing": []
+  },
+  "rivalShadow": {
+    "added": [],
+    "skipped": [],
+    "missing": []
+  },
+  "baseline": {
+    "top10": [
+      {
+        "rank": 1,
+        "geneCurie": "HGNC:18531",
+        "geneLabel": "LRRC7",
+        "normalizedScore": 0.215575,
+        "directNormalizedScore": 0.215575,
+        "diseaseSupportScore": 0.215575,
+        "supportingDiseaseCurie": "MONDO:0980748",
+        "supportingDiseaseLabel": "intellectual developmental disorder, autosomal dominant 77",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 2,
+        "geneCurie": "HGNC:2348",
+        "geneLabel": "CREBBP",
+        "normalizedScore": 0.21304,
+        "directNormalizedScore": 0.21304,
+        "diseaseSupportScore": 0.196845,
+        "supportingDiseaseCurie": "MONDO:0020763",
+        "supportingDiseaseLabel": "Menke-Hennekam syndrome 1",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 3,
+        "geneCurie": "HGNC:3373",
+        "geneLabel": "EP300",
+        "normalizedScore": 0.21179,
+        "directNormalizedScore": 0.21179,
+        "diseaseSupportScore": 0.177129,
+        "supportingDiseaseCurie": "MONDO:0020769",
+        "supportingDiseaseLabel": "Menke-Hennekam syndrome 2",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 4,
+        "geneCurie": "HGNC:13723",
+        "geneLabel": "CTCF",
+        "normalizedScore": 0.211717,
+        "directNormalizedScore": 0.211717,
+        "diseaseSupportScore": 0.203486,
+        "supportingDiseaseCurie": "MONDO:0014213",
+        "supportingDiseaseLabel": "CTCF-related neurodevelopmental disorder",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 5,
+        "geneCurie": "HGNC:10212",
+        "geneLabel": "RNU5B-1",
+        "normalizedScore": 0.210585,
+        "directNormalizedScore": 0.210585,
+        "diseaseSupportScore": 0.210585,
+        "supportingDiseaseCurie": "MONDO:1060179",
+        "supportingDiseaseLabel": "RNU5B-1 related neurodevelopmental disorder with seizures and joint laxity",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 6,
+        "geneCurie": "HGNC:11111",
+        "geneLabel": "SMC1A",
+        "normalizedScore": 0.207348,
+        "directNormalizedScore": 0.207348,
+        "diseaseSupportScore": 0.181072,
+        "supportingDiseaseCurie": "MONDO:0026771",
+        "supportingDiseaseLabel": "developmental and epileptic encephalopathy, 85, with or without midline brain defects",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 7,
+        "geneCurie": "HGNC:18697",
+        "geneLabel": "ASCC3",
+        "normalizedScore": 0.20403,
+        "directNormalizedScore": 0.20403,
+        "diseaseSupportScore": 0.20403,
+        "supportingDiseaseCurie": "MONDO:0958204",
+        "supportingDiseaseLabel": "intellectual developmental disorder, autosomal recessive 81",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 8,
+        "geneCurie": "HGNC:4585",
+        "geneLabel": "GRIN2A",
+        "normalizedScore": 0.203486,
+        "directNormalizedScore": 0.134818,
+        "diseaseSupportScore": 0.203486,
+        "supportingDiseaseCurie": "MONDO:0014213",
+        "supportingDiseaseLabel": "CTCF-related neurodevelopmental disorder",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 9,
+        "geneCurie": "HGNC:15766",
+        "geneLabel": "ADNP",
+        "normalizedScore": 0.202502,
+        "directNormalizedScore": 0.202502,
+        "diseaseSupportScore": 0.194945,
+        "supportingDiseaseCurie": "MONDO:0014379",
+        "supportingDiseaseLabel": "ADNP-related multiple congenital anomalies - intellectual disability - autism spectrum disorder",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 10,
+        "geneCurie": "HGNC:29012",
+        "geneLabel": "KDM6B",
+        "normalizedScore": 0.20235,
+        "directNormalizedScore": 0.20235,
+        "diseaseSupportScore": 0.20235,
+        "supportingDiseaseCurie": "MONDO:0032790",
+        "supportingDiseaseLabel": "neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      }
+    ],
+    "truth": {
+      "rank": 959,
+      "geneCurie": "HGNC:23156",
+      "geneLabel": "U2AF2",
+      "normalizedScore": 0.138719,
+      "directNormalizedScore": 0,
+      "diseaseSupportScore": 0.138719,
+      "supportingDiseaseCurie": "MONDO:0957810",
+      "supportingDiseaseLabel": "developmental delay, dysmorphic facies, and brain anomalies",
+      "supportingDiseaseEvidenceWeight": 1,
+      "matchedPhenotypeCount": 0
+    },
+    "rival": {
+      "rank": 1,
+      "geneCurie": "HGNC:18531",
+      "geneLabel": "LRRC7",
+      "normalizedScore": 0.215575,
+      "directNormalizedScore": 0.215575,
+      "diseaseSupportScore": 0.215575,
+      "supportingDiseaseCurie": "MONDO:0980748",
+      "supportingDiseaseLabel": "intellectual developmental disorder, autosomal dominant 77",
+      "supportingDiseaseEvidenceWeight": 1,
+      "matchedPhenotypeCount": 25
+    }
+  },
+  "shadow": {
+    "top10": [
+      {
+        "rank": 1,
+        "geneCurie": "HGNC:18531",
+        "geneLabel": "LRRC7",
+        "normalizedScore": 0.215509,
+        "directNormalizedScore": 0.215509,
+        "diseaseSupportScore": 0.215509,
+        "supportingDiseaseCurie": "MONDO:0980748",
+        "supportingDiseaseLabel": "intellectual developmental disorder, autosomal dominant 77",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 2,
+        "geneCurie": "HGNC:23156",
+        "geneLabel": "U2AF2",
+        "normalizedScore": 0.213802,
+        "directNormalizedScore": 0,
+        "diseaseSupportScore": 0.213802,
+        "supportingDiseaseCurie": "MONDO:0957810",
+        "supportingDiseaseLabel": "developmental delay, dysmorphic facies, and brain anomalies",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 0
+      },
+      {
+        "rank": 3,
+        "geneCurie": "HGNC:2348",
+        "geneLabel": "CREBBP",
+        "normalizedScore": 0.213015,
+        "directNormalizedScore": 0.213015,
+        "diseaseSupportScore": 0.196814,
+        "supportingDiseaseCurie": "MONDO:0020763",
+        "supportingDiseaseLabel": "Menke-Hennekam syndrome 1",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 4,
+        "geneCurie": "HGNC:3373",
+        "geneLabel": "EP300",
+        "normalizedScore": 0.211764,
+        "directNormalizedScore": 0.211764,
+        "diseaseSupportScore": 0.177091,
+        "supportingDiseaseCurie": "MONDO:0020769",
+        "supportingDiseaseLabel": "Menke-Hennekam syndrome 2",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 5,
+        "geneCurie": "HGNC:13723",
+        "geneLabel": "CTCF",
+        "normalizedScore": 0.211692,
+        "directNormalizedScore": 0.211692,
+        "diseaseSupportScore": 0.20346,
+        "supportingDiseaseCurie": "MONDO:0014213",
+        "supportingDiseaseLabel": "CTCF-related neurodevelopmental disorder",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 6,
+        "geneCurie": "HGNC:10212",
+        "geneLabel": "RNU5B-1",
+        "normalizedScore": 0.210565,
+        "directNormalizedScore": 0.210565,
+        "diseaseSupportScore": 0.210565,
+        "supportingDiseaseCurie": "MONDO:1060179",
+        "supportingDiseaseLabel": "RNU5B-1 related neurodevelopmental disorder with seizures and joint laxity",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 7,
+        "geneCurie": "HGNC:11111",
+        "geneLabel": "SMC1A",
+        "normalizedScore": 0.207244,
+        "directNormalizedScore": 0.207244,
+        "diseaseSupportScore": 0.180947,
+        "supportingDiseaseCurie": "MONDO:0026771",
+        "supportingDiseaseLabel": "developmental and epileptic encephalopathy, 85, with or without midline brain defects",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 8,
+        "geneCurie": "HGNC:18697",
+        "geneLabel": "ASCC3",
+        "normalizedScore": 0.203984,
+        "directNormalizedScore": 0.203984,
+        "diseaseSupportScore": 0.203984,
+        "supportingDiseaseCurie": "MONDO:0958204",
+        "supportingDiseaseLabel": "intellectual developmental disorder, autosomal recessive 81",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 9,
+        "geneCurie": "HGNC:4585",
+        "geneLabel": "GRIN2A",
+        "normalizedScore": 0.20346,
+        "directNormalizedScore": 0.134806,
+        "diseaseSupportScore": 0.20346,
+        "supportingDiseaseCurie": "MONDO:0014213",
+        "supportingDiseaseLabel": "CTCF-related neurodevelopmental disorder",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      },
+      {
+        "rank": 10,
+        "geneCurie": "HGNC:15766",
+        "geneLabel": "ADNP",
+        "normalizedScore": 0.202457,
+        "directNormalizedScore": 0.202457,
+        "diseaseSupportScore": 0.194907,
+        "supportingDiseaseCurie": "MONDO:0014379",
+        "supportingDiseaseLabel": "ADNP-related multiple congenital anomalies - intellectual disability - autism spectrum disorder",
+        "supportingDiseaseEvidenceWeight": 1,
+        "matchedPhenotypeCount": 25
+      }
+    ],
+    "truth": {
+      "rank": 2,
+      "geneCurie": "HGNC:23156",
+      "geneLabel": "U2AF2",
+      "normalizedScore": 0.213802,
+      "directNormalizedScore": 0,
+      "diseaseSupportScore": 0.213802,
+      "supportingDiseaseCurie": "MONDO:0957810",
+      "supportingDiseaseLabel": "developmental delay, dysmorphic facies, and brain anomalies",
+      "supportingDiseaseEvidenceWeight": 1,
+      "matchedPhenotypeCount": 0
+    },
+    "rival": {
+      "rank": 1,
+      "geneCurie": "HGNC:18531",
+      "geneLabel": "LRRC7",
+      "normalizedScore": 0.215509,
+      "directNormalizedScore": 0.215509,
+      "diseaseSupportScore": 0.215509,
+      "supportingDiseaseCurie": "MONDO:0980748",
+      "supportingDiseaseLabel": "intellectual developmental disorder, autosomal dominant 77",
+      "supportingDiseaseEvidenceWeight": 1,
+      "matchedPhenotypeCount": 25
+    }
+  },
+  "exactFit": {
+    "truth": {
+      "presentBefore": [
+        {
+          "phenotypeCurie": "HP:0001263",
+          "patientLabel": "Global developmental delay",
+          "diseaseLabel": "Global developmental delay"
+        },
+        {
+          "phenotypeCurie": "HP:0000278",
+          "patientLabel": "Retrognathia",
+          "diseaseLabel": "Retrognathia"
+        },
+        {
+          "phenotypeCurie": "HP:0000369",
+          "patientLabel": "Low-set ears",
+          "diseaseLabel": "Low-set ears"
+        }
+      ],
+      "presentAfter": [
+        {
+          "phenotypeCurie": "HP:0001263",
+          "patientLabel": "Global developmental delay",
+          "diseaseLabel": "Global developmental delay"
+        },
+        {
+          "phenotypeCurie": "HP:0001249",
+          "patientLabel": "Intellectual disability",
+          "diseaseLabel": "Intellectual disability"
+        },
+        {
+          "phenotypeCurie": "HP:0010862",
+          "patientLabel": "Delayed fine motor development",
+          "diseaseLabel": "Delayed fine motor development"
+        },
+        {
+          "phenotypeCurie": "HP:0031936",
+          "patientLabel": "Delayed ability to walk",
+          "diseaseLabel": "Delayed ability to walk"
+        },
+        {
+          "phenotypeCurie": "HP:0000750",
+          "patientLabel": "Delayed speech and language development",
+          "diseaseLabel": "Delayed speech and language development"
+        },
+        {
+          "phenotypeCurie": "HP:0002069",
+          "patientLabel": "Bilateral tonic-clonic seizure",
+          "diseaseLabel": "Bilateral tonic-clonic seizure"
+        },
+        {
+          "phenotypeCurie": "HP:0002020",
+          "patientLabel": "Gastroesophageal reflux",
+          "diseaseLabel": "Gastroesophageal reflux"
+        },
+        {
+          "phenotypeCurie": "HP:0012745",
+          "patientLabel": "Short palpebral fissure",
+          "diseaseLabel": "Short palpebral fissure"
+        },
+        {
+          "phenotypeCurie": "HP:0001488",
+          "patientLabel": "Bilateral ptosis",
+          "diseaseLabel": "Bilateral ptosis"
+        },
+        {
+          "phenotypeCurie": "HP:0007687",
+          "patientLabel": "Unilateral ptosis",
+          "diseaseLabel": "Unilateral ptosis"
+        },
+        {
+          "phenotypeCurie": "HP:0000278",
+          "patientLabel": "Retrognathia",
+          "diseaseLabel": "Retrognathia"
+        },
+        {
+          "phenotypeCurie": "HP:0000369",
+          "patientLabel": "Low-set ears",
+          "diseaseLabel": "Low-set ears"
+        }
+      ],
+      "excludedBefore": [
+        {
+          "phenotypeCurie": "HP:0000729",
+          "patientLabel": "Autistic behavior",
+          "diseaseLabel": "Autistic behavior"
+        }
+      ],
+      "excludedAfter": [
+        {
+          "phenotypeCurie": "HP:0011968",
+          "patientLabel": "Feeding difficulties",
+          "diseaseLabel": "Feeding difficulties"
+        },
+        {
+          "phenotypeCurie": "HP:0000729",
+          "patientLabel": "Autistic behavior",
+          "diseaseLabel": "Autistic behavior"
+        }
+      ]
+    },
+    "rival": {
+      "presentBefore": [
+        {
+          "phenotypeCurie": "HP:0001263",
+          "patientLabel": "Global developmental delay",
+          "diseaseLabel": "Global developmental delay"
+        },
+        {
+          "phenotypeCurie": "HP:0001249",
+          "patientLabel": "Intellectual disability",
+          "diseaseLabel": "Intellectual disability"
+        },
+        {
+          "phenotypeCurie": "HP:0010862",
+          "patientLabel": "Delayed fine motor development",
+          "diseaseLabel": "Delayed fine motor development"
+        },
+        {
+          "phenotypeCurie": "HP:0031936",
+          "patientLabel": "Delayed ability to walk",
+          "diseaseLabel": "Delayed ability to walk"
+        },
+        {
+          "phenotypeCurie": "HP:0000750",
+          "patientLabel": "Delayed speech and language development",
+          "diseaseLabel": "Delayed speech and language development"
+        },
+        {
+          "phenotypeCurie": "HP:0000739",
+          "patientLabel": "Anxiety",
+          "diseaseLabel": "Anxiety"
+        },
+        {
+          "phenotypeCurie": "HP:0001332",
+          "patientLabel": "Dystonia",
+          "diseaseLabel": "Dystonia"
+        },
+        {
+          "phenotypeCurie": "HP:0000540",
+          "patientLabel": "Hypermetropia",
+          "diseaseLabel": "Hypermetropia"
+        },
+        {
+          "phenotypeCurie": "HP:0003396",
+          "patientLabel": "Syringomyelia",
+          "diseaseLabel": "Syringomyelia"
+        },
+        {
+          "phenotypeCurie": "HP:0002020",
+          "patientLabel": "Gastroesophageal reflux",
+          "diseaseLabel": "Gastroesophageal reflux"
+        },
+        {
+          "phenotypeCurie": "HP:0000316",
+          "patientLabel": "Hypertelorism",
+          "diseaseLabel": "Hypertelorism"
+        },
+        {
+          "phenotypeCurie": "HP:0001488",
+          "patientLabel": "Bilateral ptosis",
+          "diseaseLabel": "Bilateral ptosis"
+        },
+        {
+          "phenotypeCurie": "HP:0000431",
+          "patientLabel": "Wide nasal bridge",
+          "diseaseLabel": "Wide nasal bridge"
+        },
+        {
+          "phenotypeCurie": "HP:0000369",
+          "patientLabel": "Low-set ears",
+          "diseaseLabel": "Low-set ears"
+        }
+      ],
+      "presentAfter": [
+        {
+          "phenotypeCurie": "HP:0001263",
+          "patientLabel": "Global developmental delay",
+          "diseaseLabel": "Global developmental delay"
+        },
+        {
+          "phenotypeCurie": "HP:0001249",
+          "patientLabel": "Intellectual disability",
+          "diseaseLabel": "Intellectual disability"
+        },
+        {
+          "phenotypeCurie": "HP:0010862",
+          "patientLabel": "Delayed fine motor development",
+          "diseaseLabel": "Delayed fine motor development"
+        },
+        {
+          "phenotypeCurie": "HP:0031936",
+          "patientLabel": "Delayed ability to walk",
+          "diseaseLabel": "Delayed ability to walk"
+        },
+        {
+          "phenotypeCurie": "HP:0000750",
+          "patientLabel": "Delayed speech and language development",
+          "diseaseLabel": "Delayed speech and language development"
+        },
+        {
+          "phenotypeCurie": "HP:0000739",
+          "patientLabel": "Anxiety",
+          "diseaseLabel": "Anxiety"
+        },
+        {
+          "phenotypeCurie": "HP:0001332",
+          "patientLabel": "Dystonia",
+          "diseaseLabel": "Dystonia"
+        },
+        {
+          "phenotypeCurie": "HP:0000540",
+          "patientLabel": "Hypermetropia",
+          "diseaseLabel": "Hypermetropia"
+        },
+        {
+          "phenotypeCurie": "HP:0003396",
+          "patientLabel": "Syringomyelia",
+          "diseaseLabel": "Syringomyelia"
+        },
+        {
+          "phenotypeCurie": "HP:0002020",
+          "patientLabel": "Gastroesophageal reflux",
+          "diseaseLabel": "Gastroesophageal reflux"
+        },
+        {
+          "phenotypeCurie": "HP:0000316",
+          "patientLabel": "Hypertelorism",
+          "diseaseLabel": "Hypertelorism"
+        },
+        {
+          "phenotypeCurie": "HP:0001488",
+          "patientLabel": "Bilateral ptosis",
+          "diseaseLabel": "Bilateral ptosis"
+        },
+        {
+          "phenotypeCurie": "HP:0000431",
+          "patientLabel": "Wide nasal bridge",
+          "diseaseLabel": "Wide nasal bridge"
+        },
+        {
+          "phenotypeCurie": "HP:0000369",
+          "patientLabel": "Low-set ears",
+          "diseaseLabel": "Low-set ears"
+        }
+      ],
+      "excludedBefore": [
+        {
+          "phenotypeCurie": "HP:0011968",
+          "patientLabel": "Feeding difficulties",
+          "diseaseLabel": "Feeding difficulties"
+        },
+        {
+          "phenotypeCurie": "HP:0000729",
+          "patientLabel": "Autistic behavior",
+          "diseaseLabel": "Autistic behavior"
+        },
+        {
+          "phenotypeCurie": "HP:0007018",
+          "patientLabel": "Attention deficit hyperactivity disorder",
+          "diseaseLabel": "Attention deficit hyperactivity disorder"
+        },
+        {
+          "phenotypeCurie": "HP:0000365",
+          "patientLabel": "Hearing impairment",
+          "diseaseLabel": "Hearing impairment"
+        }
+      ],
+      "excludedAfter": [
+        {
+          "phenotypeCurie": "HP:0011968",
+          "patientLabel": "Feeding difficulties",
+          "diseaseLabel": "Feeding difficulties"
+        },
+        {
+          "phenotypeCurie": "HP:0000729",
+          "patientLabel": "Autistic behavior",
+          "diseaseLabel": "Autistic behavior"
+        },
+        {
+          "phenotypeCurie": "HP:0007018",
+          "patientLabel": "Attention deficit hyperactivity disorder",
+          "diseaseLabel": "Attention deficit hyperactivity disorder"
+        },
+        {
+          "phenotypeCurie": "HP:0000365",
+          "patientLabel": "Hearing impairment",
+          "diseaseLabel": "Hearing impairment"
+        }
+      ]
+    }
+  }
+}

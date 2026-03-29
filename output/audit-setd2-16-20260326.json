@@ -1,0 +1,347 @@
+{
+  "createdAt": "2026-03-26T17:22:48.313Z",
+  "caseId": "PMID_33766796_16",
+  "truthGene": "SETD2",
+  "totalDiseases": 12132,
+  "patientPresentPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0000750",
+      "phenotypeLabel": "Delayed speech and language development",
+      "annotationCount": 1573,
+      "infoContent": 2.042862
+    },
+    {
+      "phenotypeCurie": "HP:0001270",
+      "phenotypeLabel": "Motor delay",
+      "annotationCount": 1484,
+      "infoContent": 2.101105
+    },
+    {
+      "phenotypeCurie": "HP:0000256",
+      "phenotypeLabel": "Macrocephaly",
+      "annotationCount": 747,
+      "infoContent": 2.787537
+    },
+    {
+      "phenotypeCurie": "HP:0001999",
+      "phenotypeLabel": "Abnormal facial shape",
+      "annotationCount": 1602,
+      "infoContent": 2.024594
+    },
+    {
+      "phenotypeCurie": "HP:0005616",
+      "phenotypeLabel": "Accelerated skeletal maturation",
+      "annotationCount": 117,
+      "infoContent": 4.641428
+    },
+    {
+      "phenotypeCurie": "HP:0000718",
+      "phenotypeLabel": "Aggressive behavior",
+      "annotationCount": 421,
+      "infoContent": 3.360969
+    }
+  ],
+  "patientExcludedPhenotypes": [],
+  "top1": {
+    "rank": 1,
+    "geneLabel": "TCF20",
+    "normalizedScore": 0.203092,
+    "directNormalizedScore": 0.202512,
+    "diseaseSupportScore": 0.203092,
+    "patientAverageScore": 2.8264158008039946,
+    "phenotypeAverageScore": 0.9822681023178148,
+    "directPhenotypeCount": 50,
+    "matchedPhenotypeCount": 6,
+    "supportingDiseaseCurie": "MONDO:0032745",
+    "supportingDiseaseLabel": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 50,
+      "exactOverlapCount": 5,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0005616",
+          "phenotypeLabel": "Accelerated skeletal maturation",
+          "annotationCount": 117,
+          "infoContent": 4.641428,
+          "frequencyLabel": "1/1",
+          "referenceText": "PMID:27436265"
+        },
+        {
+          "phenotypeCurie": "HP:0000718",
+          "phenotypeLabel": "Aggressive behavior",
+          "annotationCount": 421,
+          "infoContent": 3.360969,
+          "frequencyLabel": "1/2",
+          "referenceText": "PMID:27436265"
+        },
+        {
+          "phenotypeCurie": "HP:0000256",
+          "phenotypeLabel": "Macrocephaly",
+          "annotationCount": 747,
+          "infoContent": 2.787537,
+          "frequencyLabel": "2/2",
+          "referenceText": "PMID:27436265"
+        },
+        {
+          "phenotypeCurie": "HP:0001270",
+          "phenotypeLabel": "Motor delay",
+          "annotationCount": 1484,
+          "infoContent": 2.101105,
+          "frequencyLabel": "2/2",
+          "referenceText": "PMID:27436265"
+        },
+        {
+          "phenotypeCurie": "HP:0000750",
+          "phenotypeLabel": "Delayed speech and language development",
+          "annotationCount": 1573,
+          "infoContent": 2.042862,
+          "frequencyLabel": "2/2",
+          "referenceText": "PMID:27436265"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0005616",
+        "patientPhenotypeLabel": "Accelerated skeletal maturation",
+        "diseasePhenotypeCurie": "HP:0005616",
+        "diseasePhenotypeLabel": "Accelerated skeletal maturation",
+        "micaCurie": "HP:0005616",
+        "micaLabel": "Accelerated skeletal maturation",
+        "score": 4.641427934010716,
+        "weightedScore": 4.641427934010716,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/1",
+        "referenceText": "OMIM:618430",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000718",
+        "patientPhenotypeLabel": "Aggressive behavior",
+        "diseasePhenotypeCurie": "HP:0000718",
+        "diseasePhenotypeLabel": "Aggressive behavior",
+        "micaCurie": "HP:0000718",
+        "micaLabel": "Aggressive behavior",
+        "score": 3.3609690351260904,
+        "weightedScore": 3.3609690351260904,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:618430",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000256",
+        "patientPhenotypeLabel": "Macrocephaly",
+        "diseasePhenotypeCurie": "HP:0000256",
+        "diseasePhenotypeLabel": "Macrocephaly",
+        "micaCurie": "HP:0000256",
+        "micaLabel": "Macrocephaly",
+        "score": 2.7875366836756545,
+        "weightedScore": 2.7875366836756545,
+        "phenotypeWeight": 1,
+        "evidenceCode": "2/2",
+        "referenceText": "OMIM:618430",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001270",
+        "patientPhenotypeLabel": "Motor delay",
+        "diseasePhenotypeCurie": "HP:0031936",
+        "diseasePhenotypeLabel": "Delayed ability to walk",
+        "micaCurie": "HP:0001270",
+        "micaLabel": "Motor delay",
+        "score": 2.101105445081146,
+        "weightedScore": 2.101105445081146,
+        "phenotypeWeight": 1,
+        "evidenceCode": "2/2",
+        "referenceText": "OMIM:618430",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000750",
+        "patientPhenotypeLabel": "Delayed speech and language development",
+        "diseasePhenotypeCurie": "HP:0000750",
+        "diseasePhenotypeLabel": "Delayed speech and language development",
+        "micaCurie": "HP:0000750",
+        "micaLabel": "Delayed speech and language development",
+        "score": 2.042861965750194,
+        "weightedScore": 2.042861965750194,
+        "phenotypeWeight": 1,
+        "evidenceCode": "2/2",
+        "referenceText": "OMIM:618430",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001999",
+        "patientPhenotypeLabel": "Abnormal facial shape",
+        "diseasePhenotypeCurie": "HP:0000276",
+        "diseasePhenotypeLabel": "Long face",
+        "micaCurie": "HP:0001999",
+        "micaLabel": "Abnormal facial shape",
+        "score": 2.0245937411801673,
+        "weightedScore": 2.0245937411801673,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:618430",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  },
+  "truth": {
+    "rank": 140,
+    "geneLabel": "SETD2",
+    "normalizedScore": 0.151844,
+    "directNormalizedScore": 0.143597,
+    "diseaseSupportScore": 0.151844,
+    "patientAverageScore": 1.9788330172998367,
+    "phenotypeAverageScore": 0.7218225510665489,
+    "directPhenotypeCount": 67,
+    "matchedPhenotypeCount": 6,
+    "supportingDiseaseCurie": "MONDO:0014791",
+    "supportingDiseaseLabel": "Luscan-Lumish syndrome",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 34,
+      "exactOverlapCount": 3,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0000718",
+          "phenotypeLabel": "Aggressive behavior",
+          "annotationCount": 421,
+          "infoContent": 3.360969,
+          "frequencyLabel": "",
+          "referenceText": "PMID:24852293"
+        },
+        {
+          "phenotypeCurie": "HP:0000256",
+          "phenotypeLabel": "Macrocephaly",
+          "annotationCount": 747,
+          "infoContent": 2.787537,
+          "frequencyLabel": "",
+          "referenceText": "OMIM:616831"
+        },
+        {
+          "phenotypeCurie": "HP:0000750",
+          "phenotypeLabel": "Delayed speech and language development",
+          "annotationCount": 1573,
+          "infoContent": 2.042862,
+          "frequencyLabel": "",
+          "referenceText": "PMID:24852293"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0000718",
+        "patientPhenotypeLabel": "Aggressive behavior",
+        "diseasePhenotypeCurie": "HP:0000718",
+        "diseasePhenotypeLabel": "Aggressive behavior",
+        "micaCurie": "HP:0000718",
+        "micaLabel": "Aggressive behavior",
+        "score": 3.3609690351260904,
+        "weightedScore": 3.3609690351260904,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:616831",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000256",
+        "patientPhenotypeLabel": "Macrocephaly",
+        "diseasePhenotypeCurie": "HP:0005490",
+        "diseasePhenotypeLabel": "Postnatal macrocephaly",
+        "micaCurie": "HP:0000256",
+        "micaLabel": "Macrocephaly",
+        "score": 2.7875366836756545,
+        "weightedScore": 2.7875366836756545,
+        "phenotypeWeight": 1,
+        "evidenceCode": "0/3",
+        "referenceText": "OMIM:620157",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000750",
+        "patientPhenotypeLabel": "Delayed speech and language development",
+        "diseasePhenotypeCurie": "HP:0000750",
+        "diseasePhenotypeLabel": "Delayed speech and language development",
+        "micaCurie": "HP:0000750",
+        "micaLabel": "Delayed speech and language development",
+        "score": 2.042861965750194,
+        "weightedScore": 2.042861965750194,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:616831",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001999",
+        "patientPhenotypeLabel": "Abnormal facial shape",
+        "diseasePhenotypeCurie": "HP:0000276",
+        "diseasePhenotypeLabel": "Long face",
+        "micaCurie": "HP:0001999",
+        "micaLabel": "Abnormal facial shape",
+        "score": 2.0245937411801673,
+        "weightedScore": 2.0245937411801673,
+        "phenotypeWeight": 1,
+        "evidenceCode": "-",
+        "referenceText": "OMIM:616831",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001270",
+        "patientPhenotypeLabel": "Motor delay",
+        "diseasePhenotypeCurie": "HP:0001263",
+        "diseasePhenotypeLabel": "Global developmental delay",
+        "micaCurie": "HP:0012758",
+        "micaLabel": "Neurodevelopmental delay",
+        "score": 1.1867032878948591,
+        "weightedScore": 1.1867032878948591,
+        "phenotypeWeight": 1,
+        "evidenceCode": "12/12",
+        "referenceText": "OMIM:620155",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0005616",
+        "patientPhenotypeLabel": "Accelerated skeletal maturation",
+        "diseasePhenotypeCurie": "HP:0005490",
+        "diseasePhenotypeLabel": "Postnatal macrocephaly",
+        "micaCurie": "HP:0033127",
+        "micaLabel": "Abnormality of the musculoskeletal system",
+        "score": 0.47033339017205433,
+        "weightedScore": 0.47033339017205433,
+        "phenotypeWeight": 1,
+        "evidenceCode": "0/3",
+        "referenceText": "OMIM:620157",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  }
+}

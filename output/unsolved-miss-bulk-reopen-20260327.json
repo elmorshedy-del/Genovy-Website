@@ -1,0 +1,2180 @@
+{
+  "createdAt": "2026-03-27T13:07:16.087Z",
+  "benchmarkPath": "/Users/ahmedelmorshedy/Genovy-phenotype-enrichment-20260316-0914/output/official-real-v1-working-handoff-floor-1.0-20260326.json",
+  "phenopacketDir": "/Users/ahmedelmorshedy/Genovy-phenotype-enrichment-20260316-0914/preservation/original-output-snapshot-20260326/pheval-official-sample-100/phenopackets",
+  "diseaseSourceMode": "typed_plus_relationships",
+  "caseCount": 12,
+  "skippedResolved": [
+    "PMID_33766796_16 / SETD2: already source-rescued in saved symmetric shadow (140 -> 1), so excluded from this unresolved batch."
+  ],
+  "cases": [
+    {
+      "caseId": "PMID_29330883_Subject9",
+      "fileName": "PMID_29330883_Subject9.json",
+      "truthGeneLabel": "RERE",
+      "truthDiseaseCurie": "MONDO:0014857",
+      "truthDiseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+      "rivalGeneLabel": "MED13",
+      "rivalDiseaseCurie": "MONDO:0032485",
+      "rivalDiseaseLabel": "intellectual developmental disorder 61",
+      "genovyRank": null,
+      "exomiserRank": 3,
+      "status": "Symmetric case-series presence shadow moved truth 238 -> 82, but MED13 stayed 1; now looks like frequency/contradiction handling after exact recovery.",
+      "packet": {
+        "fileName": "PMID_29330883_Subject9.json",
+        "present": [
+          {
+            "curie": "HP:0000463",
+            "label": "Anteverted nares"
+          },
+          {
+            "curie": "HP:0000154",
+            "label": "Wide mouth"
+          },
+          {
+            "curie": "HP:0000664",
+            "label": "Synophrys"
+          },
+          {
+            "curie": "HP:0000316",
+            "label": "Hypertelorism"
+          },
+          {
+            "curie": "HP:0000729",
+            "label": "Autistic behavior"
+          },
+          {
+            "curie": "HP:0000722",
+            "label": "Compulsive behaviors"
+          },
+          {
+            "curie": "HP:0001252",
+            "label": "Hypotonia"
+          },
+          {
+            "curie": "HP:0001263",
+            "label": "Global developmental delay"
+          },
+          {
+            "curie": "HP:0001249",
+            "label": "Intellectual disability"
+          }
+        ],
+        "excluded": [
+          {
+            "curie": "HP:0410030",
+            "label": "Cleft lip"
+          },
+          {
+            "curie": "HP:0000319",
+            "label": "Smooth philtrum"
+          },
+          {
+            "curie": "HP:0000294",
+            "label": "Low anterior hairline"
+          },
+          {
+            "curie": "HP:0000341",
+            "label": "Narrow forehead"
+          },
+          {
+            "curie": "HP:0011220",
+            "label": "Prominent forehead"
+          },
+          {
+            "curie": "HP:0000414",
+            "label": "Bulbous nose"
+          },
+          {
+            "curie": "HP:0000256",
+            "label": "Macrocephaly"
+          },
+          {
+            "curie": "HP:0001357",
+            "label": "Plagiocephaly"
+          },
+          {
+            "curie": "HP:0011800",
+            "label": "Midface retrusion"
+          },
+          {
+            "curie": "HP:0000325",
+            "label": "Triangular face"
+          },
+          {
+            "curie": "HP:0000187",
+            "label": "Broad alveolar ridges"
+          },
+          {
+            "curie": "HP:0000218",
+            "label": "High palate"
+          },
+          {
+            "curie": "HP:0000581",
+            "label": "Blepharophimosis"
+          },
+          {
+            "curie": "HP:0002007",
+            "label": "Frontal bossing"
+          },
+          {
+            "curie": "HP:0011229",
+            "label": "Broad eyebrow"
+          },
+          {
+            "curie": "HP:0000490",
+            "label": "Deeply set eye"
+          },
+          {
+            "curie": "HP:0005280",
+            "label": "Depressed nasal bridge"
+          },
+          {
+            "curie": "HP:0011240",
+            "label": "Prominent stem of antihelix"
+          },
+          {
+            "curie": "HP:0008589",
+            "label": "Hypoplastic helices"
+          },
+          {
+            "curie": "HP:0004467",
+            "label": "Preauricular pit"
+          },
+          {
+            "curie": "HP:0000378",
+            "label": "Cupped ear"
+          },
+          {
+            "curie": "HP:0000396",
+            "label": "Overfolded helix"
+          },
+          {
+            "curie": "HP:0009908",
+            "label": "Anterior creases of earlobe"
+          },
+          {
+            "curie": "HP:0000286",
+            "label": "Epicanthus"
+          },
+          {
+            "curie": "HP:0000347",
+            "label": "Micrognathia"
+          },
+          {
+            "curie": "HP:0000582",
+            "label": "Upslanted palpebral fissure"
+          },
+          {
+            "curie": "HP:0000494",
+            "label": "Downslanted palpebral fissures"
+          },
+          {
+            "curie": "HP:0000601",
+            "label": "Hypotelorism"
+          },
+          {
+            "curie": "HP:0020206",
+            "label": "Simple ear"
+          },
+          {
+            "curie": "HP:0000453",
+            "label": "Choanal atresia"
+          },
+          {
+            "curie": "HP:0000076",
+            "label": "Vesicoureteral reflux"
+          },
+          {
+            "curie": "HP:0000508",
+            "label": "Ptosis"
+          },
+          {
+            "curie": "HP:0000589",
+            "label": "Coloboma"
+          },
+          {
+            "curie": "HP:0000407",
+            "label": "Sensorineural hearing impairment"
+          },
+          {
+            "curie": "HP:0002650",
+            "label": "Scoliosis"
+          }
+        ]
+      },
+      "disease": {
+        "truthPresent": [
+          "Anteverted nares",
+          "Hypertelorism",
+          "Autistic behavior",
+          "Hypotonia",
+          "Global developmental delay"
+        ],
+        "rivalPresent": [
+          "Wide mouth",
+          "Synophrys",
+          "Hypertelorism",
+          "Autistic behavior",
+          "Hypotonia",
+          "Global developmental delay"
+        ],
+        "truthExcluded": [
+          "Cleft lip",
+          "Smooth philtrum",
+          "Bulbous nose",
+          "Macrocephaly",
+          "Triangular face",
+          "Broad alveolar ridges",
+          "High palate",
+          "Blepharophimosis",
+          "Frontal bossing",
+          "Broad eyebrow",
+          "Deeply set eye",
+          "Prominent stem of antihelix",
+          "Preauricular pit",
+          "Anterior creases of earlobe",
+          "Epicanthus",
+          "Micrognathia",
+          "Upslanted palpebral fissure",
+          "Downslanted palpebral fissures",
+          "Hypotelorism",
+          "Simple ear",
+          "Choanal atresia",
+          "Vesicoureteral reflux",
+          "Coloboma",
+          "Sensorineural hearing impairment",
+          "Scoliosis"
+        ],
+        "rivalExcluded": [
+          "Smooth philtrum"
+        ],
+        "presentOwnership": {
+          "truthOnly": [
+            "Anteverted nares"
+          ],
+          "rivalOnly": [
+            "Wide mouth",
+            "Synophrys"
+          ],
+          "shared": [
+            "Hypertelorism",
+            "Autistic behavior",
+            "Hypotonia",
+            "Global developmental delay"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Cleft lip",
+            "Bulbous nose",
+            "Macrocephaly",
+            "Triangular face",
+            "Broad alveolar ridges",
+            "High palate",
+            "Blepharophimosis",
+            "Frontal bossing",
+            "Broad eyebrow",
+            "Deeply set eye",
+            "Prominent stem of antihelix",
+            "Preauricular pit",
+            "Anterior creases of earlobe",
+            "Epicanthus",
+            "Micrognathia",
+            "Upslanted palpebral fissure",
+            "Downslanted palpebral fissures",
+            "Hypotelorism",
+            "Simple ear",
+            "Choanal atresia",
+            "Vesicoureteral reflux",
+            "Coloboma",
+            "Sensorineural hearing impairment",
+            "Scoliosis"
+          ],
+          "rivalOnly": [],
+          "shared": [
+            "Smooth philtrum"
+          ]
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Anteverted nares",
+          "Hypertelorism",
+          "Autistic behavior",
+          "Hypotonia",
+          "Global developmental delay",
+          "Intellectual disability"
+        ],
+        "rivalPresent": [
+          "Wide mouth",
+          "Synophrys",
+          "Hypertelorism",
+          "Autistic behavior",
+          "Hypotonia",
+          "Global developmental delay"
+        ],
+        "truthExcluded": [
+          "Cleft lip",
+          "Smooth philtrum",
+          "Bulbous nose",
+          "Macrocephaly",
+          "Midface retrusion",
+          "Triangular face",
+          "Broad alveolar ridges",
+          "High palate",
+          "Blepharophimosis",
+          "Frontal bossing",
+          "Broad eyebrow",
+          "Deeply set eye",
+          "Depressed nasal bridge",
+          "Prominent stem of antihelix",
+          "Preauricular pit",
+          "Anterior creases of earlobe",
+          "Epicanthus",
+          "Micrognathia",
+          "Upslanted palpebral fissure",
+          "Downslanted palpebral fissures",
+          "Hypotelorism",
+          "Simple ear",
+          "Choanal atresia",
+          "Vesicoureteral reflux",
+          "Ptosis",
+          "Coloboma",
+          "Sensorineural hearing impairment",
+          "Scoliosis"
+        ],
+        "rivalExcluded": [
+          "Smooth philtrum"
+        ],
+        "presentOwnership": {
+          "truthOnly": [
+            "Anteverted nares",
+            "Intellectual disability"
+          ],
+          "rivalOnly": [
+            "Wide mouth",
+            "Synophrys"
+          ],
+          "shared": [
+            "Hypertelorism",
+            "Autistic behavior",
+            "Hypotonia",
+            "Global developmental delay"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Cleft lip",
+            "Bulbous nose",
+            "Macrocephaly",
+            "Midface retrusion",
+            "Triangular face",
+            "Broad alveolar ridges",
+            "High palate",
+            "Blepharophimosis",
+            "Frontal bossing",
+            "Broad eyebrow",
+            "Deeply set eye",
+            "Depressed nasal bridge",
+            "Prominent stem of antihelix",
+            "Preauricular pit",
+            "Anterior creases of earlobe",
+            "Epicanthus",
+            "Micrognathia",
+            "Upslanted palpebral fissure",
+            "Downslanted palpebral fissures",
+            "Hypotelorism",
+            "Simple ear",
+            "Choanal atresia",
+            "Vesicoureteral reflux",
+            "Ptosis",
+            "Coloboma",
+            "Sensorineural hearing impairment",
+            "Scoliosis"
+          ],
+          "rivalOnly": [],
+          "shared": [
+            "Smooth philtrum"
+          ]
+        }
+      }
+    },
+    {
+      "caseId": "PMID_30580808_Lo_twin_2-Fam-52",
+      "fileName": "PMID_30580808_Lo_twin_2-Fam-52.json",
+      "truthGeneLabel": "SMARCC2",
+      "truthDiseaseCurie": "MONDO:0032702",
+      "truthDiseaseLabel": "Coffin-Siris syndrome 8",
+      "rivalGeneLabel": "NLGN1",
+      "rivalDiseaseCurie": "MONDO:0030004",
+      "rivalDiseaseLabel": "autism, susceptibility to, 20",
+      "genovyRank": null,
+      "exomiserRank": 927,
+      "status": "Sparse ranking plus negative-evidence case; not an enrichment-first target.",
+      "packet": {
+        "fileName": "PMID_30580808_Lo_twin_2-Fam-52.json",
+        "present": [
+          {
+            "curie": "HP:0000729",
+            "label": "Autistic behavior"
+          }
+        ],
+        "excluded": [
+          {
+            "curie": "HP:0001357",
+            "label": "Plagiocephaly"
+          },
+          {
+            "curie": "HP:0000252",
+            "label": "Microcephaly"
+          },
+          {
+            "curie": "HP:0000325",
+            "label": "Triangular face"
+          },
+          {
+            "curie": "HP:0000341",
+            "label": "Narrow forehead"
+          },
+          {
+            "curie": "HP:0011800",
+            "label": "Midface retrusion"
+          },
+          {
+            "curie": "HP:0000268",
+            "label": "Dolichocephaly"
+          }
+        ]
+      },
+      "disease": {
+        "truthPresent": [],
+        "rivalPresent": [
+          "Autistic behavior"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [
+            "Autistic behavior"
+          ],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Autistic behavior"
+        ],
+        "rivalPresent": [
+          "Autistic behavior"
+        ],
+        "truthExcluded": [
+          "Microcephaly"
+        ],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": [
+            "Autistic behavior"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Microcephaly"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_32376980_11",
+      "fileName": "PMID_32376980_11.json",
+      "truthGeneLabel": "TRAF7",
+      "truthDiseaseCurie": "MONDO:0032572",
+      "truthDiseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+      "rivalGeneLabel": "DOT1L",
+      "rivalDiseaseCurie": "MONDO:0979246",
+      "rivalDiseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+      "genovyRank": null,
+      "exomiserRank": 19,
+      "status": "Symmetric source pass was a null; sharp eye/feeding/hearing exacts still favor DOT1L.",
+      "packet": {
+        "fileName": "PMID_32376980_11.json",
+        "present": [
+          {
+            "curie": "HP:0001643",
+            "label": "Patent ductus arteriosus"
+          },
+          {
+            "curie": "HP:0001320",
+            "label": "Cerebellar vermis hypoplasia"
+          },
+          {
+            "curie": "HP:0000298",
+            "label": "Mask-like facies"
+          },
+          {
+            "curie": "HP:0000268",
+            "label": "Dolichocephaly"
+          },
+          {
+            "curie": "HP:0000341",
+            "label": "Narrow forehead"
+          },
+          {
+            "curie": "HP:0000411",
+            "label": "Protruding ear"
+          },
+          {
+            "curie": "HP:0045025",
+            "label": "Narrow palpebral fissure"
+          },
+          {
+            "curie": "HP:0001763",
+            "label": "Pes planus"
+          },
+          {
+            "curie": "HP:0000470",
+            "label": "Short neck"
+          },
+          {
+            "curie": "HP:0001508",
+            "label": "Failure to thrive"
+          },
+          {
+            "curie": "HP:0002033",
+            "label": "Poor suck"
+          },
+          {
+            "curie": "HP:0000506",
+            "label": "Telecanthus"
+          },
+          {
+            "curie": "HP:0000218",
+            "label": "High palate"
+          },
+          {
+            "curie": "HP:0000646",
+            "label": "Amblyopia"
+          },
+          {
+            "curie": "HP:0004322",
+            "label": "Short stature"
+          },
+          {
+            "curie": "HP:0000508",
+            "label": "Ptosis"
+          },
+          {
+            "curie": "HP:0000486",
+            "label": "Strabismus"
+          },
+          {
+            "curie": "HP:0001263",
+            "label": "Global developmental delay"
+          },
+          {
+            "curie": "HP:0000405",
+            "label": "Conductive hearing impairment"
+          },
+          {
+            "curie": "HP:0000064",
+            "label": "Hypoplastic labia minora"
+          },
+          {
+            "curie": "HP:0011003",
+            "label": "High myopia"
+          },
+          {
+            "curie": "HP:0001270",
+            "label": "Motor delay"
+          },
+          {
+            "curie": "HP:0000316",
+            "label": "Hypertelorism"
+          },
+          {
+            "curie": "HP:0000278",
+            "label": "Retrognathia"
+          },
+          {
+            "curie": "HP:0001252",
+            "label": "Hypotonia"
+          },
+          {
+            "curie": "HP:0001845",
+            "label": "Overlapping toe"
+          }
+        ],
+        "excluded": [
+          {
+            "curie": "HP:0001250",
+            "label": "Seizure"
+          }
+        ]
+      },
+      "disease": {
+        "truthPresent": [
+          "Patent ductus arteriosus",
+          "Pes planus",
+          "Short neck",
+          "Telecanthus",
+          "Short stature",
+          "Ptosis",
+          "Strabismus",
+          "Global developmental delay",
+          "Motor delay",
+          "Hypertelorism",
+          "Hypotonia",
+          "Overlapping toe"
+        ],
+        "rivalPresent": [
+          "Poor suck",
+          "High palate",
+          "Amblyopia",
+          "Short stature",
+          "Ptosis",
+          "Strabismus",
+          "Global developmental delay",
+          "Conductive hearing impairment",
+          "High myopia",
+          "Hypertelorism",
+          "Retrognathia",
+          "Hypotonia",
+          "Overlapping toe"
+        ],
+        "truthExcluded": [
+          "Seizure"
+        ],
+        "rivalExcluded": [
+          "Seizure"
+        ],
+        "presentOwnership": {
+          "truthOnly": [
+            "Patent ductus arteriosus",
+            "Pes planus",
+            "Short neck",
+            "Telecanthus",
+            "Motor delay"
+          ],
+          "rivalOnly": [
+            "Poor suck",
+            "High palate",
+            "Amblyopia",
+            "Conductive hearing impairment",
+            "High myopia",
+            "Retrognathia"
+          ],
+          "shared": [
+            "Short stature",
+            "Ptosis",
+            "Strabismus",
+            "Global developmental delay",
+            "Hypertelorism",
+            "Hypotonia",
+            "Overlapping toe"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": [
+            "Seizure"
+          ]
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Patent ductus arteriosus",
+          "Pes planus",
+          "Short neck",
+          "Telecanthus",
+          "Short stature",
+          "Ptosis",
+          "Strabismus",
+          "Global developmental delay",
+          "Motor delay",
+          "Hypertelorism",
+          "Hypotonia",
+          "Overlapping toe"
+        ],
+        "rivalPresent": [
+          "Poor suck",
+          "High palate",
+          "Amblyopia",
+          "Short stature",
+          "Ptosis",
+          "Strabismus",
+          "Global developmental delay",
+          "Conductive hearing impairment",
+          "High myopia",
+          "Hypertelorism",
+          "Retrognathia",
+          "Hypotonia",
+          "Overlapping toe"
+        ],
+        "truthExcluded": [
+          "Seizure"
+        ],
+        "rivalExcluded": [
+          "Seizure"
+        ],
+        "presentOwnership": {
+          "truthOnly": [
+            "Patent ductus arteriosus",
+            "Pes planus",
+            "Short neck",
+            "Telecanthus",
+            "Motor delay"
+          ],
+          "rivalOnly": [
+            "Poor suck",
+            "High palate",
+            "Amblyopia",
+            "Conductive hearing impairment",
+            "High myopia",
+            "Retrognathia"
+          ],
+          "shared": [
+            "Short stature",
+            "Ptosis",
+            "Strabismus",
+            "Global developmental delay",
+            "Hypertelorism",
+            "Hypotonia",
+            "Overlapping toe"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": [
+            "Seizure"
+          ]
+        }
+      }
+    },
+    {
+      "caseId": "PMID_35190816_STX_26865513_Patient_45",
+      "fileName": "PMID_35190816_STX_26865513_Patient_45.json",
+      "truthGeneLabel": "STXBP1",
+      "truthDiseaseCurie": "MONDO:0012812",
+      "truthDiseaseLabel": "developmental and epileptic encephalopathy, 4",
+      "rivalGeneLabel": "",
+      "rivalDiseaseCurie": "",
+      "rivalDiseaseLabel": "",
+      "genovyRank": null,
+      "exomiserRank": 21,
+      "status": "Still undercoverage-looking; no fresh current outranker trace was recovered because the heavy live audit path failed on infrastructure capacity.",
+      "packet": {
+        "fileName": "PMID_35190816_STX_26865513_Patient_45.json",
+        "present": [
+          {
+            "curie": "HP:0001263",
+            "label": "Global developmental delay"
+          },
+          {
+            "curie": "HP:0010864",
+            "label": "Intellectual disability, severe"
+          },
+          {
+            "curie": "HP:0001290",
+            "label": "Generalized hypotonia"
+          },
+          {
+            "curie": "HP:0002066",
+            "label": "Gait ataxia"
+          },
+          {
+            "curie": "HP:0002078",
+            "label": "Truncal ataxia"
+          },
+          {
+            "curie": "HP:0002346",
+            "label": "Head tremor"
+          },
+          {
+            "curie": "HP:0002345",
+            "label": "Action tremor"
+          },
+          {
+            "curie": "HP:0011203",
+            "label": "EEG with abnormally slow frequencies"
+          },
+          {
+            "curie": "HP:0000712",
+            "label": "Emotional lability"
+          },
+          {
+            "curie": "HP:0000718",
+            "label": "Aggressive behavior"
+          },
+          {
+            "curie": "HP:0001344",
+            "label": "Absent speech"
+          }
+        ],
+        "excluded": []
+      },
+      "disease": {
+        "truthPresent": [
+          "Intellectual disability, severe",
+          "Absent speech"
+        ],
+        "rivalPresent": [],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Intellectual disability, severe",
+            "Absent speech"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Global developmental delay",
+          "Intellectual disability, severe",
+          "EEG with abnormally slow frequencies",
+          "Absent speech"
+        ],
+        "rivalPresent": [],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Global developmental delay",
+            "Intellectual disability, severe",
+            "EEG with abnormally slow frequencies",
+            "Absent speech"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_35190816_STX_28944233_270001",
+      "fileName": "PMID_35190816_STX_28944233_270001.json",
+      "truthGeneLabel": "STXBP1",
+      "truthDiseaseCurie": "MONDO:0008939",
+      "truthDiseaseLabel": "isolated cerebellar hypoplasia/agenesis",
+      "rivalGeneLabel": "RAI1",
+      "rivalDiseaseCurie": "MONDO:0008434",
+      "rivalDiseaseLabel": "Smith-Magenis syndrome",
+      "genovyRank": null,
+      "exomiserRank": 2713,
+      "status": "Proven strong mimic case; branch weakness plus a genuinely strong RAI1 packet fit.",
+      "packet": {
+        "fileName": "PMID_35190816_STX_28944233_270001.json",
+        "present": [
+          {
+            "curie": "HP:0001263",
+            "label": "Global developmental delay"
+          },
+          {
+            "curie": "HP:0001344",
+            "label": "Absent speech"
+          },
+          {
+            "curie": "HP:0000718",
+            "label": "Aggressive behavior"
+          },
+          {
+            "curie": "HP:0100710",
+            "label": "Impulsivity"
+          },
+          {
+            "curie": "HP:0003763",
+            "label": "Bruxism"
+          },
+          {
+            "curie": "HP:0002007",
+            "label": "Frontal bossing"
+          },
+          {
+            "curie": "HP:0000283",
+            "label": "Broad face"
+          },
+          {
+            "curie": "HP:0003196",
+            "label": "Short nose"
+          },
+          {
+            "curie": "HP:0005280",
+            "label": "Depressed nasal bridge"
+          },
+          {
+            "curie": "HP:0000160",
+            "label": "Narrow mouth"
+          },
+          {
+            "curie": "HP:0008947",
+            "label": "Infantile muscular hypotonia"
+          },
+          {
+            "curie": "HP:0007021",
+            "label": "Pain insensitivity"
+          },
+          {
+            "curie": "HP:0002020",
+            "label": "Gastroesophageal reflux"
+          },
+          {
+            "curie": "HP:0002019",
+            "label": "Constipation"
+          },
+          {
+            "curie": "HP:0001169",
+            "label": "Broad palm"
+          },
+          {
+            "curie": "HP:0001182",
+            "label": "Tapered finger"
+          },
+          {
+            "curie": "HP:0010055",
+            "label": "Broad hallux"
+          },
+          {
+            "curie": "HP:0000486",
+            "label": "Strabismus"
+          }
+        ],
+        "excluded": []
+      },
+      "disease": {
+        "truthPresent": [
+          "Global developmental delay"
+        ],
+        "rivalPresent": [
+          "Global developmental delay",
+          "Impulsivity",
+          "Frontal bossing",
+          "Broad face",
+          "Short nose",
+          "Depressed nasal bridge",
+          "Pain insensitivity",
+          "Gastroesophageal reflux",
+          "Constipation",
+          "Broad palm",
+          "Strabismus"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [
+            "Impulsivity",
+            "Frontal bossing",
+            "Broad face",
+            "Short nose",
+            "Depressed nasal bridge",
+            "Pain insensitivity",
+            "Gastroesophageal reflux",
+            "Constipation",
+            "Broad palm",
+            "Strabismus"
+          ],
+          "shared": [
+            "Global developmental delay"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Global developmental delay",
+          "Absent speech",
+          "Narrow mouth",
+          "Constipation",
+          "Strabismus"
+        ],
+        "rivalPresent": [
+          "Global developmental delay",
+          "Impulsivity",
+          "Frontal bossing",
+          "Broad face",
+          "Short nose",
+          "Depressed nasal bridge",
+          "Infantile muscular hypotonia",
+          "Pain insensitivity",
+          "Gastroesophageal reflux",
+          "Constipation",
+          "Broad palm",
+          "Strabismus"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Absent speech",
+            "Narrow mouth"
+          ],
+          "rivalOnly": [
+            "Impulsivity",
+            "Frontal bossing",
+            "Broad face",
+            "Short nose",
+            "Depressed nasal bridge",
+            "Infantile muscular hypotonia",
+            "Pain insensitivity",
+            "Gastroesophageal reflux",
+            "Broad palm"
+          ],
+          "shared": [
+            "Global developmental delay",
+            "Constipation",
+            "Strabismus"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_36331550_Family16Patient21",
+      "fileName": "PMID_36331550_Family16Patient21.json",
+      "truthGeneLabel": "SPTAN1",
+      "truthDiseaseCurie": "MONDO:0957815",
+      "truthDiseaseLabel": "developmental delay with or without epilepsy",
+      "rivalGeneLabel": "ZBTB11",
+      "rivalDiseaseCurie": "MONDO:0032715",
+      "rivalDiseaseLabel": "intellectual developmental disorder, autosomal recessive 69",
+      "genovyRank": null,
+      "exomiserRank": 1,
+      "status": "True ranking/specificity failure; tiny positive packet and weak use of negatives.",
+      "packet": {
+        "fileName": "PMID_36331550_Family16Patient21.json",
+        "present": [
+          {
+            "curie": "HP:0000750",
+            "label": "Delayed speech and language development"
+          },
+          {
+            "curie": "HP:0000252",
+            "label": "Microcephaly"
+          }
+        ],
+        "excluded": [
+          {
+            "curie": "HP:0032794",
+            "label": "Myoclonic seizure"
+          },
+          {
+            "curie": "HP:0010819",
+            "label": "Atonic seizure"
+          },
+          {
+            "curie": "HP:0002384",
+            "label": "Focal impaired awareness seizure"
+          },
+          {
+            "curie": "HP:0002121",
+            "label": "Generalized non-motor (absence) seizure"
+          },
+          {
+            "curie": "HP:0002069",
+            "label": "Bilateral tonic-clonic seizure"
+          },
+          {
+            "curie": "HP:0012469",
+            "label": "Infantile spasms"
+          },
+          {
+            "curie": "HP:0002373",
+            "label": "Febrile seizure (within the age range of 3 months to 6 years)"
+          },
+          {
+            "curie": "HP:0001249",
+            "label": "Intellectual disability"
+          },
+          {
+            "curie": "HP:0001270",
+            "label": "Motor delay"
+          },
+          {
+            "curie": "HP:0001252",
+            "label": "Hypotonia"
+          },
+          {
+            "curie": "HP:0006895",
+            "label": "Lower limb hypertonia"
+          },
+          {
+            "curie": "HP:0002395",
+            "label": "Lower limb hyperreflexia"
+          },
+          {
+            "curie": "HP:0007340",
+            "label": "Lower limb muscle weakness"
+          },
+          {
+            "curie": "HP:0007018",
+            "label": "Attention deficit hyperactivity disorder"
+          },
+          {
+            "curie": "HP:0001251",
+            "label": "Ataxia"
+          },
+          {
+            "curie": "HP:0001257",
+            "label": "Spasticity"
+          },
+          {
+            "curie": "HP:0000486",
+            "label": "Strabismus"
+          },
+          {
+            "curie": "HP:0000639",
+            "label": "Nystagmus"
+          },
+          {
+            "curie": "HP:0001272",
+            "label": "Cerebellar atrophy"
+          }
+        ]
+      },
+      "disease": {
+        "truthPresent": [
+          "Delayed speech and language development",
+          "Microcephaly"
+        ],
+        "rivalPresent": [
+          "Delayed speech and language development",
+          "Microcephaly"
+        ],
+        "truthExcluded": [
+          "Myoclonic seizure",
+          "Atonic seizure",
+          "Focal impaired awareness seizure",
+          "Generalized non-motor (absence) seizure",
+          "Bilateral tonic-clonic seizure",
+          "Infantile spasms",
+          "Febrile seizure (within the age range of 3 months to 6 years)",
+          "Intellectual disability",
+          "Motor delay",
+          "Hypotonia",
+          "Lower limb hypertonia",
+          "Lower limb hyperreflexia",
+          "Lower limb muscle weakness",
+          "Attention deficit hyperactivity disorder",
+          "Ataxia",
+          "Spasticity",
+          "Strabismus",
+          "Nystagmus",
+          "Cerebellar atrophy"
+        ],
+        "rivalExcluded": [
+          "Hypotonia",
+          "Ataxia",
+          "Spasticity"
+        ],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": [
+            "Delayed speech and language development",
+            "Microcephaly"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Myoclonic seizure",
+            "Atonic seizure",
+            "Focal impaired awareness seizure",
+            "Generalized non-motor (absence) seizure",
+            "Bilateral tonic-clonic seizure",
+            "Infantile spasms",
+            "Febrile seizure (within the age range of 3 months to 6 years)",
+            "Intellectual disability",
+            "Motor delay",
+            "Lower limb hypertonia",
+            "Lower limb hyperreflexia",
+            "Lower limb muscle weakness",
+            "Attention deficit hyperactivity disorder",
+            "Strabismus",
+            "Nystagmus",
+            "Cerebellar atrophy"
+          ],
+          "rivalOnly": [],
+          "shared": [
+            "Hypotonia",
+            "Ataxia",
+            "Spasticity"
+          ]
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Delayed speech and language development",
+          "Microcephaly"
+        ],
+        "rivalPresent": [
+          "Delayed speech and language development",
+          "Microcephaly"
+        ],
+        "truthExcluded": [
+          "Myoclonic seizure",
+          "Atonic seizure",
+          "Focal impaired awareness seizure",
+          "Generalized non-motor (absence) seizure",
+          "Bilateral tonic-clonic seizure",
+          "Infantile spasms",
+          "Febrile seizure (within the age range of 3 months to 6 years)",
+          "Intellectual disability",
+          "Motor delay",
+          "Hypotonia",
+          "Lower limb hypertonia",
+          "Lower limb hyperreflexia",
+          "Lower limb muscle weakness",
+          "Attention deficit hyperactivity disorder",
+          "Ataxia",
+          "Spasticity",
+          "Strabismus",
+          "Nystagmus",
+          "Cerebellar atrophy"
+        ],
+        "rivalExcluded": [
+          "Hypotonia",
+          "Ataxia",
+          "Spasticity"
+        ],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": [
+            "Delayed speech and language development",
+            "Microcephaly"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Myoclonic seizure",
+            "Atonic seizure",
+            "Focal impaired awareness seizure",
+            "Generalized non-motor (absence) seizure",
+            "Bilateral tonic-clonic seizure",
+            "Infantile spasms",
+            "Febrile seizure (within the age range of 3 months to 6 years)",
+            "Intellectual disability",
+            "Motor delay",
+            "Lower limb hypertonia",
+            "Lower limb hyperreflexia",
+            "Lower limb muscle weakness",
+            "Attention deficit hyperactivity disorder",
+            "Strabismus",
+            "Nystagmus",
+            "Cerebellar atrophy"
+          ],
+          "rivalOnly": [],
+          "shared": [
+            "Hypotonia",
+            "Ataxia",
+            "Spasticity"
+          ]
+        }
+      }
+    },
+    {
+      "caseId": "PMID_36446582_Goldenberg2016_P13",
+      "fileName": "PMID_36446582_Goldenberg2016_P13.json",
+      "truthGeneLabel": "ANKRD11",
+      "truthDiseaseCurie": "MONDO:0007846",
+      "truthDiseaseLabel": "KBG syndrome",
+      "rivalGeneLabel": "GDF5",
+      "rivalDiseaseCurie": "MONDO:0007215",
+      "rivalDiseaseLabel": "brachydactyly type A1",
+      "genovyRank": null,
+      "exomiserRank": 217,
+      "status": "Symmetric source/OMIM shadow helped but did not rescue; still mostly truth-branch thinness.",
+      "packet": {
+        "fileName": "PMID_36446582_Goldenberg2016_P13.json",
+        "present": [
+          {
+            "curie": "HP:0001155",
+            "label": "Abnormality of the hand"
+          },
+          {
+            "curie": "HP:0004322",
+            "label": "Short stature"
+          }
+        ],
+        "excluded": [
+          {
+            "curie": "HP:0000252",
+            "label": "Microcephaly"
+          }
+        ]
+      },
+      "disease": {
+        "truthPresent": [
+          "Short stature"
+        ],
+        "rivalPresent": [
+          "Short stature"
+        ],
+        "truthExcluded": [
+          "Microcephaly"
+        ],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": [
+            "Short stature"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Microcephaly"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Short stature"
+        ],
+        "rivalPresent": [
+          "Short stature"
+        ],
+        "truthExcluded": [
+          "Microcephaly"
+        ],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": [
+            "Short stature"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Microcephaly"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_36446582_Miyatake2017_P1",
+      "fileName": "PMID_36446582_Miyatake2017_P1.json",
+      "truthGeneLabel": "ANKRD11",
+      "truthDiseaseCurie": "MONDO:0007846",
+      "truthDiseaseLabel": "KBG syndrome",
+      "rivalGeneLabel": "GAL",
+      "rivalDiseaseCurie": "MONDO:0014650",
+      "rivalDiseaseLabel": "familial temporal lobe epilepsy 8",
+      "genovyRank": null,
+      "exomiserRank": 1,
+      "status": "Hybrid case: partial truthful lift, but narrow seizure mimic still wins.",
+      "packet": {
+        "fileName": "PMID_36446582_Miyatake2017_P1.json",
+        "present": [
+          {
+            "curie": "HP:0001249",
+            "label": "Intellectual disability"
+          },
+          {
+            "curie": "HP:0001263",
+            "label": "Global developmental delay"
+          },
+          {
+            "curie": "HP:0001155",
+            "label": "Abnormality of the hand"
+          },
+          {
+            "curie": "HP:0004322",
+            "label": "Short stature"
+          },
+          {
+            "curie": "HP:0002750",
+            "label": "Delayed skeletal maturation"
+          },
+          {
+            "curie": "HP:0000750",
+            "label": "Delayed speech and language development"
+          },
+          {
+            "curie": "HP:0007359",
+            "label": "Focal-onset seizure"
+          },
+          {
+            "curie": "HP:0000316",
+            "label": "Hypertelorism"
+          }
+        ],
+        "excluded": [
+          {
+            "curie": "HP:0001572",
+            "label": "Macrodontia"
+          },
+          {
+            "curie": "HP:0011968",
+            "label": "Feeding difficulties"
+          },
+          {
+            "curie": "HP:0000294",
+            "label": "Low anterior hairline"
+          },
+          {
+            "curie": "HP:0000664",
+            "label": "Synophrys"
+          },
+          {
+            "curie": "HP:0000463",
+            "label": "Anteverted nares"
+          },
+          {
+            "curie": "HP:0000414",
+            "label": "Bulbous nose"
+          }
+        ]
+      },
+      "disease": {
+        "truthPresent": [
+          "Intellectual disability",
+          "Global developmental delay",
+          "Short stature",
+          "Delayed skeletal maturation",
+          "Hypertelorism"
+        ],
+        "rivalPresent": [],
+        "truthExcluded": [
+          "Macrodontia",
+          "Feeding difficulties",
+          "Low anterior hairline",
+          "Synophrys",
+          "Anteverted nares"
+        ],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Intellectual disability",
+            "Global developmental delay",
+            "Short stature",
+            "Delayed skeletal maturation",
+            "Hypertelorism"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Macrodontia",
+            "Feeding difficulties",
+            "Low anterior hairline",
+            "Synophrys",
+            "Anteverted nares"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Intellectual disability",
+          "Global developmental delay",
+          "Short stature",
+          "Delayed skeletal maturation",
+          "Delayed speech and language development",
+          "Hypertelorism"
+        ],
+        "rivalPresent": [],
+        "truthExcluded": [
+          "Macrodontia",
+          "Feeding difficulties",
+          "Low anterior hairline",
+          "Synophrys",
+          "Anteverted nares"
+        ],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Intellectual disability",
+            "Global developmental delay",
+            "Short stature",
+            "Delayed skeletal maturation",
+            "Delayed speech and language development",
+            "Hypertelorism"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [
+            "Macrodontia",
+            "Feeding difficulties",
+            "Low anterior hairline",
+            "Synophrys",
+            "Anteverted nares"
+          ],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_37156989_P1",
+      "fileName": "PMID_37156989_P1.json",
+      "truthGeneLabel": "SOCS1",
+      "truthDiseaseCurie": "MONDO:0800130",
+      "truthDiseaseLabel": "autoinflammatory syndrome with immunodeficiency",
+      "rivalGeneLabel": "CTLA4",
+      "rivalDiseaseCurie": "MONDO:0014493",
+      "rivalDiseaseLabel": "autoimmune lymphoproliferative syndrome due to CTLA4 haploinsufficiency",
+      "genovyRank": null,
+      "exomiserRank": 455,
+      "status": "Truthful source repair lifted truth 400 -> 48, but CTLA4 still owns the sharpest inflammatory exacts.",
+      "packet": {
+        "fileName": "PMID_37156989_P1.json",
+        "present": [
+          {
+            "curie": "HP:0002960",
+            "label": "Autoimmunity"
+          },
+          {
+            "curie": "HP:0003765",
+            "label": "Psoriasiform dermatitis"
+          },
+          {
+            "curie": "HP:0000388",
+            "label": "Otitis media"
+          },
+          {
+            "curie": "HP:0000246",
+            "label": "Sinusitis"
+          },
+          {
+            "curie": "HP:0025452",
+            "label": "Pyoderma gangrenosum"
+          },
+          {
+            "curie": "HP:0100280",
+            "label": "Crohn's disease"
+          }
+        ],
+        "excluded": []
+      },
+      "disease": {
+        "truthPresent": [],
+        "rivalPresent": [
+          "Psoriasiform dermatitis",
+          "Crohn's disease"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [
+            "Psoriasiform dermatitis",
+            "Crohn's disease"
+          ],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [],
+        "rivalPresent": [
+          "Autoimmunity",
+          "Psoriasiform dermatitis",
+          "Otitis media",
+          "Sinusitis",
+          "Crohn's disease"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [
+            "Autoimmunity",
+            "Psoriasiform dermatitis",
+            "Otitis media",
+            "Sinusitis",
+            "Crohn's disease"
+          ],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_37761890_41",
+      "fileName": "PMID_37761890_41.json",
+      "truthGeneLabel": "PPP2R1A",
+      "truthDiseaseCurie": "MONDO:0014605",
+      "truthDiseaseLabel": "Houge-Janssens syndrome 2",
+      "rivalGeneLabel": "HNRNPC",
+      "rivalDiseaseCurie": "MONDO:0958203",
+      "rivalDiseaseLabel": "intellectual developmental disorder, autosomal dominant 74",
+      "genovyRank": null,
+      "exomiserRank": 399,
+      "status": "Truthful head-to-head repair improved truth 3 -> 2, but HNRNPC still wins.",
+      "packet": {
+        "fileName": "PMID_37761890_41.json",
+        "present": [
+          {
+            "curie": "HP:0001511",
+            "label": "Intrauterine growth retardation"
+          },
+          {
+            "curie": "HP:0000252",
+            "label": "Microcephaly"
+          },
+          {
+            "curie": "HP:0002342",
+            "label": "Intellectual disability, moderate"
+          },
+          {
+            "curie": "HP:0000750",
+            "label": "Delayed speech and language development"
+          },
+          {
+            "curie": "HP:0001270",
+            "label": "Motor delay"
+          },
+          {
+            "curie": "HP:0001250",
+            "label": "Seizure"
+          },
+          {
+            "curie": "HP:0002079",
+            "label": "Hypoplasia of the corpus callosum"
+          },
+          {
+            "curie": "HP:0007018",
+            "label": "Attention deficit hyperactivity disorder"
+          },
+          {
+            "curie": "HP:0011968",
+            "label": "Feeding difficulties"
+          }
+        ],
+        "excluded": []
+      },
+      "disease": {
+        "truthPresent": [
+          "Microcephaly",
+          "Seizure",
+          "Hypoplasia of the corpus callosum"
+        ],
+        "rivalPresent": [
+          "Intrauterine growth retardation",
+          "Microcephaly",
+          "Intellectual disability, moderate",
+          "Delayed speech and language development",
+          "Feeding difficulties"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Seizure",
+            "Hypoplasia of the corpus callosum"
+          ],
+          "rivalOnly": [
+            "Intrauterine growth retardation",
+            "Intellectual disability, moderate",
+            "Delayed speech and language development",
+            "Feeding difficulties"
+          ],
+          "shared": [
+            "Microcephaly"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Microcephaly",
+          "Seizure",
+          "Hypoplasia of the corpus callosum"
+        ],
+        "rivalPresent": [
+          "Intrauterine growth retardation",
+          "Microcephaly",
+          "Intellectual disability, moderate",
+          "Delayed speech and language development",
+          "Feeding difficulties"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Seizure",
+            "Hypoplasia of the corpus callosum"
+          ],
+          "rivalOnly": [
+            "Intrauterine growth retardation",
+            "Intellectual disability, moderate",
+            "Delayed speech and language development",
+            "Feeding difficulties"
+          ],
+          "shared": [
+            "Microcephaly"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_37761890_43",
+      "fileName": "PMID_37761890_43.json",
+      "truthGeneLabel": "PPP2R1A",
+      "truthDiseaseCurie": "MONDO:0014605",
+      "truthDiseaseLabel": "Houge-Janssens syndrome 2",
+      "rivalGeneLabel": "MACF1",
+      "rivalDiseaseCurie": "MONDO:0032677",
+      "rivalDiseaseLabel": "lissencephaly 9 with complex brainstem malformation",
+      "genovyRank": null,
+      "exomiserRank": 39,
+      "status": "Truthful head-to-head repair flipped truth 2 -> 1, but this still needs symmetric confirmation before treating it as fully solved.",
+      "packet": {
+        "fileName": "PMID_37761890_43.json",
+        "present": [
+          {
+            "curie": "HP:0004322",
+            "label": "Short stature"
+          },
+          {
+            "curie": "HP:0000252",
+            "label": "Microcephaly"
+          },
+          {
+            "curie": "HP:0001263",
+            "label": "Global developmental delay"
+          },
+          {
+            "curie": "HP:0000750",
+            "label": "Delayed speech and language development"
+          },
+          {
+            "curie": "HP:0001270",
+            "label": "Motor delay"
+          },
+          {
+            "curie": "HP:0001250",
+            "label": "Seizure"
+          },
+          {
+            "curie": "HP:0001274",
+            "label": "Agenesis of corpus callosum"
+          },
+          {
+            "curie": "HP:0001252",
+            "label": "Hypotonia"
+          },
+          {
+            "curie": "HP:0011968",
+            "label": "Feeding difficulties"
+          }
+        ],
+        "excluded": []
+      },
+      "disease": {
+        "truthPresent": [
+          "Microcephaly",
+          "Global developmental delay",
+          "Seizure",
+          "Agenesis of corpus callosum",
+          "Hypotonia"
+        ],
+        "rivalPresent": [
+          "Short stature",
+          "Microcephaly",
+          "Global developmental delay",
+          "Seizure",
+          "Hypotonia",
+          "Feeding difficulties"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Agenesis of corpus callosum"
+          ],
+          "rivalOnly": [
+            "Short stature",
+            "Feeding difficulties"
+          ],
+          "shared": [
+            "Microcephaly",
+            "Global developmental delay",
+            "Seizure",
+            "Hypotonia"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      },
+      "gene": {
+        "truthPresent": [
+          "Microcephaly",
+          "Global developmental delay",
+          "Seizure",
+          "Agenesis of corpus callosum",
+          "Hypotonia"
+        ],
+        "rivalPresent": [
+          "Short stature",
+          "Microcephaly",
+          "Global developmental delay",
+          "Seizure",
+          "Hypotonia",
+          "Feeding difficulties"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [],
+        "presentOwnership": {
+          "truthOnly": [
+            "Agenesis of corpus callosum"
+          ],
+          "rivalOnly": [
+            "Short stature",
+            "Feeding difficulties"
+          ],
+          "shared": [
+            "Microcephaly",
+            "Global developmental delay",
+            "Seizure",
+            "Hypotonia"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [],
+          "shared": []
+        }
+      }
+    },
+    {
+      "caseId": "PMID_37962958_43",
+      "fileName": "PMID_37962958_43.json",
+      "truthGeneLabel": "U2AF2",
+      "truthDiseaseCurie": "MONDO:0957810",
+      "truthDiseaseLabel": "neurodevelopmental disorder with poor growth and dysmorphic facies",
+      "rivalGeneLabel": "LRRC7",
+      "rivalDiseaseCurie": "MONDO:0980748",
+      "rivalDiseaseLabel": "intellectual developmental disorder, autosomal dominant 77",
+      "genovyRank": null,
+      "exomiserRank": 1374,
+      "status": "Truthful symmetric source repair moved truth 959 -> 2, but LRRC7 stays 1 despite multiple exact excluded contradictions.",
+      "packet": {
+        "fileName": "PMID_37962958_43.json",
+        "present": [
+          {
+            "curie": "HP:0001561",
+            "label": "Polyhydramnios"
+          },
+          {
+            "curie": "HP:0001511",
+            "label": "Intrauterine growth retardation"
+          },
+          {
+            "curie": "HP:0001263",
+            "label": "Global developmental delay"
+          },
+          {
+            "curie": "HP:0001249",
+            "label": "Intellectual disability"
+          },
+          {
+            "curie": "HP:0010862",
+            "label": "Delayed fine motor development"
+          },
+          {
+            "curie": "HP:0031936",
+            "label": "Delayed ability to walk"
+          },
+          {
+            "curie": "HP:0000750",
+            "label": "Delayed speech and language development"
+          },
+          {
+            "curie": "HP:0000739",
+            "label": "Anxiety"
+          },
+          {
+            "curie": "HP:0008770",
+            "label": "Obsessive-compulsive trait"
+          },
+          {
+            "curie": "HP:0002069",
+            "label": "Bilateral tonic-clonic seizure"
+          },
+          {
+            "curie": "HP:0002505",
+            "label": "Loss of ambulation"
+          },
+          {
+            "curie": "HP:0001332",
+            "label": "Dystonia"
+          },
+          {
+            "curie": "HP:0000540",
+            "label": "Hypermetropia"
+          },
+          {
+            "curie": "HP:0003396",
+            "label": "Syringomyelia"
+          },
+          {
+            "curie": "HP:0002020",
+            "label": "Gastroesophageal reflux"
+          },
+          {
+            "curie": "HP:0002019",
+            "label": "Constipation"
+          },
+          {
+            "curie": "HP:0030084",
+            "label": "Clinodactyly"
+          },
+          {
+            "curie": "HP:0001852",
+            "label": "Sandal gap"
+          },
+          {
+            "curie": "HP:0012745",
+            "label": "Short palpebral fissure"
+          },
+          {
+            "curie": "HP:0000316",
+            "label": "Hypertelorism"
+          },
+          {
+            "curie": "HP:0001488",
+            "label": "Bilateral ptosis"
+          },
+          {
+            "curie": "HP:0007687",
+            "label": "Unilateral ptosis"
+          },
+          {
+            "curie": "HP:0000431",
+            "label": "Wide nasal bridge"
+          },
+          {
+            "curie": "HP:0000278",
+            "label": "Retrognathia"
+          },
+          {
+            "curie": "HP:0000369",
+            "label": "Low-set ears"
+          }
+        ],
+        "excluded": [
+          {
+            "curie": "HP:0011968",
+            "label": "Feeding difficulties"
+          },
+          {
+            "curie": "HP:0000729",
+            "label": "Autistic behavior"
+          },
+          {
+            "curie": "HP:0007018",
+            "label": "Attention deficit hyperactivity disorder"
+          },
+          {
+            "curie": "HP:0000365",
+            "label": "Hearing impairment"
+          },
+          {
+            "curie": "HP:0011927",
+            "label": "Short digit"
+          },
+          {
+            "curie": "HP:0004691",
+            "label": "2-3 toe syndactyly"
+          },
+          {
+            "curie": "HP:0000490",
+            "label": "Deeply set eye"
+          },
+          {
+            "curie": "HP:0000470",
+            "label": "Short neck"
+          },
+          {
+            "curie": "HP:0006610",
+            "label": "Wide intermamillary distance"
+          }
+        ]
+      },
+      "disease": {
+        "truthPresent": [
+          "Global developmental delay",
+          "Retrognathia",
+          "Low-set ears"
+        ],
+        "rivalPresent": [
+          "Global developmental delay",
+          "Intellectual disability",
+          "Delayed fine motor development",
+          "Delayed ability to walk",
+          "Delayed speech and language development",
+          "Anxiety",
+          "Dystonia",
+          "Hypermetropia",
+          "Syringomyelia",
+          "Gastroesophageal reflux",
+          "Hypertelorism",
+          "Bilateral ptosis",
+          "Wide nasal bridge",
+          "Low-set ears"
+        ],
+        "truthExcluded": [
+          "Autistic behavior"
+        ],
+        "rivalExcluded": [
+          "Feeding difficulties",
+          "Autistic behavior",
+          "Attention deficit hyperactivity disorder",
+          "Hearing impairment"
+        ],
+        "presentOwnership": {
+          "truthOnly": [
+            "Retrognathia"
+          ],
+          "rivalOnly": [
+            "Intellectual disability",
+            "Delayed fine motor development",
+            "Delayed ability to walk",
+            "Delayed speech and language development",
+            "Anxiety",
+            "Dystonia",
+            "Hypermetropia",
+            "Syringomyelia",
+            "Gastroesophageal reflux",
+            "Hypertelorism",
+            "Bilateral ptosis",
+            "Wide nasal bridge"
+          ],
+          "shared": [
+            "Global developmental delay",
+            "Low-set ears"
+          ]
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [
+            "Feeding difficulties",
+            "Attention deficit hyperactivity disorder",
+            "Hearing impairment"
+          ],
+          "shared": [
+            "Autistic behavior"
+          ]
+        }
+      },
+      "gene": {
+        "truthPresent": [],
+        "rivalPresent": [
+          "Global developmental delay",
+          "Intellectual disability",
+          "Delayed fine motor development",
+          "Delayed ability to walk",
+          "Delayed speech and language development",
+          "Anxiety",
+          "Dystonia",
+          "Hypermetropia",
+          "Syringomyelia",
+          "Gastroesophageal reflux",
+          "Hypertelorism",
+          "Bilateral ptosis",
+          "Wide nasal bridge",
+          "Low-set ears"
+        ],
+        "truthExcluded": [],
+        "rivalExcluded": [
+          "Feeding difficulties",
+          "Autistic behavior",
+          "Attention deficit hyperactivity disorder",
+          "Hearing impairment"
+        ],
+        "presentOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [
+            "Global developmental delay",
+            "Intellectual disability",
+            "Delayed fine motor development",
+            "Delayed ability to walk",
+            "Delayed speech and language development",
+            "Anxiety",
+            "Dystonia",
+            "Hypermetropia",
+            "Syringomyelia",
+            "Gastroesophageal reflux",
+            "Hypertelorism",
+            "Bilateral ptosis",
+            "Wide nasal bridge",
+            "Low-set ears"
+          ],
+          "shared": []
+        },
+        "excludedOwnership": {
+          "truthOnly": [],
+          "rivalOnly": [
+            "Feeding difficulties",
+            "Autistic behavior",
+            "Attention deficit hyperactivity disorder",
+            "Hearing impairment"
+          ],
+          "shared": []
+        }
+      }
+    }
+  ]
+}

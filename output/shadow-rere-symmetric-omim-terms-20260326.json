@@ -1,0 +1,263 @@
+{
+  "createdAt": "2026-03-26T19:21:14.581Z",
+  "targetCases": [
+    "PMID_29330883_Subject9"
+  ],
+  "scenarios": [
+    {
+      "id": "omim_literal_rere_med13",
+      "label": "RERE / MED13 Symmetric OMIM Terms",
+      "description": "Add only literal OMIM-backed terms from the RERE and MED13 clinical synopsis pages. The truth and outranker both receive source-backed additions if the term is in OMIM and currently absent from the live direct disease profile.",
+      "sourceNote": "RERE gains broad eyebrow, downslanted palpebral fissures, micrognathia, and short stature. MED13 gains synophrys, wide mouth, ADHD, strabismus, nystagmus, expressive language delay, and speech apraxia.",
+      "requestedDiseaseTerms": {
+        "MONDO:0014857": [
+          "HP:0011229",
+          "HP:0000494",
+          "HP:0000347",
+          "HP:0004322"
+        ],
+        "MONDO:0032485": [
+          "HP:0000664",
+          "HP:0000154",
+          "HP:0007018",
+          "HP:0000486",
+          "HP:0000639",
+          "HP:0002474",
+          "HP:0011098"
+        ]
+      },
+      "shadowAddedTerms": [
+        {
+          "disease_entity_id": 84438,
+          "disease_curie": "MONDO:0032485",
+          "disease_label": "intellectual developmental disorder 61",
+          "phenotype_entity_id": 122888,
+          "phenotype_curie": "HP:0000486",
+          "phenotype_label": "Strabismus",
+          "presence_status": "present",
+          "source_key": "shadow_omim_literal_rere_med13",
+          "source_record_key": "shadow_omim_literal_rere_med13:MONDO:0032485:HP:0000486",
+          "phenotype_edge_origin": "direct",
+          "reference_text": "[shadow omim_literal_rere_med13] symmetric OMIM-backed augmentation",
+          "evidence_code": "",
+          "onset_curie": "",
+          "onset_label": "",
+          "frequency_curie": "",
+          "frequency_label": "",
+          "modifier_curie": "",
+          "modifier_label": "",
+          "sex": "",
+          "aspect": "",
+          "row_source_mode": "shadow_omim_literal_rere_med13"
+        },
+        {
+          "disease_entity_id": 84438,
+          "disease_curie": "MONDO:0032485",
+          "disease_label": "intellectual developmental disorder 61",
+          "phenotype_entity_id": 123020,
+          "phenotype_curie": "HP:0000639",
+          "phenotype_label": "Nystagmus",
+          "presence_status": "present",
+          "source_key": "shadow_omim_literal_rere_med13",
+          "source_record_key": "shadow_omim_literal_rere_med13:MONDO:0032485:HP:0000639",
+          "phenotype_edge_origin": "direct",
+          "reference_text": "[shadow omim_literal_rere_med13] symmetric OMIM-backed augmentation",
+          "evidence_code": "",
+          "onset_curie": "",
+          "onset_label": "",
+          "frequency_curie": "",
+          "frequency_label": "",
+          "modifier_curie": "",
+          "modifier_label": "",
+          "sex": "",
+          "aspect": "",
+          "row_source_mode": "shadow_omim_literal_rere_med13"
+        },
+        {
+          "disease_entity_id": 84438,
+          "disease_curie": "MONDO:0032485",
+          "disease_label": "intellectual developmental disorder 61",
+          "phenotype_entity_id": 124357,
+          "phenotype_curie": "HP:0002474",
+          "phenotype_label": "Expressive language delay",
+          "presence_status": "present",
+          "source_key": "shadow_omim_literal_rere_med13",
+          "source_record_key": "shadow_omim_literal_rere_med13:MONDO:0032485:HP:0002474",
+          "phenotype_edge_origin": "direct",
+          "reference_text": "[shadow omim_literal_rere_med13] symmetric OMIM-backed augmentation",
+          "evidence_code": "",
+          "onset_curie": "",
+          "onset_label": "",
+          "frequency_curie": "",
+          "frequency_label": "",
+          "modifier_curie": "",
+          "modifier_label": "",
+          "sex": "",
+          "aspect": "",
+          "row_source_mode": "shadow_omim_literal_rere_med13"
+        }
+      ],
+      "skippedExistingTerms": [
+        {
+          "diseaseCurie": "MONDO:0014857",
+          "diseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+          "phenotypeCurie": "HP:0011229",
+          "phenotypeLabel": "Broad eyebrow"
+        },
+        {
+          "diseaseCurie": "MONDO:0014857",
+          "diseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+          "phenotypeCurie": "HP:0000494",
+          "phenotypeLabel": "Downslanted palpebral fissures"
+        },
+        {
+          "diseaseCurie": "MONDO:0014857",
+          "diseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+          "phenotypeCurie": "HP:0000347",
+          "phenotypeLabel": "Micrognathia"
+        },
+        {
+          "diseaseCurie": "MONDO:0014857",
+          "diseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+          "phenotypeCurie": "HP:0004322",
+          "phenotypeLabel": "Short stature"
+        },
+        {
+          "diseaseCurie": "MONDO:0032485",
+          "diseaseLabel": "intellectual developmental disorder 61",
+          "phenotypeCurie": "HP:0000664",
+          "phenotypeLabel": "Synophrys"
+        },
+        {
+          "diseaseCurie": "MONDO:0032485",
+          "diseaseLabel": "intellectual developmental disorder 61",
+          "phenotypeCurie": "HP:0000154",
+          "phenotypeLabel": "Wide mouth"
+        },
+        {
+          "diseaseCurie": "MONDO:0032485",
+          "diseaseLabel": "intellectual developmental disorder 61",
+          "phenotypeCurie": "HP:0007018",
+          "phenotypeLabel": "Attention deficit hyperactivity disorder"
+        },
+        {
+          "diseaseCurie": "MONDO:0032485",
+          "diseaseLabel": "intellectual developmental disorder 61",
+          "phenotypeCurie": "HP:0011098",
+          "phenotypeLabel": "Speech apraxia"
+        }
+      ],
+      "missingFromOntology": [],
+      "perCase": [
+        {
+          "case_id": "PMID_29330883_Subject9",
+          "truth_gene_keys": [
+            "ensembl:ENSG00000142599",
+            "hgnc:9965",
+            "ncbigene:473",
+            "symbol:RERE"
+          ],
+          "baseline_rank": 237,
+          "shadow_rank": 237,
+          "baseline_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:22474",
+            "geneLabel": "MED13",
+            "normalizedScore": 0.19877,
+            "directNormalizedScore": 0.19877,
+            "diseaseSupportScore": 0.19877,
+            "supportingDiseaseCurie": "MONDO:0032485",
+            "supportingDiseaseLabel": "intellectual developmental disorder 61",
+            "supportingDiseaseClassification": "",
+            "supportingDiseaseEvidenceWeight": 1,
+            "supportingDiseaseDirectPhenotypeCount": 20,
+            "supportingDiseasePropagatedPhenotypeCount": 0,
+            "matchedPhenotypeCount": 9
+          },
+          "baseline_truth": {
+            "rank": 237,
+            "geneCurie": "HGNC:9965",
+            "geneLabel": "RERE",
+            "normalizedScore": 0.156189,
+            "directNormalizedScore": 0.156189,
+            "diseaseSupportScore": 0.145472,
+            "supportingDiseaseCurie": "MONDO:0014857",
+            "supportingDiseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+            "supportingDiseaseClassification": "",
+            "supportingDiseaseEvidenceWeight": 1,
+            "supportingDiseaseDirectPhenotypeCount": 90,
+            "supportingDiseasePropagatedPhenotypeCount": 0,
+            "matchedPhenotypeCount": 9
+          },
+          "shadow_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:22474",
+            "geneLabel": "MED13",
+            "normalizedScore": 0.19877,
+            "directNormalizedScore": 0.19877,
+            "diseaseSupportScore": 0.194751,
+            "supportingDiseaseCurie": "MONDO:0032485",
+            "supportingDiseaseLabel": "intellectual developmental disorder 61",
+            "supportingDiseaseClassification": "",
+            "supportingDiseaseEvidenceWeight": 1,
+            "supportingDiseaseDirectPhenotypeCount": 23,
+            "supportingDiseasePropagatedPhenotypeCount": 0,
+            "matchedPhenotypeCount": 9
+          },
+          "shadow_truth": {
+            "rank": 237,
+            "geneCurie": "HGNC:9965",
+            "geneLabel": "RERE",
+            "normalizedScore": 0.156189,
+            "directNormalizedScore": 0.156189,
+            "diseaseSupportScore": 0.145472,
+            "supportingDiseaseCurie": "MONDO:0014857",
+            "supportingDiseaseLabel": "neurodevelopmental disorder with or without anomalies of the brain, eye, or heart",
+            "supportingDiseaseClassification": "",
+            "supportingDiseaseEvidenceWeight": 1,
+            "supportingDiseaseDirectPhenotypeCount": 90,
+            "supportingDiseasePropagatedPhenotypeCount": 0,
+            "matchedPhenotypeCount": 9
+          }
+        }
+      ],
+      "baselineSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": 237,
+        "mrr": 0.004219
+      },
+      "shadowSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": 237,
+        "mrr": 0.004219
+      },
+      "deltas": {
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 1,
+        "recovered_from_miss": 0,
+        "regressed_to_miss": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "createdAt": "2026-03-27T02:48:14.120Z",
+  "scenarios": [
+    {
+      "id": "omim_literal_traf7_dot1l",
+      "label": "OMIM Literal Terms",
+      "description": "Add only exact OMIM clinical synopsis terms that are explicitly described for the TRAF7 and DOT1L syndrome branches and currently absent from the live direct disease profile.",
+      "sourceNote": "TRAF7 gains feeding difficulties, hearing impairment, low-set ears, epicanthus, and optic atrophy. DOT1L gains feeding difficulties, hearing impairment, and high forehead.",
+      "shadowAddedTerms": [],
+      "skippedExistingTerms": [
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0011968",
+          "phenotypeLabel": "Feeding difficulties"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000365",
+          "phenotypeLabel": "Hearing impairment"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000369",
+          "phenotypeLabel": "Low-set ears"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000286",
+          "phenotypeLabel": "Epicanthus"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000648",
+          "phenotypeLabel": "Optic atrophy"
+        },
+        {
+          "diseaseCurie": "MONDO:0979246",
+          "diseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+          "phenotypeCurie": "HP:0011968",
+          "phenotypeLabel": "Feeding difficulties"
+        },
+        {
+          "diseaseCurie": "MONDO:0979246",
+          "diseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+          "phenotypeCurie": "HP:0000365",
+          "phenotypeLabel": "Hearing impairment"
+        },
+        {
+          "diseaseCurie": "MONDO:0979246",
+          "diseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+          "phenotypeCurie": "HP:0000348",
+          "phenotypeLabel": "High forehead"
+        }
+      ],
+      "missingFromOntology": [],
+      "baselineSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": {
+          "truth_rank": 143
+        },
+        "mrr": null
+      },
+      "shadowSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": {
+          "truth_rank": 143
+        },
+        "mrr": null
+      },
+      "comparison": {
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 1,
+        "recovered_from_miss": 0,
+        "regressed_to_miss": 0
+      },
+      "perCase": [
+        {
+          "case_id": "PMID_32376980_11",
+          "baseline_rank": 143,
+          "shadow_rank": 143,
+          "baseline_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:24948",
+            "geneLabel": "DOT1L",
+            "normalizedScore": 0.215339,
+            "directNormalizedScore": 0.215339,
+            "diseaseSupportScore": 0.215339,
+            "supportingDiseaseCurie": "MONDO:0979246",
+            "supportingDiseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          },
+          "shadow_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:24948",
+            "geneLabel": "DOT1L",
+            "normalizedScore": 0.215339,
+            "directNormalizedScore": 0.215339,
+            "diseaseSupportScore": 0.215339,
+            "supportingDiseaseCurie": "MONDO:0979246",
+            "supportingDiseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          },
+          "baseline_truth": {
+            "rank": 143,
+            "geneCurie": "HGNC:20456",
+            "geneLabel": "TRAF7",
+            "normalizedScore": 0.182754,
+            "directNormalizedScore": 0.176247,
+            "diseaseSupportScore": 0.182754,
+            "supportingDiseaseCurie": "MONDO:0032572",
+            "supportingDiseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          },
+          "shadow_truth": {
+            "rank": 143,
+            "geneCurie": "HGNC:20456",
+            "geneLabel": "TRAF7",
+            "normalizedScore": 0.182754,
+            "directNormalizedScore": 0.176247,
+            "diseaseSupportScore": 0.182754,
+            "supportingDiseaseCurie": "MONDO:0032572",
+            "supportingDiseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          }
+        }
+      ]
+    },
+    {
+      "id": "omim_plus_primary_traf7_dot1l",
+      "label": "OMIM Plus Primary Syndrome Papers",
+      "description": "Start from the OMIM literal additions, then layer in exact terms that are explicitly supported by the main TRAF7 and DOT1L syndrome papers and currently absent from the live direct disease profile.",
+      "sourceNote": "TRAF7 keeps the OMIM literal additions and also gains blepharophimosis from the large 2020 TRAF7 cohort paper. DOT1L keeps the OMIM literal additions; its sharper exact terms in this case are already present in the live branch from the 2023 paper.",
+      "shadowAddedTerms": [],
+      "skippedExistingTerms": [
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0011968",
+          "phenotypeLabel": "Feeding difficulties"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000365",
+          "phenotypeLabel": "Hearing impairment"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000369",
+          "phenotypeLabel": "Low-set ears"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000286",
+          "phenotypeLabel": "Epicanthus"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000648",
+          "phenotypeLabel": "Optic atrophy"
+        },
+        {
+          "diseaseCurie": "MONDO:0032572",
+          "diseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+          "phenotypeCurie": "HP:0000581",
+          "phenotypeLabel": "Blepharophimosis"
+        },
+        {
+          "diseaseCurie": "MONDO:0979246",
+          "diseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+          "phenotypeCurie": "HP:0011968",
+          "phenotypeLabel": "Feeding difficulties"
+        },
+        {
+          "diseaseCurie": "MONDO:0979246",
+          "diseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+          "phenotypeCurie": "HP:0000365",
+          "phenotypeLabel": "Hearing impairment"
+        },
+        {
+          "diseaseCurie": "MONDO:0979246",
+          "diseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+          "phenotypeCurie": "HP:0000348",
+          "phenotypeLabel": "High forehead"
+        }
+      ],
+      "missingFromOntology": [],
+      "baselineSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": {
+          "truth_rank": 143
+        },
+        "mrr": null
+      },
+      "shadowSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": {
+          "truth_rank": 143
+        },
+        "mrr": null
+      },
+      "comparison": {
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 1,
+        "recovered_from_miss": 0,
+        "regressed_to_miss": 0
+      },
+      "perCase": [
+        {
+          "case_id": "PMID_32376980_11",
+          "baseline_rank": 143,
+          "shadow_rank": 143,
+          "baseline_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:24948",
+            "geneLabel": "DOT1L",
+            "normalizedScore": 0.215339,
+            "directNormalizedScore": 0.215339,
+            "diseaseSupportScore": 0.215339,
+            "supportingDiseaseCurie": "MONDO:0979246",
+            "supportingDiseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          },
+          "shadow_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:24948",
+            "geneLabel": "DOT1L",
+            "normalizedScore": 0.215339,
+            "directNormalizedScore": 0.215339,
+            "diseaseSupportScore": 0.215339,
+            "supportingDiseaseCurie": "MONDO:0979246",
+            "supportingDiseaseLabel": "Nil-Deshwar neurodevelopmental syndrome",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          },
+          "baseline_truth": {
+            "rank": 143,
+            "geneCurie": "HGNC:20456",
+            "geneLabel": "TRAF7",
+            "normalizedScore": 0.182754,
+            "directNormalizedScore": 0.176247,
+            "diseaseSupportScore": 0.182754,
+            "supportingDiseaseCurie": "MONDO:0032572",
+            "supportingDiseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          },
+          "shadow_truth": {
+            "rank": 143,
+            "geneCurie": "HGNC:20456",
+            "geneLabel": "TRAF7",
+            "normalizedScore": 0.182754,
+            "directNormalizedScore": 0.176247,
+            "diseaseSupportScore": 0.182754,
+            "supportingDiseaseCurie": "MONDO:0032572",
+            "supportingDiseaseLabel": "cardiac, facial, and digital anomalies with developmental delay",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 26
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "createdAt": "2026-03-26T12:09:07.024Z",
+  "caseId": "PMID_36446582_Miyatake2017_P1",
+  "truthGene": "ANKRD11",
+  "totalDiseases": 12132,
+  "patientPresentPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0001249",
+      "phenotypeLabel": "Intellectual disability",
+      "annotationCount": 3158,
+      "infoContent": 1.345908
+    },
+    {
+      "phenotypeCurie": "HP:0001263",
+      "phenotypeLabel": "Global developmental delay",
+      "annotationCount": 2848,
+      "infoContent": 1.44923
+    },
+    {
+      "phenotypeCurie": "HP:0001155",
+      "phenotypeLabel": "Abnormality of the hand",
+      "annotationCount": 2773,
+      "infoContent": 1.475917
+    },
+    {
+      "phenotypeCurie": "HP:0004322",
+      "phenotypeLabel": "Short stature",
+      "annotationCount": 2146,
+      "infoContent": 1.732241
+    },
+    {
+      "phenotypeCurie": "HP:0002750",
+      "phenotypeLabel": "Delayed skeletal maturation",
+      "annotationCount": 450,
+      "infoContent": 3.294354
+    },
+    {
+      "phenotypeCurie": "HP:0000750",
+      "phenotypeLabel": "Delayed speech and language development",
+      "annotationCount": 1573,
+      "infoContent": 2.042862
+    },
+    {
+      "phenotypeCurie": "HP:0007359",
+      "phenotypeLabel": "Focal-onset seizure",
+      "annotationCount": 481,
+      "infoContent": 3.227735
+    },
+    {
+      "phenotypeCurie": "HP:0000316",
+      "phenotypeLabel": "Hypertelorism",
+      "annotationCount": 1289,
+      "infoContent": 2.24198
+    }
+  ],
+  "patientExcludedPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0001572",
+      "phenotypeLabel": "Macrodontia",
+      "annotationCount": 64,
+      "infoContent": 5.244719
+    },
+    {
+      "phenotypeCurie": "HP:0011968",
+      "phenotypeLabel": "Feeding difficulties",
+      "annotationCount": 1507,
+      "infoContent": 2.085726
+    },
+    {
+      "phenotypeCurie": "HP:0000294",
+      "phenotypeLabel": "Low anterior hairline",
+      "annotationCount": 188,
+      "infoContent": 4.16716
+    },
+    {
+      "phenotypeCurie": "HP:0000664",
+      "phenotypeLabel": "Synophrys",
+      "annotationCount": 314,
+      "infoContent": 3.654209
+    },
+    {
+      "phenotypeCurie": "HP:0000463",
+      "phenotypeLabel": "Anteverted nares",
+      "annotationCount": 659,
+      "infoContent": 2.912878
+    },
+    {
+      "phenotypeCurie": "HP:0000414",
+      "phenotypeLabel": "Bulbous nose",
+      "annotationCount": 306,
+      "infoContent": 3.680017
+    }
+  ],
+  "top1": {
+    "rank": 1,
+    "geneLabel": "GAL",
+    "normalizedScore": 0.161283,
+    "directNormalizedScore": 0.161283,
+    "diseaseSupportScore": 0.129026,
+    "patientAverageScore": 0.6124802094414677,
+    "phenotypeAverageScore": 2.420800949027033,
+    "directPhenotypeCount": 8,
+    "matchedPhenotypeCount": 8,
+    "supportingDiseaseCurie": "MONDO:0014650",
+    "supportingDiseaseLabel": "familial temporal lobe epilepsy 8",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 8,
+      "exactOverlapCount": 0,
+      "overlaps": []
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0007359",
+        "patientPhenotypeLabel": "Focal-onset seizure",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0007359",
+        "micaLabel": "Focal-onset seizure",
+        "score": 3.2277345987027104,
+        "weightedScore": 3.2277345987027104,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001249",
+        "patientPhenotypeLabel": "Intellectual disability",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0012638",
+        "micaLabel": "Abnormal nervous system physiology",
+        "score": 0.5549489825945656,
+        "weightedScore": 0.5549489825945656,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001263",
+        "patientPhenotypeLabel": "Global developmental delay",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0012638",
+        "micaLabel": "Abnormal nervous system physiology",
+        "score": 0.5549489825945656,
+        "weightedScore": 0.5549489825945656,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000750",
+        "patientPhenotypeLabel": "Delayed speech and language development",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0012638",
+        "micaLabel": "Abnormal nervous system physiology",
+        "score": 0.5549489825945656,
+        "weightedScore": 0.5549489825945656,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001155",
+        "patientPhenotypeLabel": "Abnormality of the hand",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0000118",
+        "micaLabel": "Phenotypic abnormality",
+        "score": 0.0018150322613338218,
+        "weightedScore": 0.0018150322613338218,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0004322",
+        "patientPhenotypeLabel": "Short stature",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0000118",
+        "micaLabel": "Phenotypic abnormality",
+        "score": 0.0018150322613338218,
+        "weightedScore": 0.0018150322613338218,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0002750",
+        "patientPhenotypeLabel": "Delayed skeletal maturation",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0000118",
+        "micaLabel": "Phenotypic abnormality",
+        "score": 0.0018150322613338218,
+        "weightedScore": 0.0018150322613338218,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000316",
+        "patientPhenotypeLabel": "Hypertelorism",
+        "diseasePhenotypeCurie": "HP:0032864",
+        "diseasePhenotypeLabel": "Focal aware sensory seizure with auditory features",
+        "micaCurie": "HP:0000118",
+        "micaLabel": "Phenotypic abnormality",
+        "score": 0.0018150322613338218,
+        "weightedScore": 0.0018150322613338218,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:616461",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  },
+  "truth": {
+    "rank": 176,
+    "geneLabel": "ANKRD11",
+    "normalizedScore": 0.124221,
+    "directNormalizedScore": 0.124221,
+    "diseaseSupportScore": 0.112017,
+    "patientAverageScore": 1.8713044263743408,
+    "phenotypeAverageScore": 0.46494719318916294,
+    "directPhenotypeCount": 102,
+    "matchedPhenotypeCount": 8,
+    "supportingDiseaseCurie": "MONDO:0007846",
+    "supportingDiseaseLabel": "KBG syndrome",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 66,
+      "exactOverlapCount": 5,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0002750",
+          "phenotypeLabel": "Delayed skeletal maturation",
+          "annotationCount": 450,
+          "infoContent": 3.294354,
+          "frequencyLabel": "4/4",
+          "referenceText": "PMID:21782149"
+        },
+        {
+          "phenotypeCurie": "HP:0000316",
+          "phenotypeLabel": "Hypertelorism",
+          "annotationCount": 1289,
+          "infoContent": 2.24198,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:2332"
+        },
+        {
+          "phenotypeCurie": "HP:0004322",
+          "phenotypeLabel": "Short stature",
+          "annotationCount": 2146,
+          "infoContent": 1.732241,
+          "frequencyLabel": "6/7",
+          "referenceText": "PMID:21782149"
+        },
+        {
+          "phenotypeCurie": "HP:0001263",
+          "phenotypeLabel": "Global developmental delay",
+          "annotationCount": 2848,
+          "infoContent": 1.44923,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:2332"
+        },
+        {
+          "phenotypeCurie": "HP:0001249",
+          "phenotypeLabel": "Intellectual disability",
+          "annotationCount": 3158,
+          "infoContent": 1.345908,
+          "frequencyLabel": "7/7",
+          "referenceText": "PMID:21782149"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0002750",
+        "patientPhenotypeLabel": "Delayed skeletal maturation",
+        "diseasePhenotypeCurie": "HP:0002750",
+        "diseasePhenotypeLabel": "Delayed skeletal maturation",
+        "micaCurie": "HP:0002750",
+        "micaLabel": "Delayed skeletal maturation",
+        "score": 3.2943542860441064,
+        "weightedScore": 3.2943542860441064,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:2332",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000316",
+        "patientPhenotypeLabel": "Hypertelorism",
+        "diseasePhenotypeCurie": "HP:0000316",
+        "diseasePhenotypeLabel": "Hypertelorism",
+        "micaCurie": "HP:0000316",
+        "micaLabel": "Hypertelorism",
+        "score": 2.2419798658692844,
+        "weightedScore": 2.2419798658692844,
+        "phenotypeWeight": 1,
+        "evidenceCode": "6/7",
+        "referenceText": "OMIM:148050",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000750",
+        "patientPhenotypeLabel": "Delayed speech and language development",
+        "diseasePhenotypeCurie": "HP:0000750",
+        "diseasePhenotypeLabel": "Delayed speech and language development",
+        "micaCurie": "HP:0000750",
+        "micaLabel": "Delayed speech and language development",
+        "score": 2.042861965750194,
+        "weightedScore": 2.042861965750194,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:261250",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0004322",
+        "patientPhenotypeLabel": "Short stature",
+        "diseasePhenotypeCurie": "HP:0004322",
+        "diseasePhenotypeLabel": "Short stature",
+        "micaCurie": "HP:0004322",
+        "micaLabel": "Short stature",
+        "score": 1.732240945617828,
+        "weightedScore": 1.732240945617828,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:2332",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001155",
+        "patientPhenotypeLabel": "Abnormality of the hand",
+        "diseasePhenotypeCurie": "HP:0040019",
+        "diseasePhenotypeLabel": "Finger clinodactyly",
+        "micaCurie": "HP:0001155",
+        "micaLabel": "Abnormality of the hand",
+        "score": 1.4759168231926938,
+        "weightedScore": 1.4759168231926938,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:2332",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001263",
+        "patientPhenotypeLabel": "Global developmental delay",
+        "diseasePhenotypeCurie": "HP:0001263",
+        "diseasePhenotypeLabel": "Global developmental delay",
+        "micaCurie": "HP:0001263",
+        "micaLabel": "Global developmental delay",
+        "score": 1.4492295962766053,
+        "weightedScore": 1.4492295962766053,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:2332",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0007359",
+        "patientPhenotypeLabel": "Focal-onset seizure",
+        "diseasePhenotypeCurie": "HP:0001250",
+        "diseasePhenotypeLabel": "Seizure",
+        "micaCurie": "HP:0001250",
+        "micaLabel": "Seizure",
+        "score": 1.3879442542511322,
+        "weightedScore": 1.3879442542511322,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:2332",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001249",
+        "patientPhenotypeLabel": "Intellectual disability",
+        "diseasePhenotypeCurie": "HP:0002342",
+        "diseasePhenotypeLabel": "Moderate intellectual disability",
+        "micaCurie": "HP:0001249",
+        "micaLabel": "Intellectual disability",
+        "score": 1.3459076739928844,
+        "weightedScore": 1.3459076739928844,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:261250",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-base: #030407;
+  --bg-surface: #0a0c12;
+  --bg-surface-elevated: #11141d;
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --border-strong: rgba(255, 255, 255, 0.08);
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+  
+  --teal-500: #0d9488;
+  --teal-400: #14b8a6;
+  --teal-glow: rgba(20, 184, 166, 0.15);
+  
+  --amber-accent: #f59e0b;
+  --violet-accent: #8b5cf6;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--bg-base); }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .outfit {
+  font-family: 'Outfit', system-ui, sans-serif;
+}
+
+.mono { font-family: 'JetBrains Mono', monospace; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+.nav-scrolled {
+  background: rgba(3, 4, 7, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.glow-teal { 
+  box-shadow: 0 0 32px var(--teal-glow), 0 4px 16px rgba(0,0,0,0.4); 
+}
+
+/* Smoother animations to prevent layout shift feel. Reduced travel distance. */
+.fade-up { opacity: 0; transform: translateY(16px); transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+.fade-up.in { opacity: 1; transform: translateY(0); }
+
+.fade-in { opacity: 0; transition: opacity 0.8s ease; }
+.fade-in.in { opacity: 1; }
+
+.stat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  border: 1px solid rgba(20,184,166,0.2);
+  background: rgba(20,184,166,0.04);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--teal-400);
+  backdrop-filter: blur(4px);
+}
+
+.glass-panel {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.02), 0 8px 32px rgba(0,0,0,0.2);
+}
+
+/* For demo section results */
+.result-row { opacity: 0; transform: translateY(8px); }
+.result-row.in { animation: slide-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+@keyframes slide-up { to { opacity: 1; transform: translateY(0); } }
+
+/* Fix layout shifts from lazy rendering by giving containers predictable minimums */
+.section-min-h { min-height: 80vh; }
+
+/* ─── Custom Animations for Visuals ─── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+.animate-float { animation: float 6s ease-in-out infinite; }
+
+@keyframes dash-flow {
+  to { stroke-dashoffset: -20; }
+}
+.animate-dash { animation: dash-flow 1s linear infinite; }
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.35; }
+}
+.animate-glow { animation: glow-pulse 3s ease-in-out infinite; }
+
+@keyframes scan {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(500%); }
+}
+.animate-scan { animation: scan 2.5s ease-in-out infinite; }
+

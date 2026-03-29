@@ -1,0 +1,298 @@
+{
+  "createdAt": "2026-03-27T03:46:55.741Z",
+  "caseId": "PMID_37156989_P1",
+  "truthGene": "SOCS1",
+  "totalDiseases": 12132,
+  "patientPresentPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0002960",
+      "phenotypeLabel": "Autoimmunity",
+      "annotationCount": 556,
+      "infoContent": 3.082834
+    },
+    {
+      "phenotypeCurie": "HP:0003765",
+      "phenotypeLabel": "Psoriasiform dermatitis",
+      "annotationCount": 45,
+      "infoContent": 5.596939
+    },
+    {
+      "phenotypeCurie": "HP:0000388",
+      "phenotypeLabel": "Otitis media",
+      "annotationCount": 429,
+      "infoContent": 3.342145
+    },
+    {
+      "phenotypeCurie": "HP:0000246",
+      "phenotypeLabel": "Sinusitis",
+      "annotationCount": 208,
+      "infoContent": 4.066064
+    },
+    {
+      "phenotypeCurie": "HP:0025452",
+      "phenotypeLabel": "Pyoderma gangrenosum",
+      "annotationCount": 12,
+      "infoContent": 6.918695
+    },
+    {
+      "phenotypeCurie": "HP:0100280",
+      "phenotypeLabel": "Crohn's disease",
+      "annotationCount": 25,
+      "infoContent": 6.184726
+    }
+  ],
+  "patientExcludedPhenotypes": [],
+  "top1": {
+    "rank": 1,
+    "geneLabel": "CTLA4",
+    "normalizedScore": 0.305596,
+    "directNormalizedScore": 0.305596,
+    "diseaseSupportScore": 0.282729,
+    "patientAverageScore": 4.404006029547627,
+    "phenotypeAverageScore": 1.3434058809544676,
+    "directPhenotypeCount": 181,
+    "matchedPhenotypeCount": 6,
+    "supportingDiseaseCurie": "MONDO:0014493",
+    "supportingDiseaseLabel": "autoimmune lymphoproliferative syndrome due to CTLA4 haploinsufficiency",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 25,
+      "exactOverlapCount": 2,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0100280",
+          "phenotypeLabel": "Crohn's disease",
+          "annotationCount": 25,
+          "infoContent": 6.184726,
+          "frequencyLabel": "7/132",
+          "referenceText": "PMID:29729943"
+        },
+        {
+          "phenotypeCurie": "HP:0003765",
+          "phenotypeLabel": "Psoriasiform dermatitis",
+          "annotationCount": 45,
+          "infoContent": 5.596939,
+          "frequencyLabel": "3/14",
+          "referenceText": "PMID:25329329"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0100280",
+        "patientPhenotypeLabel": "Crohn's disease",
+        "diseasePhenotypeCurie": "HP:0100280",
+        "diseasePhenotypeLabel": "Crohn's disease",
+        "micaCurie": "HP:0100280",
+        "micaLabel": "Crohn's disease",
+        "score": 6.184726043940271,
+        "weightedScore": 6.184726043940271,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:436159",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0003765",
+        "patientPhenotypeLabel": "Psoriasiform dermatitis",
+        "diseasePhenotypeCurie": "HP:0003765",
+        "diseasePhenotypeLabel": "Psoriasiform dermatitis",
+        "micaCurie": "HP:0003765",
+        "micaLabel": "Psoriasiform dermatitis",
+        "score": 5.596939379038152,
+        "weightedScore": 5.596939379038152,
+        "phenotypeWeight": 1,
+        "evidenceCode": "3/14",
+        "referenceText": "OMIM:616100",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0025452",
+        "patientPhenotypeLabel": "Pyoderma gangrenosum",
+        "diseasePhenotypeCurie": "HP:0200042",
+        "diseasePhenotypeLabel": "Skin ulcer",
+        "micaCurie": "HP:0200042",
+        "micaLabel": "Skin ulcer",
+        "score": 4.151328440761842,
+        "weightedScore": 4.151328440761842,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:900",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000246",
+        "patientPhenotypeLabel": "Sinusitis",
+        "diseasePhenotypeCurie": "HP:0000246",
+        "diseasePhenotypeLabel": "Sinusitis",
+        "micaCurie": "HP:0000246",
+        "micaLabel": "Sinusitis",
+        "score": 4.066063789107154,
+        "weightedScore": 4.066063789107154,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040281",
+        "referenceText": "ORPHA:900",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000388",
+        "patientPhenotypeLabel": "Otitis media",
+        "diseasePhenotypeCurie": "HP:0000389",
+        "diseasePhenotypeLabel": "Chronic otitis media",
+        "micaCurie": "HP:0000388",
+        "micaLabel": "Otitis media",
+        "score": 3.3421449498804545,
+        "weightedScore": 3.3421449498804545,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:900",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0002960",
+        "patientPhenotypeLabel": "Autoimmunity",
+        "diseasePhenotypeCurie": "HP:5000038",
+        "diseasePhenotypeLabel": "Anti-titin antibody positivity",
+        "micaCurie": "HP:0002960",
+        "micaLabel": "Autoimmunity",
+        "score": 3.082833574557889,
+        "weightedScore": 3.082833574557889,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:536",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  },
+  "truth": {
+    "rank": 400,
+    "geneLabel": "SOCS1",
+    "normalizedScore": 0.161856,
+    "directNormalizedScore": 0.161856,
+    "diseaseSupportScore": 0.161856,
+    "patientAverageScore": 1.7195844944395366,
+    "phenotypeAverageScore": 1.3244692617839275,
+    "directPhenotypeCount": 22,
+    "matchedPhenotypeCount": 6,
+    "supportingDiseaseCurie": "MONDO:0800130",
+    "supportingDiseaseLabel": "autoinflammatory syndrome with immunodeficiency",
+    "supportingDiseaseClassification": "Definitive",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 22,
+      "exactOverlapCount": 0,
+      "overlaps": []
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0002960",
+        "patientPhenotypeLabel": "Autoimmunity",
+        "diseasePhenotypeCurie": "HP:0033028",
+        "diseasePhenotypeLabel": "Anti-U1 ribonucleoprotein antibody positivity",
+        "micaCurie": "HP:0002960",
+        "micaLabel": "Autoimmunity",
+        "score": 3.082833574557889,
+        "weightedScore": 3.082833574557889,
+        "phenotypeWeight": 1,
+        "evidenceCode": "5/9",
+        "referenceText": "OMIM:619375",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0003765",
+        "patientPhenotypeLabel": "Psoriasiform dermatitis",
+        "diseasePhenotypeCurie": "HP:0100646",
+        "diseasePhenotypeLabel": "Thyroiditis",
+        "micaCurie": "HP:0012649",
+        "micaLabel": "Increased inflammatory response",
+        "score": 1.8082145899544995,
+        "weightedScore": 1.8082145899544995,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/10",
+        "referenceText": "OMIM:619375",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000388",
+        "patientPhenotypeLabel": "Otitis media",
+        "diseasePhenotypeCurie": "HP:0100646",
+        "diseasePhenotypeLabel": "Thyroiditis",
+        "micaCurie": "HP:0012649",
+        "micaLabel": "Increased inflammatory response",
+        "score": 1.8082145899544995,
+        "weightedScore": 1.8082145899544995,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/10",
+        "referenceText": "OMIM:619375",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000246",
+        "patientPhenotypeLabel": "Sinusitis",
+        "diseasePhenotypeCurie": "HP:0100646",
+        "diseasePhenotypeLabel": "Thyroiditis",
+        "micaCurie": "HP:0012649",
+        "micaLabel": "Increased inflammatory response",
+        "score": 1.8082145899544995,
+        "weightedScore": 1.8082145899544995,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/10",
+        "referenceText": "OMIM:619375",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0100280",
+        "patientPhenotypeLabel": "Crohn's disease",
+        "diseasePhenotypeCurie": "HP:0100646",
+        "diseasePhenotypeLabel": "Thyroiditis",
+        "micaCurie": "HP:0012649",
+        "micaLabel": "Increased inflammatory response",
+        "score": 1.8082145899544995,
+        "weightedScore": 1.8082145899544995,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/10",
+        "referenceText": "OMIM:619375",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0025452",
+        "patientPhenotypeLabel": "Pyoderma gangrenosum",
+        "diseasePhenotypeCurie": "HP:0100646",
+        "diseasePhenotypeLabel": "Thyroiditis",
+        "micaCurie": "HP:0000118",
+        "micaLabel": "Phenotypic abnormality",
+        "score": 0.0018150322613338218,
+        "weightedScore": 0.0018150322613338218,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/10",
+        "referenceText": "OMIM:619375",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "createdAt": "2026-03-27T05:46:37.261Z",
+  "caseId": "PMID_35190816_STX_28944233_270001",
+  "truthGene": "STXBP1",
+  "totalDiseases": 12132,
+  "patientPresentPhenotypes": [
+    {
+      "phenotypeCurie": "HP:0001263",
+      "phenotypeLabel": "Global developmental delay",
+      "annotationCount": 2848,
+      "infoContent": 1.44923
+    },
+    {
+      "phenotypeCurie": "HP:0001344",
+      "phenotypeLabel": "Absent speech",
+      "annotationCount": 602,
+      "infoContent": 3.003344
+    },
+    {
+      "phenotypeCurie": "HP:0000718",
+      "phenotypeLabel": "Aggressive behavior",
+      "annotationCount": 421,
+      "infoContent": 3.360969
+    },
+    {
+      "phenotypeCurie": "HP:0100710",
+      "phenotypeLabel": "Impulsivity",
+      "annotationCount": 132,
+      "infoContent": 4.5208
+    },
+    {
+      "phenotypeCurie": "HP:0003763",
+      "phenotypeLabel": "Bruxism",
+      "annotationCount": 74,
+      "infoContent": 5.099537
+    },
+    {
+      "phenotypeCurie": "HP:0002007",
+      "phenotypeLabel": "Frontal bossing",
+      "annotationCount": 682,
+      "infoContent": 2.878572
+    },
+    {
+      "phenotypeCurie": "HP:0000283",
+      "phenotypeLabel": "Broad face",
+      "annotationCount": 35,
+      "infoContent": 5.848254
+    },
+    {
+      "phenotypeCurie": "HP:0003196",
+      "phenotypeLabel": "Short nose",
+      "annotationCount": 483,
+      "infoContent": 3.223585
+    },
+    {
+      "phenotypeCurie": "HP:0005280",
+      "phenotypeLabel": "Depressed nasal bridge",
+      "annotationCount": 855,
+      "infoContent": 2.6525
+    },
+    {
+      "phenotypeCurie": "HP:0000160",
+      "phenotypeLabel": "Narrow mouth",
+      "annotationCount": 410,
+      "infoContent": 3.387445
+    },
+    {
+      "phenotypeCurie": "HP:0008947",
+      "phenotypeLabel": "Floppy infant",
+      "annotationCount": 198,
+      "infoContent": 4.115335
+    },
+    {
+      "phenotypeCurie": "HP:0007021",
+      "phenotypeLabel": "Pain insensitivity",
+      "annotationCount": 57,
+      "infoContent": 5.360551
+    },
+    {
+      "phenotypeCurie": "HP:0002020",
+      "phenotypeLabel": "Gastroesophageal reflux",
+      "annotationCount": 573,
+      "infoContent": 3.052716
+    },
+    {
+      "phenotypeCurie": "HP:0002019",
+      "phenotypeLabel": "Constipation",
+      "annotationCount": 609,
+      "infoContent": 2.991784
+    },
+    {
+      "phenotypeCurie": "HP:0001169",
+      "phenotypeLabel": "Broad palm",
+      "annotationCount": 67,
+      "infoContent": 5.198909
+    },
+    {
+      "phenotypeCurie": "HP:0001182",
+      "phenotypeLabel": "Tapered finger",
+      "annotationCount": 234,
+      "infoContent": 3.948281
+    },
+    {
+      "phenotypeCurie": "HP:0010055",
+      "phenotypeLabel": "Broad hallux",
+      "annotationCount": 155,
+      "infoContent": 4.360177
+    },
+    {
+      "phenotypeCurie": "HP:0000486",
+      "phenotypeLabel": "Strabismus",
+      "annotationCount": 1457,
+      "infoContent": 2.119467
+    }
+  ],
+  "patientExcludedPhenotypes": [],
+  "top1": {
+    "rank": 1,
+    "geneLabel": "RAI1",
+    "normalizedScore": 0.240032,
+    "directNormalizedScore": 0.240032,
+    "diseaseSupportScore": 0.221237,
+    "patientAverageScore": 3.3087314516599386,
+    "phenotypeAverageScore": 1.2056005720659515,
+    "directPhenotypeCount": 201,
+    "matchedPhenotypeCount": 18,
+    "supportingDiseaseCurie": "MONDO:0008434",
+    "supportingDiseaseLabel": "Smith-Magenis syndrome",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 134,
+      "exactOverlapCount": 11,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0000283",
+          "phenotypeLabel": "Broad face",
+          "annotationCount": 35,
+          "infoContent": 5.848254,
+          "frequencyLabel": "7/12",
+          "referenceText": "PMID:20932317;PMID:20301487"
+        },
+        {
+          "phenotypeCurie": "HP:0007021",
+          "phenotypeLabel": "Pain insensitivity",
+          "annotationCount": 57,
+          "infoContent": 5.360551,
+          "frequencyLabel": "8/16",
+          "referenceText": "PMID:1746552"
+        },
+        {
+          "phenotypeCurie": "HP:0001169",
+          "phenotypeLabel": "Broad palm",
+          "annotationCount": 67,
+          "infoContent": 5.198909,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0100710",
+          "phenotypeLabel": "Impulsivity",
+          "annotationCount": 132,
+          "infoContent": 4.5208,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0003196",
+          "phenotypeLabel": "Short nose",
+          "annotationCount": 483,
+          "infoContent": 3.223585,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0002020",
+          "phenotypeLabel": "Gastroesophageal reflux",
+          "annotationCount": 573,
+          "infoContent": 3.052716,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0002019",
+          "phenotypeLabel": "Constipation",
+          "annotationCount": 609,
+          "infoContent": 2.991784,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0002007",
+          "phenotypeLabel": "Frontal bossing",
+          "annotationCount": 682,
+          "infoContent": 2.878572,
+          "frequencyLabel": "HP:0040281",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0005280",
+          "phenotypeLabel": "Depressed nasal bridge",
+          "annotationCount": 855,
+          "infoContent": 2.6525,
+          "frequencyLabel": "HP:0040281",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0000486",
+          "phenotypeLabel": "Strabismus",
+          "annotationCount": 1457,
+          "infoContent": 2.119467,
+          "frequencyLabel": "HP:0040282",
+          "referenceText": "ORPHA:819"
+        },
+        {
+          "phenotypeCurie": "HP:0001263",
+          "phenotypeLabel": "Global developmental delay",
+          "annotationCount": 2848,
+          "infoContent": 1.44923,
+          "frequencyLabel": "105/105",
+          "referenceText": "PMID:17539903"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0000283",
+        "patientPhenotypeLabel": "Broad face",
+        "diseasePhenotypeCurie": "HP:0000283",
+        "diseasePhenotypeLabel": "Broad face",
+        "micaCurie": "HP:0000283",
+        "micaLabel": "Broad face",
+        "score": 5.8482538073190575,
+        "weightedScore": 5.8482538073190575,
+        "phenotypeWeight": 1,
+        "evidenceCode": "7/12",
+        "referenceText": "OMIM:182290",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0007021",
+        "patientPhenotypeLabel": "Pain insensitivity",
+        "diseasePhenotypeCurie": "HP:0007021",
+        "diseasePhenotypeLabel": "Pain insensitivity",
+        "micaCurie": "HP:0007021",
+        "micaLabel": "Pain insensitivity",
+        "score": 5.360550600973921,
+        "weightedScore": 5.360550600973921,
+        "phenotypeWeight": 1,
+        "evidenceCode": "8/16",
+        "referenceText": "OMIM:182290",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001169",
+        "patientPhenotypeLabel": "Broad palm",
+        "diseasePhenotypeCurie": "HP:0001169",
+        "diseasePhenotypeLabel": "Broad palm",
+        "micaCurie": "HP:0001169",
+        "micaLabel": "Broad palm",
+        "score": 5.198909249417506,
+        "weightedScore": 5.198909249417506,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:819",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0100710",
+        "patientPhenotypeLabel": "Impulsivity",
+        "diseasePhenotypeCurie": "HP:0100710",
+        "diseasePhenotypeLabel": "Impulsivity",
+        "micaCurie": "HP:0100710",
+        "micaLabel": "Impulsivity",
+        "score": 4.520799946222101,
+        "weightedScore": 4.520799946222101,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:819",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0003763",
+        "patientPhenotypeLabel": "Bruxism",
+        "diseasePhenotypeCurie": "HP:0012168",
+        "diseasePhenotypeLabel": "Head-banging",
+        "micaCurie": "HP:5200017",
+        "micaLabel": "Stereotypic movements of face and head",
+        "score": 4.46912793567778,
+        "weightedScore": 4.46912793567778,
+        "phenotypeWeight": 1,
+        "evidenceCode": "1/2",
+        "referenceText": "OMIM:182290",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0008947",
+        "patientPhenotypeLabel": "Floppy infant",
+        "diseasePhenotypeCurie": "HP:0008947",
+        "diseasePhenotypeLabel": "Floppy infant",
+        "micaCurie": "HP:0008947",
+        "micaLabel": "Floppy infant",
+        "score": 4.115334838113936,
+        "weightedScore": 4.115334838113936,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040281",
+        "referenceText": "ORPHA:477817",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0003196",
+        "patientPhenotypeLabel": "Short nose",
+        "diseasePhenotypeCurie": "HP:0003196",
+        "diseasePhenotypeLabel": "Short nose",
+        "micaCurie": "HP:0003196",
+        "micaLabel": "Short nose",
+        "score": 3.223585215155899,
+        "weightedScore": 3.223585215155899,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:819",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0002020",
+        "patientPhenotypeLabel": "Gastroesophageal reflux",
+        "diseasePhenotypeCurie": "HP:0002020",
+        "diseasePhenotypeLabel": "Gastroesophageal reflux",
+        "micaCurie": "HP:0002020",
+        "micaLabel": "Gastroesophageal reflux",
+        "score": 3.052716152093732,
+        "weightedScore": 3.052716152093732,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:819",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  },
+  "truth": {
+    "rank": 308,
+    "geneLabel": "STXBP1",
+    "normalizedScore": 0.163948,
+    "directNormalizedScore": 0.163948,
+    "diseaseSupportScore": 0.086402,
+    "patientAverageScore": 2.103207328220199,
+    "phenotypeAverageScore": 0.9801869019040262,
+    "directPhenotypeCount": 97,
+    "matchedPhenotypeCount": 18,
+    "supportingDiseaseCurie": "MONDO:0008939",
+    "supportingDiseaseLabel": "isolated cerebellar hypoplasia/agenesis",
+    "supportingDiseaseClassification": "",
+    "supportingDiseaseEvidenceWeight": 1,
+    "supportOverlap": {
+      "directPhenotypeCount": 11,
+      "exactOverlapCount": 1,
+      "overlaps": [
+        {
+          "phenotypeCurie": "HP:0001263",
+          "phenotypeLabel": "Global developmental delay",
+          "annotationCount": 2848,
+          "infoContent": 1.44923,
+          "frequencyLabel": "5/5",
+          "referenceText": "PMID:31785787"
+        }
+      ]
+    },
+    "trace": [
+      {
+        "patientPhenotypeCurie": "HP:0000160",
+        "patientPhenotypeLabel": "Narrow mouth",
+        "diseasePhenotypeCurie": "HP:0000160",
+        "diseasePhenotypeLabel": "Narrow mouth",
+        "micaCurie": "HP:0000160",
+        "micaLabel": "Narrow mouth",
+        "score": 3.3874447091101185,
+        "weightedScore": 3.3874447091101185,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:495818",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001344",
+        "patientPhenotypeLabel": "Absent speech",
+        "diseasePhenotypeCurie": "HP:0001344",
+        "diseasePhenotypeLabel": "Absent speech",
+        "micaCurie": "HP:0001344",
+        "micaLabel": "Absent speech",
+        "score": 3.0033444234996507,
+        "weightedScore": 3.0033444234996507,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:599373",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0002019",
+        "patientPhenotypeLabel": "Constipation",
+        "diseasePhenotypeCurie": "HP:0002019",
+        "diseasePhenotypeLabel": "Constipation",
+        "micaCurie": "HP:0002019",
+        "micaLabel": "Constipation",
+        "score": 2.9917836010985748,
+        "weightedScore": 2.9917836010985748,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040282",
+        "referenceText": "ORPHA:495818",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0001169",
+        "patientPhenotypeLabel": "Broad palm",
+        "diseasePhenotypeCurie": "HP:0000954",
+        "diseasePhenotypeLabel": "Single transverse palmar crease",
+        "micaCurie": "HP:0100871",
+        "micaLabel": "Abnormal palm morphology",
+        "score": 2.660721233016569,
+        "weightedScore": 2.660721233016569,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:495818",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0000718",
+        "patientPhenotypeLabel": "Aggressive behavior",
+        "diseasePhenotypeCurie": "HP:0000752",
+        "diseasePhenotypeLabel": "Hyperactivity",
+        "micaCurie": "HP:0000734",
+        "micaLabel": "Disinhibition",
+        "score": 2.6045460067496755,
+        "weightedScore": 2.6045460067496755,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:599373",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0100710",
+        "patientPhenotypeLabel": "Impulsivity",
+        "diseasePhenotypeCurie": "HP:0000752",
+        "diseasePhenotypeLabel": "Hyperactivity",
+        "micaCurie": "HP:0000734",
+        "micaLabel": "Disinhibition",
+        "score": 2.6045460067496755,
+        "weightedScore": 2.6045460067496755,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:599373",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0002020",
+        "patientPhenotypeLabel": "Gastroesophageal reflux",
+        "diseasePhenotypeCurie": "HP:0002015",
+        "diseasePhenotypeLabel": "Dysphagia",
+        "micaCurie": "HP:0025270",
+        "micaLabel": "Abnormal esophagus physiology",
+        "score": 2.301925897189028,
+        "weightedScore": 2.301925897189028,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040281",
+        "referenceText": "ORPHA:495818",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      },
+      {
+        "patientPhenotypeCurie": "HP:0003763",
+        "patientPhenotypeLabel": "Bruxism",
+        "diseasePhenotypeCurie": "HP:0000752",
+        "diseasePhenotypeLabel": "Hyperactivity",
+        "micaCurie": "HP:5200241",
+        "micaLabel": "Recurrent maladaptive behavior",
+        "score": 2.241204371452754,
+        "weightedScore": 2.241204371452754,
+        "phenotypeWeight": 1,
+        "evidenceCode": "HP:0040283",
+        "referenceText": "ORPHA:599373",
+        "presenceStatus": "present",
+        "frequencyCurie": "",
+        "frequencyLabel": ""
+      }
+    ]
+  }
+}

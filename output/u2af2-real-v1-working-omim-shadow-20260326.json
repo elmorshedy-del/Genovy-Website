@@ -1,0 +1,191 @@
+{
+  "created_at": "2026-03-26T11:02:01.205Z",
+  "benchmark_reference_json": "/Users/ahmedelmorshedy/Genovy-phenotype-enrichment-20260316-0914/output/u2af2-real-v1-working-handoff-floor-1.0-20260326.json",
+  "target_gene_key": "symbol:U2AF2",
+  "target_disease_curie": "MONDO:0957810",
+  "target_case_files": [
+    "PMID_36747105_proband.json",
+    "PMID_37962958_43.json"
+  ],
+  "target_terms": [
+    "HP:0001249",
+    "HP:0000750",
+    "HP:0010862",
+    "HP:0031936",
+    "HP:0002069",
+    "HP:0002020",
+    "HP:0011968",
+    "HP:0012745",
+    "HP:0001488",
+    "HP:0007687"
+  ],
+  "shadow_added_terms": [
+    {
+      "phenotype_curie": "HP:0001249",
+      "phenotype_label": "Intellectual disability"
+    },
+    {
+      "phenotype_curie": "HP:0000750",
+      "phenotype_label": "Delayed speech and language development"
+    },
+    {
+      "phenotype_curie": "HP:0010862",
+      "phenotype_label": "Delayed fine motor development"
+    },
+    {
+      "phenotype_curie": "HP:0031936",
+      "phenotype_label": "Delayed ability to walk"
+    },
+    {
+      "phenotype_curie": "HP:0002069",
+      "phenotype_label": "Bilateral tonic-clonic seizure"
+    },
+    {
+      "phenotype_curie": "HP:0002020",
+      "phenotype_label": "Gastroesophageal reflux"
+    },
+    {
+      "phenotype_curie": "HP:0011968",
+      "phenotype_label": "Feeding difficulties"
+    },
+    {
+      "phenotype_curie": "HP:0012745",
+      "phenotype_label": "Short palpebral fissure"
+    },
+    {
+      "phenotype_curie": "HP:0001488",
+      "phenotype_label": "Bilateral ptosis"
+    },
+    {
+      "phenotype_curie": "HP:0007687",
+      "phenotype_label": "Unilateral ptosis"
+    }
+  ],
+  "skipped_existing_terms": [],
+  "missing_from_ontology": [],
+  "baseline_summary": {
+    "case_count": 2,
+    "found_count": 2,
+    "found_pct": 100,
+    "top1_count": 1,
+    "top1_pct": 50,
+    "top3_count": 1,
+    "top3_pct": 50,
+    "top5_count": 1,
+    "top5_pct": 50,
+    "top10_count": 1,
+    "top10_pct": 50,
+    "median_rank": 479.5,
+    "mrr": 0.500522
+  },
+  "shadow_summary": {
+    "case_count": 2,
+    "found_count": 2,
+    "found_pct": 100,
+    "top1_count": 1,
+    "top1_pct": 50,
+    "top3_count": 2,
+    "top3_pct": 100,
+    "top5_count": 2,
+    "top5_pct": 100,
+    "top10_count": 2,
+    "top10_pct": 100,
+    "median_rank": 1.5,
+    "mrr": 0.75
+  },
+  "delta_vs_baseline": {
+    "improved": 1,
+    "worsened": 0,
+    "unchanged": 1,
+    "recovered_from_miss": 0,
+    "regressed_to_miss": 0
+  },
+  "per_case": [
+    {
+      "case_id": "PMID_36747105_proband",
+      "truth_gene_keys": [
+        "ensembl:ENSG00000063244",
+        "hgnc:23156",
+        "ncbigene:11338",
+        "symbol:U2AF2"
+      ],
+      "baseline_rank": 1,
+      "shadow_rank": 1,
+      "exomiser_rank": 1,
+      "reference_current_genovy_rank": 1,
+      "baseline_truth_row": {
+        "geneCurie": "HGNC:23156",
+        "geneLabel": "U2AF2",
+        "rank": 1,
+        "normalizedScore": 0.208095,
+        "directNormalizedScore": 0,
+        "diseaseSupportScore": 0.208095,
+        "supportingDiseaseCurie": "MONDO:0957810",
+        "supportingDiseaseLabel": "developmental delay, dysmorphic facies, and brain anomalies",
+        "supportingDiseaseClassification": "",
+        "supportingDiseaseEvidenceWeight": 1,
+        "supportingDiseaseDirectPhenotypeCount": 26,
+        "supportingDiseasePropagatedPhenotypeCount": 0,
+        "matchedPhenotypeCount": 0
+      },
+      "shadow_truth_row": {
+        "geneCurie": "HGNC:23156",
+        "geneLabel": "U2AF2",
+        "rank": 1,
+        "normalizedScore": 0.202042,
+        "directNormalizedScore": 0,
+        "diseaseSupportScore": 0.202042,
+        "supportingDiseaseCurie": "MONDO:0957810",
+        "supportingDiseaseLabel": "developmental delay, dysmorphic facies, and brain anomalies",
+        "supportingDiseaseClassification": "",
+        "supportingDiseaseEvidenceWeight": 1,
+        "supportingDiseaseDirectPhenotypeCount": 36,
+        "supportingDiseasePropagatedPhenotypeCount": 0,
+        "matchedPhenotypeCount": 0
+      }
+    },
+    {
+      "case_id": "PMID_37962958_43",
+      "truth_gene_keys": [
+        "ensembl:ENSG00000063244",
+        "hgnc:23156",
+        "ncbigene:11338",
+        "symbol:U2AF2"
+      ],
+      "baseline_rank": 958,
+      "shadow_rank": 2,
+      "exomiser_rank": 1374,
+      "reference_current_genovy_rank": null,
+      "baseline_truth_row": {
+        "geneCurie": "HGNC:23156",
+        "geneLabel": "U2AF2",
+        "rank": 958,
+        "normalizedScore": 0.138719,
+        "directNormalizedScore": 0,
+        "diseaseSupportScore": 0.138719,
+        "supportingDiseaseCurie": "MONDO:0957810",
+        "supportingDiseaseLabel": "developmental delay, dysmorphic facies, and brain anomalies",
+        "supportingDiseaseClassification": "",
+        "supportingDiseaseEvidenceWeight": 1,
+        "supportingDiseaseDirectPhenotypeCount": 26,
+        "supportingDiseasePropagatedPhenotypeCount": 0,
+        "matchedPhenotypeCount": 0
+      },
+      "shadow_truth_row": {
+        "geneCurie": "HGNC:23156",
+        "geneLabel": "U2AF2",
+        "rank": 2,
+        "normalizedScore": 0.213802,
+        "directNormalizedScore": 0,
+        "diseaseSupportScore": 0.213802,
+        "supportingDiseaseCurie": "MONDO:0957810",
+        "supportingDiseaseLabel": "developmental delay, dysmorphic facies, and brain anomalies",
+        "supportingDiseaseClassification": "",
+        "supportingDiseaseEvidenceWeight": 1,
+        "supportingDiseaseDirectPhenotypeCount": 36,
+        "supportingDiseasePropagatedPhenotypeCount": 0,
+        "matchedPhenotypeCount": 0
+      }
+    }
+  ]
+}

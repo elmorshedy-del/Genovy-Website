@@ -1,0 +1,208 @@
+{
+  "createdAt": "2026-03-27T03:24:56.041Z",
+  "scenarios": [
+    {
+      "id": "omim_gene_reviews_setd2_tcf20",
+      "label": "OMIM And GeneReviews/Primary Literal Terms",
+      "description": "Add the exact source-backed packet terms that OMIM and GeneReviews support for Luscan-Lumish syndrome, plus the matching exact terms already supported by the TCF20 syndrome literature.",
+      "sourceNote": "SETD2 gains macrocephaly, motor delay, and accelerated skeletal maturation from OMIM 616831 and GeneReviews NBK575927. TCF20 gains motor delay and accelerated skeletal maturation from OMIM 618430 and PMID:27436265; macrocephaly, delayed speech, and aggressive behavior are already carried in the live branch.",
+      "shadowAddedTerms": [
+        {
+          "disease_entity_id": 76077,
+          "disease_curie": "MONDO:0014791",
+          "disease_label": "Luscan-Lumish syndrome",
+          "phenotype_entity_id": 123502,
+          "phenotype_curie": "HP:0001270",
+          "phenotype_label": "Motor delay",
+          "presence_status": "present",
+          "source_key": "shadow_omim_gene_reviews_setd2_tcf20",
+          "source_record_key": "shadow_omim_gene_reviews_setd2_tcf20:MONDO:0014791:HP:0001270",
+          "phenotype_edge_origin": "direct",
+          "reference_text": "OMIM:616831 / GeneReviews:NBK575927",
+          "evidence_code": "",
+          "onset_curie": "",
+          "onset_label": "",
+          "frequency_curie": "",
+          "frequency_label": "",
+          "modifier_curie": "",
+          "modifier_label": "",
+          "sex": "",
+          "aspect": "",
+          "row_source_mode": "shadow_omim_gene_reviews_setd2_tcf20"
+        },
+        {
+          "disease_entity_id": 76077,
+          "disease_curie": "MONDO:0014791",
+          "disease_label": "Luscan-Lumish syndrome",
+          "phenotype_entity_id": 126442,
+          "phenotype_curie": "HP:0005616",
+          "phenotype_label": "Accelerated skeletal maturation",
+          "presence_status": "present",
+          "source_key": "shadow_omim_gene_reviews_setd2_tcf20",
+          "source_record_key": "shadow_omim_gene_reviews_setd2_tcf20:MONDO:0014791:HP:0005616",
+          "phenotype_edge_origin": "direct",
+          "reference_text": "OMIM:616831 / GeneReviews:NBK575927",
+          "evidence_code": "",
+          "onset_curie": "",
+          "onset_label": "",
+          "frequency_curie": "",
+          "frequency_label": "",
+          "modifier_curie": "",
+          "modifier_label": "",
+          "sex": "",
+          "aspect": "",
+          "row_source_mode": "shadow_omim_gene_reviews_setd2_tcf20"
+        }
+      ],
+      "skippedExistingTerms": [
+        {
+          "diseaseCurie": "MONDO:0014791",
+          "diseaseLabel": "Luscan-Lumish syndrome",
+          "phenotypeCurie": "HP:0000256",
+          "phenotypeLabel": "Macrocephaly"
+        },
+        {
+          "diseaseCurie": "MONDO:0014791",
+          "diseaseLabel": "Luscan-Lumish syndrome",
+          "phenotypeCurie": "HP:0000750",
+          "phenotypeLabel": "Delayed speech and language development"
+        },
+        {
+          "diseaseCurie": "MONDO:0014791",
+          "diseaseLabel": "Luscan-Lumish syndrome",
+          "phenotypeCurie": "HP:0000718",
+          "phenotypeLabel": "Aggressive behavior"
+        },
+        {
+          "diseaseCurie": "MONDO:0032745",
+          "diseaseLabel": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+          "phenotypeCurie": "HP:0000256",
+          "phenotypeLabel": "Macrocephaly"
+        },
+        {
+          "diseaseCurie": "MONDO:0032745",
+          "diseaseLabel": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+          "phenotypeCurie": "HP:0001270",
+          "phenotypeLabel": "Motor delay"
+        },
+        {
+          "diseaseCurie": "MONDO:0032745",
+          "diseaseLabel": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+          "phenotypeCurie": "HP:0005616",
+          "phenotypeLabel": "Accelerated skeletal maturation"
+        },
+        {
+          "diseaseCurie": "MONDO:0032745",
+          "diseaseLabel": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+          "phenotypeCurie": "HP:0000750",
+          "phenotypeLabel": "Delayed speech and language development"
+        },
+        {
+          "diseaseCurie": "MONDO:0032745",
+          "diseaseLabel": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+          "phenotypeCurie": "HP:0000718",
+          "phenotypeLabel": "Aggressive behavior"
+        }
+      ],
+      "missingFromOntology": [],
+      "baselineSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": {
+          "case_id": "PMID_33766796_16",
+          "truth_rank": 140
+        },
+        "mrr": null
+      },
+      "shadowSummary": {
+        "case_count": 1,
+        "found_count": 1,
+        "found_pct": 100,
+        "top1_count": 0,
+        "top1_pct": 0,
+        "top3_count": 0,
+        "top3_pct": 0,
+        "top5_count": 0,
+        "top5_pct": 0,
+        "top10_count": 0,
+        "top10_pct": 0,
+        "median_rank": {
+          "case_id": "PMID_33766796_16",
+          "truth_rank": 1
+        },
+        "mrr": null
+      },
+      "comparison": {
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 1,
+        "recovered_from_miss": 0,
+        "regressed_to_miss": 0
+      },
+      "perCase": [
+        {
+          "case_id": "PMID_33766796_16",
+          "baseline_rank": 140,
+          "shadow_rank": 1,
+          "baseline_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:11631",
+            "geneLabel": "TCF20",
+            "normalizedScore": 0.203092,
+            "directNormalizedScore": 0.202512,
+            "diseaseSupportScore": 0.203092,
+            "supportingDiseaseCurie": "MONDO:0032745",
+            "supportingDiseaseLabel": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 6
+          },
+          "shadow_top1": {
+            "rank": 1,
+            "geneCurie": "HGNC:18420",
+            "geneLabel": "SETD2",
+            "normalizedScore": 0.204185,
+            "directNormalizedScore": 0.143597,
+            "diseaseSupportScore": 0.204185,
+            "supportingDiseaseCurie": "MONDO:0014791",
+            "supportingDiseaseLabel": "Luscan-Lumish syndrome",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 6
+          },
+          "baseline_truth": {
+            "rank": 140,
+            "geneCurie": "HGNC:18420",
+            "geneLabel": "SETD2",
+            "normalizedScore": 0.151844,
+            "directNormalizedScore": 0.143597,
+            "diseaseSupportScore": 0.151844,
+            "supportingDiseaseCurie": "MONDO:0014791",
+            "supportingDiseaseLabel": "Luscan-Lumish syndrome",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 6
+          },
+          "shadow_truth": {
+            "rank": 1,
+            "geneCurie": "HGNC:18420",
+            "geneLabel": "SETD2",
+            "normalizedScore": 0.204185,
+            "directNormalizedScore": 0.143597,
+            "diseaseSupportScore": 0.204185,
+            "supportingDiseaseCurie": "MONDO:0014791",
+            "supportingDiseaseLabel": "Luscan-Lumish syndrome",
+            "supportingDiseaseEvidenceWeight": 1,
+            "matchedPhenotypeCount": 6
+          }
+        }
+      ]
+    }
+  ]
+}
