@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import { Mail, GitFork, FileText, ChevronDown, Check, ArrowRight, Stethoscope, Activity, Microscope } from 'lucide-react'
 import { KGraph, useInView, Counter, TealBtn, GhostBtn } from './shared.jsx'
+import { SITE_LINKS } from './siteConfig.js'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // NAV
@@ -21,6 +22,7 @@ function Nav() {
     { label: 'Platform', href: '#platform' },
     { label: 'Evidence', href: '#evidence' },
     { label: 'Built For', href: '#usecases' },
+    { label: 'Paper', href: SITE_LINKS.paper },
     { label: 'Contact', href: '#contact' },
   ]
   
@@ -372,7 +374,7 @@ function ClinicalVisual() {
         </div>
         
         <div className="space-y-3">
-          {[['#1','PPP2R1A','0.159'],['#2','SCN1A','0.128'],['#3','STXBP1','0.119']].map(([rank, gene, score], idx) => (
+          {[['#1','PPP2R1A','0.159'],['#2','SCN1A','0.128'],['#3','STXBP1','0.119']].map(([rank, gene, score]) => (
             <div key={gene} className="flex justify-between rounded-xl px-5 py-4 bg-teal-500/[0.04] border border-teal-500/10 hover:border-teal-500/30 transition-all">
               <div className="flex items-center gap-5">
                 <span className="mono text-sm font-bold text-slate-500 w-6">{rank}</span>
@@ -671,7 +673,7 @@ function Demo() {
               )}
               
               <div className="space-y-3">
-                {results.map((r, i) => (
+                {results.map(r => (
                   <div key={r.rank} className="result-row in">
                     <button onClick={() => setExpanded(expanded===r.rank ? null : r.rank)}
                       className="w-full rounded-xl p-4 sm:px-5 sm:py-4 text-left transition-all duration-200 border"
@@ -721,19 +723,30 @@ function About() {
             <Mail className="text-teal-400" size={24}/>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium mb-6 leading-tight outfit text-white">
-            Built by one person.<br />
-            <span className="text-teal-400">Ready for a team.</span>
+            Independent build.<br />
+            <span className="text-teal-400">Institutional potential.</span>
           </h2>
           <p className="text-lg leading-relaxed text-slate-400 mb-12 max-w-2xl mx-auto">
-            Genovy was engineered from scratch by Ahmed Elmorshedy. No forked codebases, no institutional backing. The result: an engine that outperforms the field's gold standard on ranking precision.
+            Genovy was designed and developed by Ahmed Elmorshedy as a phenotype-driven rare-disease diagnostic engine with benchmark-leading ranking performance. It is now being developed into a broader case-intelligence platform for clinical, research, and strategic collaboration.
           </p>
 
-          <a href="mailto:ahmed@genovy.org"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-semibold text-sm transition-all duration-300 glow-teal hover:-translate-y-1"
-            style={{ background: 'var(--teal-500)', color: 'white', border: '1px solid var(--teal-400)' }}
-          >
-            ahmed@genovy.org <ArrowRight size={16}/>
-          </a>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <TealBtn href={SITE_LINKS.founderEmail}>Contact Ahmed <ArrowRight size={16}/></TealBtn>
+            <GhostBtn href={SITE_LINKS.paper}>Read the paper <FileText size={16}/></GhostBtn>
+            <a
+              href={SITE_LINKS.github}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-sm transition-all duration-300"
+              style={{
+                background: 'rgba(255,255,255,0.03)',
+                color: '#f8fafc',
+                border: '1px solid rgba(255,255,255,0.08)',
+              }}
+            >
+              View GitHub <GitFork size={16}/>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -745,6 +758,12 @@ function About() {
 // ─────────────────────────────────────────────────────────────────────────────
 
 function Footer() {
+  const footerLinks = [
+    { label: 'Platform', href: '#platform' },
+    { label: 'Paper', href: SITE_LINKS.paper, icon: FileText },
+    { label: 'GitHub', href: SITE_LINKS.github, icon: GitFork, external: true },
+  ]
+
   return (
     <footer className="border-t border-white/5" style={{ background: '#020305' }}>
       <div className="max-w-6xl mx-auto px-6 lg:px-8 py-10">
@@ -752,16 +771,22 @@ function Footer() {
           <span className="text-lg font-bold outfit text-teal-400 tracking-tight">Genovy</span>
           
           <div className="flex gap-8">
-            {[{ label:'GitHub', icon:GitFork, href:'#' },{ label:'Paper', icon:FileText, href:'#' }].map(({ label, icon: Icon, href }) => (
-              <a key={label} href={href} className="flex items-center gap-2 text-sm text-slate-500 hover:text-teal-400 transition-colors">
-                <Icon size={16}/> {label}
+            {footerLinks.map(({ label, icon: Icon, href, external }) => (
+              <a
+                key={label}
+                href={href}
+                target={external ? '_blank' : undefined}
+                rel={external ? 'noreferrer' : undefined}
+                className="flex items-center gap-2 text-sm text-slate-500 hover:text-teal-400 transition-colors"
+              >
+                {Icon ? <Icon size={16}/> : null} {label}
               </a>
             ))}
           </div>
         </div>
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-600 border-t border-white/5 pt-8 text-center sm:text-left">
           <p>© 2026 Genovy</p>
-          <p>Research tool only. Not intended for clinical diagnosis without professional interpretation.</p>
+          <p>For research use only. Not a substitute for clinical judgment or diagnostic testing.</p>
         </div>
       </div>
     </footer>
