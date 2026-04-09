@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
@@ -141,7 +143,6 @@ export function Counter({ value, suffix = '', prefix = '' }) {
 
 export function TealBtn({ href, children, onClick }) {
   const [hov, setHov] = useState(false)
-  const props = href ? { as: 'a', href } : { as: 'button', onClick }
   const Tag = href ? 'a' : 'button'
   return (
     <Tag href={href} onClick={onClick}
