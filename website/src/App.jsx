@@ -724,10 +724,10 @@ function About() {
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium mb-6 leading-tight outfit text-white">
             Independent build.<br />
-            <span className="text-teal-400">Institutional potential.</span>
+            <span className="text-teal-400">Ready for strategic partnerships.</span>
           </h2>
           <p className="text-lg leading-relaxed text-slate-400 mb-12 max-w-2xl mx-auto">
-            Genovy was designed and developed by Ahmed Elmorshedy as a phenotype-driven rare-disease diagnostic engine with benchmark-leading ranking performance. It is now being developed into a broader case-intelligence platform for clinical, research, and strategic collaboration.
+            Genovy was built independently by Ahmed Elmorshedy as a phenotype-driven rare-disease intelligence platform with strong benchmark performance. We are now seeking clinical partners, research collaborators, and aligned funding to accelerate deployment, product development, and real-world adoption.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
