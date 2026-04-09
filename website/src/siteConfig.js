@@ -15,11 +15,11 @@ export const PAGE_META = {
       'Phenotype in. Ranked diagnosis out. Genovy outperforms Exomiser on 7/8 benchmark metrics.',
   },
   paper: {
-    title: 'Genovy Paper — Case Intelligence For Rare-Disease Workups',
+    title: 'Genovy Paper — Graph-Based Rare-Disease Intelligence',
     description:
-      'A working paper on Genovy, a rare-disease case-intelligence platform that connects fragmented patient records to a source-auditable rare-disease knowledge backbone.',
-    ogTitle: 'Genovy Paper — Case Intelligence For Rare-Disease Workups',
+      'A working paper on Genovy covering the rare-disease graph, phenotype-driven ranking methodology, benchmark evidence, translational applications, and product direction.',
+    ogTitle: 'Genovy Paper — Graph-Based Rare-Disease Intelligence',
     ogDescription:
-      'Working paper covering the product direction, data architecture, provenance model, and clinical workflow design behind Genovy.',
+      'Working paper covering Genovy’s graph architecture, diagnostic methodology, benchmark results, translational use cases, and planned next-stage learning and case-intelligence layers.',
   },
 }
