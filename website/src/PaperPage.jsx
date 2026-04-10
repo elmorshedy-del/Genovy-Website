@@ -27,13 +27,13 @@ const DATA_SOURCES = [
 const BENCHMARK_HEADERS = ['Metric', 'Genovy', 'Exomiser']
 
 const BENCHMARK_ROWS = [
-  ['Found', '84%', '100%'],
+  ['Found', '92%', '100%'],
   ['Top-1', '42%', '39%'],
-  ['Top-3', '52%', '46%'],
-  ['Top-5', '53%', '48%'],
-  ['Top-10', '60%', '55%'],
-  ['Median Rank', '1.5', '7.5'],
-  ['MRR', '0.485974', '0.447212'],
+  ['Top-3', '53%', '46%'],
+  ['Top-5', '57%', '48%'],
+  ['Top-10', '65%', '55%'],
+  ['Median Rank', '2', '7.5'],
+  ['MRR', '0.503832', '0.447212'],
 ]
 
 const PAPER_SECTIONS = [
@@ -41,7 +41,7 @@ const PAPER_SECTIONS = [
     title: 'Abstract',
     paragraphs: [
       'Genovy is being built as a graph-based rare-disease intelligence platform designed to sit between fragmented patient records and real clinical action. The current system already exposes a live knowledge backbone covering diseases, phenotypes, genes, variants, trials, canonical concepts, and typed evidence relationships with provenance preserved at the source level.',
-      'On top of that backbone, Genovy runs a phenotype-driven ranking workflow that is already benchmarked against Exomiser on the official 100-case phenotype-only rare-disease benchmark. The current best real rule-based snapshot leads Exomiser on upper-rank quality while still trailing on total recall, which makes the main remaining bottleneck evidence completeness rather than pure ranking architecture.',
+      'On top of that backbone, Genovy runs a phenotype-driven ranking workflow that is already benchmarked against Exomiser on the official 100-case phenotype-only rare-disease benchmark. The headline graph-enrichment benchmark reaches 92% found, 65% Top-10, median rank 2, and MRR 0.504. It leads Exomiser on rank quality while still trailing on total recall, which makes the main remaining bottleneck evidence completeness rather than pure ranking architecture.',
       'This paper is intentionally a mix of scientific and product writing. It explains the graph architecture, the current methodology, the benchmark evidence, the pharma and research relevance of the graph, and the planned case-intelligence and machine-learning layers that are not yet fully productized.',
     ],
   },
@@ -135,16 +135,16 @@ const PAPER_SECTIONS = [
   {
     title: '5. Current Results',
     paragraphs: [
-      'The strongest current real rule-based benchmark snapshot shows that Genovy is already competitive where rank quality matters most. The remaining deficit is total recall, which points back to evidence completeness and truth-branch depth rather than complete failure of the ranking architecture.',
+      'The headline graph-enrichment benchmark shows that Genovy is already competitive where rank quality matters most. The remaining deficit is total recall, which points back to evidence completeness and truth-branch depth rather than complete failure of the ranking architecture.',
     ],
     table: {
       caption:
-        'Official 100-case phenotype-only benchmark. Current strongest real Genovy rule-based scorer snapshot compared with Exomiser.',
+        'Official 100-case phenotype-only benchmark. Headline Genovy graph-enrichment benchmark compared with Exomiser.',
       headers: BENCHMARK_HEADERS,
       rows: BENCHMARK_ROWS,
     },
     bullets: [
-      'Genovy currently leads Exomiser on Top-1, Top-3, Top-5, Top-10, median rank, and MRR in this snapshot.',
+      'Genovy leads Exomiser on Top-1, Top-3, Top-5, Top-10, median rank, and MRR in this benchmark reference.',
       'Exomiser still leads on total found rate, so recall and evidence completeness remain important open work.',
       'The benchmark is still small, which means the results are encouraging but should be interpreted with appropriate caution.',
     ],
