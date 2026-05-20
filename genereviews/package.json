@@ -1,0 +1,20 @@
+{
+  "name": "@genovy/genereviews",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Per-section agent fleet that extracts NCBI GeneReviews chapters into a universal, grounded, multi-graph-ready JSON contract for Genovy DX.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test 'test/**/*.test.js'",
+    "extract:one": "node src/cli/extractChapter.js",
+    "extract:batch": "node src/cli/extractBatch.js",
+    "coverage:probe": "node src/cli/coverageProbe.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}
