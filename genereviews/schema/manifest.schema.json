@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://genovy.ai/schemas/genereviews/manifest.schema.json",
+  "title": "GeneReviewsManifest",
+  "description": "The 200-chapter extraction roster. Used by extractBatch to plan, parallelize, and resume.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "chapters"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "chapters": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["chapter_id", "primary_symbol"],
+        "properties": {
+          "chapter_id": { "type": "string", "pattern": "^NBK[0-9]+$" },
+          "title": { "type": ["string", "null"] },
+          "primary_symbol": { "type": "string", "minLength": 1 },
+          "additional_symbols": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "default": []
+          },
+          "priority_tier": {
+            "type": "string",
+            "enum": ["P0", "P1", "P2", "P3"],
+            "default": "P2",
+            "description": "P0 = currently-missed truth gene with active shadow work; P1 = undercovered Genovy truth branch; P2 = general high-yield rare disease; P3 = fill-in to reach 200."
+          },
+          "rationale": { "type": ["string", "null"] },
+          "expected_lanes": {
+            "type": "array",
+            "items": { "type": "string" },
+            "default": [],
+            "description": "Optional override of the canonical lane set per chapter."
+          }
+        }
+      }
+    }
+  }
+}

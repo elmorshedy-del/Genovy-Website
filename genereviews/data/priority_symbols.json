@@ -1,0 +1,26 @@
+{
+  "$comment": "Gene symbols this project must cover before it can be considered complete. Source: docs/genovy-dx-project-log.md miss inventory. Chapter accessions are resolved at build time by `buildManifest.js` against the live GeneReviews titles index — we never hard-code accessions we have not verified.",
+  "p0_active_misses": [
+    "STXBP1",
+    "SCN2A",
+    "ANKRD11",
+    "RAI1",
+    "SETD2",
+    "SMARCC2",
+    "RERE",
+    "PPP2R1A",
+    "SPTAN1",
+    "U2AF2",
+    "LRRC7"
+  ],
+  "p1_undercovered_truth_branches": [
+    "TRAF7",
+    "WWOX",
+    "SOCS1",
+    "TCF20",
+    "RPGRIP1"
+  ],
+  "p2_high_yield_rare_disease_index": [
+    "$comment: Filled in by buildManifest from the NCBI GeneReviews titles index, ranked by HPO disease-phenotype edge count + ClinVar pathogenic variant volume."
+  ]
+}

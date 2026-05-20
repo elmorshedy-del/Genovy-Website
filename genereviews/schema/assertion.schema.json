@@ -1,0 +1,378 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://genovy.ai/schemas/genereviews/assertion.schema.json",
+  "title": "GeneReviewsAssertion",
+  "description": "Universal grounded-sentence atom emitted by any per-section agent. Every claim — phenotype, treatment, surveillance, inheritance, mechanism, prevalence, contraindication, investigational therapy, etc. — uses this envelope. The `kind` field discriminates the payload subschema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "atom_id",
+    "kind",
+    "subject",
+    "predicate",
+    "object",
+    "qualifiers",
+    "grounded_sentence",
+    "verbatim_quote",
+    "evidence",
+    "provenance",
+    "qc"
+  ],
+  "properties": {
+    "atom_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[-_][a-z0-9]+){2,}$",
+      "description": "Stable deterministic id, e.g. <chapter_id>-<lane>-<seq>. Recomputable from provenance so reruns produce stable diffs."
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "identity",
+        "synonym",
+        "phenotype",
+        "penetrance",
+        "prevalence",
+        "nomenclature",
+        "genotype_phenotype",
+        "suggestive_finding",
+        "diagnostic_criterion",
+        "testing_strategy",
+        "differential_diagnosis",
+        "related_disorder",
+        "evaluation_at_diagnosis",
+        "treatment",
+        "supportive_care",
+        "surveillance",
+        "contraindication",
+        "investigational_therapy",
+        "mechanism",
+        "variant_class",
+        "pathway",
+        "mode_of_inheritance",
+        "recurrence_risk",
+        "reproductive_option"
+      ]
+    },
+    "subject": { "$ref": "#/$defs/Node" },
+    "predicate": {
+      "type": "string",
+      "description": "Verb of the atom in a closed vocabulary. Validator additionally enforces (kind, predicate) pairings.",
+      "enum": [
+        "has_phenotype",
+        "lacks_phenotype",
+        "has_penetrance",
+        "has_prevalence",
+        "has_synonym",
+        "has_mode_of_inheritance",
+        "has_recurrence_risk",
+        "is_suggestive_finding_of",
+        "is_diagnostic_criterion_of",
+        "is_tested_by",
+        "differential_diagnosis_with",
+        "allelic_with",
+        "evaluation_recommended_at_diagnosis",
+        "treated_with",
+        "supportive_care_with",
+        "monitored_by",
+        "contraindicated_with",
+        "under_investigation_with",
+        "has_mechanism",
+        "has_variant_class",
+        "participates_in_pathway",
+        "has_genotype_phenotype_correlation",
+        "has_reproductive_option",
+        "has_identity",
+        "has_nomenclature_note"
+      ]
+    },
+    "object": { "$ref": "#/$defs/Node" },
+    "qualifiers": { "$ref": "#/$defs/Qualifiers" },
+    "payload": {
+      "type": "object",
+      "description": "Optional kind-specific structured fields. Schema is open by design so adding a new kind never breaks old atoms, but each kind has a recommended sub-shape documented in genereviews/README.md.",
+      "additionalProperties": true
+    },
+    "grounded_sentence": {
+      "type": "string",
+      "minLength": 12,
+      "maxLength": 400,
+      "description": "Single-claim, present-tense, English sentence that paraphrases the verbatim quote into the canonical predicate. This is what downstream RAG/scoring will index and what a clinician will read. One claim per atom; no compound sentences."
+    },
+    "verbatim_quote": {
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 600,
+      "description": "Exact substring from the chapter section the agent was given. Must appear inside provenance.char_span. Used by the grounding QC pass to reject hallucinations."
+    },
+    "evidence": { "$ref": "#/$defs/Evidence" },
+    "provenance": { "$ref": "#/$defs/Provenance" },
+    "qc": { "$ref": "#/$defs/QC" }
+  },
+  "$defs": {
+    "Node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "label"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "gene",
+            "disease",
+            "phenotype",
+            "drug",
+            "procedure",
+            "modality",
+            "measurement",
+            "agent",
+            "variant_class",
+            "pathway",
+            "tissue",
+            "inheritance_pattern",
+            "concept"
+          ]
+        },
+        "curie": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Za-z][A-Za-z0-9_.]*:[A-Za-z0-9_.:-]+$",
+          "description": "Canonical CURIE. Null when the agent could not map the label; in that case qc.needs_mapping MUST be true."
+        },
+        "label": { "type": "string", "minLength": 1 },
+        "synonyms": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "default": []
+        },
+        "xrefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.]*:[A-Za-z0-9_.:-]+$"
+          },
+          "default": []
+        }
+      }
+    },
+    "Qualifiers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "presence_status": {
+          "type": "string",
+          "enum": ["present", "absent", "unknown"],
+          "default": "present"
+        },
+        "frequency_tier": {
+          "type": "string",
+          "enum": [
+            "obligate",
+            "very_frequent",
+            "frequent",
+            "occasional",
+            "very_rare",
+            "not_stated"
+          ],
+          "default": "not_stated",
+          "description": "Maps directly onto the Genovy DX similarity weights (1.00 / 0.95 / 0.85 / 0.65 / 0.45 / 0.0)."
+        },
+        "frequency_text": {
+          "type": ["string", "null"],
+          "description": "Optional literal frequency phrase from the chapter, e.g. 'in >90% of affected individuals'."
+        },
+        "onset_class": {
+          "type": "string",
+          "enum": [
+            "antenatal",
+            "congenital",
+            "neonatal",
+            "infantile",
+            "childhood",
+            "juvenile",
+            "adult_onset",
+            "elderly",
+            "variable",
+            "not_stated"
+          ],
+          "default": "not_stated"
+        },
+        "onset_curie": {
+          "type": ["string", "null"],
+          "pattern": "^HP:[0-9]{7}$"
+        },
+        "severity": {
+          "type": "string",
+          "enum": [
+            "mild",
+            "moderate",
+            "severe",
+            "profound",
+            "variable",
+            "not_stated"
+          ],
+          "default": "not_stated"
+        },
+        "laterality": {
+          "type": "string",
+          "enum": ["unilateral", "bilateral", "not_applicable", "not_stated"],
+          "default": "not_stated"
+        },
+        "progression": {
+          "type": "string",
+          "enum": ["progressive", "non_progressive", "regressive", "not_stated"],
+          "default": "not_stated"
+        },
+        "modifier": {
+          "type": ["string", "null"],
+          "description": "Optional HP modifier text; used to nuance facial/behavioral phenotypes that often collide between syndromes."
+        },
+        "sex": {
+          "type": "string",
+          "enum": ["male", "female", "any", "not_stated"],
+          "default": "not_stated"
+        },
+        "aspect": {
+          "type": "string",
+          "enum": [
+            "phenotypic_feature",
+            "neuropsychiatric",
+            "behavior",
+            "neurodevelopmental",
+            "growth",
+            "metabolic",
+            "imaging",
+            "histology",
+            "biochemical",
+            "not_stated"
+          ],
+          "default": "not_stated"
+        },
+        "n_referenced": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "When the chapter states a denominator (e.g. '17 of 23 reported individuals') the agent records the numerator size here."
+        }
+      }
+    },
+    "Evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strength"],
+      "properties": {
+        "strength": {
+          "type": "string",
+          "enum": [
+            "established",
+            "common_finding",
+            "case_series",
+            "single_case",
+            "anecdotal",
+            "not_stated"
+          ]
+        },
+        "n_cases_referenced": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "cited_pmids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^PMID:[0-9]+$" },
+          "default": []
+        }
+      }
+    },
+    "Provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chapter_id",
+        "chapter_title",
+        "section_lane",
+        "section_path",
+        "char_span",
+        "retrieved_at",
+        "agent_id"
+      ],
+      "properties": {
+        "chapter_id": {
+          "type": "string",
+          "pattern": "^NBK[0-9]+$",
+          "description": "NCBI Bookshelf accession, e.g. NBK487886."
+        },
+        "chapter_title": { "type": "string", "minLength": 1 },
+        "chapter_version": {
+          "type": ["string", "null"],
+          "description": "ISO date or version string parsed from the chapter header; null when unparseable."
+        },
+        "section_lane": {
+          "type": "string",
+          "enum": [
+            "header",
+            "clinical_description",
+            "penetrance_prevalence",
+            "genotype_phenotype",
+            "diagnosis",
+            "differential_related",
+            "management_treatment",
+            "surveillance",
+            "contraindications",
+            "therapies_investigation",
+            "molecular_pathogenesis",
+            "genetic_counseling",
+            "unassigned"
+          ]
+        },
+        "section_path": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1,
+          "description": "Breadcrumb of headings from the chapter root down to the slice this atom came from."
+        },
+        "char_span": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "type": "integer", "minimum": 0 },
+            "end": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "retrieved_at": { "type": "string", "format": "date-time" },
+        "agent_id": {
+          "type": "string",
+          "pattern": "^[a-z_]+\\.v[0-9]+$",
+          "description": "Stable lane-versioned agent identifier, e.g. clinical_description.v1."
+        },
+        "model_id": { "type": ["string", "null"] },
+        "retrieval_url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        }
+      }
+    },
+    "QC": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["grounded", "needs_mapping"],
+      "properties": {
+        "grounded": {
+          "type": "boolean",
+          "description": "True iff verbatim_quote was successfully located inside the provided section slice during the grounding pass."
+        },
+        "needs_mapping": {
+          "type": "boolean",
+          "description": "True iff object.curie or subject.curie is null. These atoms are still emitted but never auto-loaded into the graph."
+        },
+        "review_required": {
+          "type": "boolean",
+          "default": false,
+          "description": "Validator/QA can flip this true (contradictory atoms, low-confidence phrasing, ambiguous denominator, etc.)."
+        },
+        "review_reasons": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "default": []
+        }
+      }
+    }
+  }
+}

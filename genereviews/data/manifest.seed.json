@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-05-20T20:30:00.000Z",
+  "chapters": [
+    {
+      "chapter_id": "NBK487886",
+      "primary_symbol": "ANKRD11",
+      "title": "KBG Syndrome",
+      "priority_tier": "P0",
+      "rationale": "ANKRD11 manual extract previously rescued case 16 in shadow; chapter accession verified."
+    }
+  ]
+}
